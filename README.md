@@ -27,15 +27,16 @@ Upon first glance, a model to use is the neural operator family of models, since
 
 ### Fourier-Neural Operator
 
-First attempt: a FNO that performs spectral convolution in 4D: $(x,y,z,t)$. 
-
+First attempt: a FNO that:
+- Performs spectral convolution in 4D: $(x,y,z,t)$. `models.FNO_4d.py` 
+- Performs 3D spectral convolution then update temporal dimension autoregressively. `models.FNO_3d_time.py` 
 
 ### Physics-Informed Neural Operator 
 
-Now that a baseline model is up and running for the 3-D problem, now we try to make it better by explicitly accounting for the boundary condition. This results in the Physics-Informed Neural Operator model (PINO)
+Now that a baseline model is up and running for the 3-D problem, now we try to make it better by explicitly accounting for the boundary condition. This results in the Physics-Informed Neural Operator model (PINO). The key is to add physics-informed loss based on Boundary condition and the 3D Navier-Stokes equation. 
 
 ### Turbulence 
-
+TODO 
 
 ## Visualizations 
-
+TODO 
