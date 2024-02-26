@@ -3,25 +3,31 @@
 
 ## Data 
 
-The dataset is generated from 3-D Navier-Stokes equation in the domain $[0,1]^3 \subset \mathbb{R}^3$, with boundary conditions. The grid is coarse-grained, with $10\times 10\times10$ points in the 3D space. 
+The dataset is generated from 3-D Navier-Stokes equation in the domain $[0,1]^3 \subset \mathbb{R}^3$, with boundary conditions. The grid is coarse-grained but uniform, with $10\times 10\times10$ points in the 3D space. 
 
 ### Special Concern 1: 3D Modeling 
+The original FNO paper deals with 2D Navier-Stokes equation and has two versions: 
+- 2-D FNO, which does 2-D spectral convolution in space and time perform autoregressive/recurrent update in time.
+- 3-D FNO, which does 3-D spectral convolution in the spacetime coordinate $(x,y,t)$. 
 
+In our case, the data is generated in 3D. Hence giving rise to the 4-D FNO as a first baseline $(x,y,z,t)$. 
 
 ### Special Concern 2: Boundary Conditions 
 
+The original FNO paper for the 2D Navier-Stokes equation is generated with periodic boundary condition. In our case, all 180 samples are generated with different boundary condition on the top wall and no-slip boundary condition on the rest 8 walls. 
 
 ### Special Concern 3: Turbulence 
 
+FNO has seem reasonable performance on the 2D Navier-Stokes equation; 3-D situation is even more turbulent due to the additional degree of freedom. This is because the Reynold number scales with the scale. 
 
-### Special Concern 4: Coarse-Grained Grid 
 
 ## Models 
 
-Upon first glance, a model to use is the neural operator family of models, since we don't know the underlying parametric PDE, and the operator learning framework is resolution-invariant, theoretically. Moreoever, The Fourier Neural Operator (FNO) is able to model 2D NS equation, and deal with the 3rd dimension as time. For a 3-D problem, an extension to FNO, called Geometry-informed Neural Operaotr (GINO) is able to deal with 3D geometry data, hence this is our first attempt. 
+Upon first glance, a model to use is the neural operator family of models, since we don't know the underlying parametric PDE, and the operator learning framework is resolution-invariant, theoretically. The Fourier Neural Operator (FNO) is therefore the first attempt, used as a baseline model.
 
-### Geometry-Informed Neural Operator 
+### Fourier-Neural Operator
 
+First attempt: a FNO that performs spectral convolution in 4D: $(x,y,z,t)$. 
 
 
 ### Physics-Informed Neural Operator 
