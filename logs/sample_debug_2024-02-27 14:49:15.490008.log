@@ -1,0 +1,345 @@
+INFO:root:epoch = 0, avg_train_loss = 38.622368812561035
+INFO:root:epoch = 0, avg_test_loss = 36.81972885131836
+INFO:root:epoch = 1, avg_train_loss = 23.88663077354431
+INFO:root:epoch = 1, avg_test_loss = 18.66296100616455
+INFO:root:epoch = 2, avg_train_loss = 17.502969980239868
+INFO:root:epoch = 2, avg_test_loss = 18.06762933731079
+INFO:root:epoch = 3, avg_train_loss = 13.352263569831848
+INFO:root:epoch = 3, avg_test_loss = 19.077383995056152
+INFO:root:epoch = 4, avg_train_loss = 11.883314490318298
+INFO:root:epoch = 4, avg_test_loss = 16.345482349395752
+INFO:root:epoch = 5, avg_train_loss = 11.2239089012146
+INFO:root:epoch = 5, avg_test_loss = 16.820762157440186
+INFO:root:epoch = 6, avg_train_loss = 10.654428720474243
+INFO:root:epoch = 6, avg_test_loss = 15.462987899780273
+INFO:root:epoch = 7, avg_train_loss = 10.615862131118774
+INFO:root:epoch = 7, avg_test_loss = 16.566532611846924
+INFO:root:epoch = 8, avg_train_loss = 10.449386477470398
+INFO:root:epoch = 8, avg_test_loss = 15.997148513793945
+INFO:root:epoch = 9, avg_train_loss = 10.440918147563934
+INFO:root:epoch = 9, avg_test_loss = 16.070049285888672
+INFO:root:epoch = 10, avg_train_loss = 10.38159304857254
+INFO:root:epoch = 10, avg_test_loss = 15.983981132507324
+INFO:root:epoch = 11, avg_train_loss = 10.406705796718597
+INFO:root:epoch = 11, avg_test_loss = 16.1427640914917
+INFO:root:epoch = 12, avg_train_loss = 10.475438296794891
+INFO:root:epoch = 12, avg_test_loss = 16.312460899353027
+INFO:root:epoch = 13, avg_train_loss = 10.539462387561798
+INFO:root:epoch = 13, avg_test_loss = 15.309968948364258
+INFO:root:epoch = 14, avg_train_loss = 10.392977774143219
+INFO:root:epoch = 14, avg_test_loss = 15.964648246765137
+INFO:root:epoch = 15, avg_train_loss = 10.443802535533905
+INFO:root:epoch = 15, avg_test_loss = 16.485029220581055
+INFO:root:epoch = 16, avg_train_loss = 10.396332144737244
+INFO:root:epoch = 16, avg_test_loss = 16.585440635681152
+INFO:root:epoch = 17, avg_train_loss = 10.467628359794617
+INFO:root:epoch = 17, avg_test_loss = 16.00357437133789
+INFO:root:epoch = 18, avg_train_loss = 10.51379942893982
+INFO:root:epoch = 18, avg_test_loss = 15.5659818649292
+INFO:root:epoch = 19, avg_train_loss = 10.359812259674072
+INFO:root:epoch = 19, avg_test_loss = 16.472727298736572
+INFO:root:epoch = 20, avg_train_loss = 10.522152960300446
+INFO:root:epoch = 20, avg_test_loss = 16.02002716064453
+INFO:root:epoch = 21, avg_train_loss = 10.496373057365417
+INFO:root:epoch = 21, avg_test_loss = 16.66531276702881
+INFO:root:epoch = 22, avg_train_loss = 10.976585268974304
+INFO:root:epoch = 22, avg_test_loss = 14.655285835266113
+INFO:root:epoch = 23, avg_train_loss = 10.410209655761719
+INFO:root:epoch = 23, avg_test_loss = 16.159661769866943
+INFO:root:epoch = 24, avg_train_loss = 10.623693823814392
+INFO:root:epoch = 24, avg_test_loss = 16.549285411834717
+INFO:root:epoch = 25, avg_train_loss = 10.635599374771118
+INFO:root:epoch = 25, avg_test_loss = 14.959251880645752
+INFO:root:epoch = 26, avg_train_loss = 10.502027988433838
+INFO:root:epoch = 26, avg_test_loss = 16.413276195526123
+INFO:root:epoch = 27, avg_train_loss = 10.4299978017807
+INFO:root:epoch = 27, avg_test_loss = 16.750652313232422
+INFO:root:epoch = 28, avg_train_loss = 10.441788911819458
+INFO:root:epoch = 28, avg_test_loss = 15.37500286102295
+INFO:root:epoch = 29, avg_train_loss = 10.438259959220886
+INFO:root:epoch = 29, avg_test_loss = 16.23376750946045
+INFO:root:epoch = 30, avg_train_loss = 10.3977010846138
+INFO:root:epoch = 30, avg_test_loss = 15.825210571289062
+INFO:root:epoch = 31, avg_train_loss = 10.425643563270569
+INFO:root:epoch = 31, avg_test_loss = 16.43808603286743
+INFO:root:epoch = 32, avg_train_loss = 10.423434436321259
+INFO:root:epoch = 32, avg_test_loss = 16.440398693084717
+INFO:root:epoch = 33, avg_train_loss = 10.659639477729797
+INFO:root:epoch = 33, avg_test_loss = 14.842452049255371
+INFO:root:epoch = 34, avg_train_loss = 10.511954545974731
+INFO:root:epoch = 34, avg_test_loss = 15.582376480102539
+INFO:root:epoch = 35, avg_train_loss = 10.38662052154541
+INFO:root:epoch = 35, avg_test_loss = 16.553489685058594
+INFO:root:epoch = 36, avg_train_loss = 10.417956173419952
+INFO:root:epoch = 36, avg_test_loss = 16.64176893234253
+INFO:root:epoch = 37, avg_train_loss = 10.423701167106628
+INFO:root:epoch = 37, avg_test_loss = 15.758939266204834
+INFO:root:epoch = 38, avg_train_loss = 10.428030014038086
+INFO:root:epoch = 38, avg_test_loss = 15.948467254638672
+INFO:root:epoch = 39, avg_train_loss = 10.406487107276917
+INFO:root:epoch = 39, avg_test_loss = 16.544426918029785
+INFO:root:epoch = 40, avg_train_loss = 10.416310131549835
+INFO:root:epoch = 40, avg_test_loss = 16.58616065979004
+INFO:root:epoch = 41, avg_train_loss = 10.354528903961182
+INFO:root:epoch = 41, avg_test_loss = 15.733654975891113
+INFO:root:epoch = 42, avg_train_loss = 10.425447344779968
+INFO:root:epoch = 42, avg_test_loss = 15.64585018157959
+INFO:root:epoch = 43, avg_train_loss = 10.360374927520752
+INFO:root:epoch = 43, avg_test_loss = 16.210611581802368
+INFO:root:epoch = 44, avg_train_loss = 10.49557101726532
+INFO:root:epoch = 44, avg_test_loss = 17.213149070739746
+INFO:root:epoch = 45, avg_train_loss = 10.458254635334015
+INFO:root:epoch = 45, avg_test_loss = 15.811647415161133
+INFO:root:epoch = 46, avg_train_loss = 11.23966896533966
+INFO:root:epoch = 46, avg_test_loss = 14.293117046356201
+INFO:root:epoch = 47, avg_train_loss = 10.712652206420898
+INFO:root:epoch = 47, avg_test_loss = 16.345332145690918
+INFO:root:epoch = 48, avg_train_loss = 10.457224905490875
+INFO:root:epoch = 48, avg_test_loss = 16.961023807525635
+INFO:root:epoch = 49, avg_train_loss = 10.529323399066925
+INFO:root:epoch = 49, avg_test_loss = 16.53799343109131
+INFO:root:epoch = 50, avg_train_loss = 10.46692943572998
+INFO:root:epoch = 50, avg_test_loss = 15.44984769821167
+INFO:root:epoch = 51, avg_train_loss = 10.428487360477448
+INFO:root:epoch = 51, avg_test_loss = 16.16960048675537
+INFO:root:epoch = 52, avg_train_loss = 10.49128657579422
+INFO:root:epoch = 52, avg_test_loss = 16.787628173828125
+INFO:root:epoch = 53, avg_train_loss = 10.492133796215057
+INFO:root:epoch = 53, avg_test_loss = 14.94216537475586
+INFO:root:epoch = 54, avg_train_loss = 10.54539942741394
+INFO:root:epoch = 54, avg_test_loss = 16.6521635055542
+INFO:root:epoch = 55, avg_train_loss = 10.572685599327087
+INFO:root:epoch = 55, avg_test_loss = 15.767817497253418
+INFO:root:epoch = 56, avg_train_loss = 10.463640093803406
+INFO:root:epoch = 56, avg_test_loss = 17.311397075653076
+INFO:root:epoch = 57, avg_train_loss = 10.430002868175507
+INFO:root:epoch = 57, avg_test_loss = 16.359221935272217
+INFO:root:epoch = 58, avg_train_loss = 10.465419292449951
+INFO:root:epoch = 58, avg_test_loss = 15.714652061462402
+INFO:root:epoch = 59, avg_train_loss = 10.523656249046326
+INFO:root:epoch = 59, avg_test_loss = 16.196941375732422
+INFO:root:epoch = 60, avg_train_loss = 10.797507405281067
+INFO:root:epoch = 60, avg_test_loss = 17.319393634796143
+INFO:root:epoch = 61, avg_train_loss = 10.521354734897614
+INFO:root:epoch = 61, avg_test_loss = 14.909210205078125
+INFO:root:epoch = 62, avg_train_loss = 10.571685910224915
+INFO:root:epoch = 62, avg_test_loss = 15.774453163146973
+INFO:root:epoch = 63, avg_train_loss = 10.428375840187073
+INFO:root:epoch = 63, avg_test_loss = 16.12464189529419
+INFO:root:epoch = 64, avg_train_loss = 10.422065377235413
+INFO:root:epoch = 64, avg_test_loss = 16.52590847015381
+INFO:root:epoch = 65, avg_train_loss = 10.505910396575928
+INFO:root:epoch = 65, avg_test_loss = 15.95263957977295
+INFO:root:epoch = 66, avg_train_loss = 10.378751873970032
+INFO:root:epoch = 66, avg_test_loss = 15.339597225189209
+INFO:root:epoch = 67, avg_train_loss = 10.475322544574738
+INFO:root:epoch = 67, avg_test_loss = 16.14444351196289
+INFO:root:epoch = 68, avg_train_loss = 10.705500721931458
+INFO:root:epoch = 68, avg_test_loss = 16.486287117004395
+INFO:root:epoch = 69, avg_train_loss = 10.498301029205322
+INFO:root:epoch = 69, avg_test_loss = 14.938919067382812
+INFO:root:epoch = 70, avg_train_loss = 10.518794298171997
+INFO:root:epoch = 70, avg_test_loss = 15.60248613357544
+INFO:root:epoch = 71, avg_train_loss = 10.739037871360779
+INFO:root:epoch = 71, avg_test_loss = 17.430638790130615
+INFO:root:epoch = 72, avg_train_loss = 10.798493027687073
+INFO:root:epoch = 72, avg_test_loss = 14.956700325012207
+INFO:root:epoch = 73, avg_train_loss = 10.466387689113617
+INFO:root:epoch = 73, avg_test_loss = 15.856040954589844
+INFO:root:epoch = 74, avg_train_loss = 10.584707856178284
+INFO:root:epoch = 74, avg_test_loss = 16.74989604949951
+INFO:root:epoch = 75, avg_train_loss = 10.429082036018372
+INFO:root:epoch = 75, avg_test_loss = 15.975802898406982
+INFO:root:epoch = 76, avg_train_loss = 10.550848603248596
+INFO:root:epoch = 76, avg_test_loss = 15.392264366149902
+INFO:root:epoch = 77, avg_train_loss = 10.442854642868042
+INFO:root:epoch = 77, avg_test_loss = 16.441705226898193
+INFO:root:epoch = 78, avg_train_loss = 10.5672105550766
+INFO:root:epoch = 78, avg_test_loss = 17.063047409057617
+INFO:root:epoch = 79, avg_train_loss = 10.626124918460846
+INFO:root:epoch = 79, avg_test_loss = 14.960044860839844
+INFO:root:epoch = 80, avg_train_loss = 10.439355492591858
+INFO:root:epoch = 80, avg_test_loss = 15.811304092407227
+INFO:root:epoch = 81, avg_train_loss = 10.653984069824219
+INFO:root:epoch = 81, avg_test_loss = 16.60008716583252
+INFO:root:epoch = 82, avg_train_loss = 10.695155501365662
+INFO:root:epoch = 82, avg_test_loss = 14.980240821838379
+INFO:root:epoch = 83, avg_train_loss = 10.617789089679718
+INFO:root:epoch = 83, avg_test_loss = 16.40640926361084
+INFO:root:epoch = 84, avg_train_loss = 10.641600251197815
+INFO:root:epoch = 84, avg_test_loss = 15.632050514221191
+INFO:root:epoch = 85, avg_train_loss = 10.428605914115906
+INFO:root:epoch = 85, avg_test_loss = 17.062630653381348
+INFO:root:epoch = 86, avg_train_loss = 10.407405138015747
+INFO:root:epoch = 86, avg_test_loss = 16.244563102722168
+INFO:root:epoch = 87, avg_train_loss = 10.370229721069336
+INFO:root:epoch = 87, avg_test_loss = 15.763669967651367
+INFO:root:epoch = 88, avg_train_loss = 10.387717962265015
+INFO:root:epoch = 88, avg_test_loss = 15.87651252746582
+INFO:root:epoch = 89, avg_train_loss = 10.507801294326782
+INFO:root:epoch = 89, avg_test_loss = 16.278794288635254
+INFO:root:epoch = 90, avg_train_loss = 10.418562531471252
+INFO:root:epoch = 90, avg_test_loss = 16.78377103805542
+INFO:root:epoch = 91, avg_train_loss = 10.433028042316437
+INFO:root:epoch = 91, avg_test_loss = 16.281710863113403
+INFO:root:epoch = 92, avg_train_loss = 10.501576662063599
+INFO:root:epoch = 92, avg_test_loss = 16.500511169433594
+INFO:root:epoch = 93, avg_train_loss = 10.36310076713562
+INFO:root:epoch = 93, avg_test_loss = 15.933429718017578
+INFO:root:epoch = 94, avg_train_loss = 10.443244338035583
+INFO:root:epoch = 94, avg_test_loss = 16.717097282409668
+INFO:root:epoch = 95, avg_train_loss = 10.468005180358887
+INFO:root:epoch = 95, avg_test_loss = 16.043574810028076
+INFO:root:epoch = 96, avg_train_loss = 10.384322762489319
+INFO:root:epoch = 96, avg_test_loss = 15.989038944244385
+INFO:root:epoch = 97, avg_train_loss = 10.50445294380188
+INFO:root:epoch = 97, avg_test_loss = 15.815040111541748
+INFO:root:epoch = 98, avg_train_loss = 10.560556054115295
+INFO:root:epoch = 98, avg_test_loss = 16.959683418273926
+INFO:root:epoch = 99, avg_train_loss = 10.551920413970947
+INFO:root:epoch = 99, avg_test_loss = 16.1308856010437
+DEBUG:matplotlib.pyplot:Loaded backend agg version v2.2.
+DEBUG:matplotlib.font_manager:findfont: Matching sans\-serif:style=normal:variant=normal:weight=normal:stretch=normal:size=10.0.
+DEBUG:matplotlib.font_manager:findfont: score(FontEntry(fname='/local2/fredxu/anaconda3/envs/pde/lib/python3.8/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans-Oblique.ttf', name='DejaVu Sans', style='oblique', variant='normal', weight=400, stretch='normal', size='scalable')) = 1.05
+DEBUG:matplotlib.font_manager:findfont: score(FontEntry(fname='/local2/fredxu/anaconda3/envs/pde/lib/python3.8/site-packages/matplotlib/mpl-data/fonts/ttf/STIXSizFourSymReg.ttf', name='STIXSizeFourSym', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+DEBUG:matplotlib.font_manager:findfont: score(FontEntry(fname='/local2/fredxu/anaconda3/envs/pde/lib/python3.8/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSansMono-Oblique.ttf', name='DejaVu Sans Mono', style='oblique', variant='normal', weight=400, stretch='normal', size='scalable')) = 11.05
+DEBUG:matplotlib.font_manager:findfont: score(FontEntry(fname='/local2/fredxu/anaconda3/envs/pde/lib/python3.8/site-packages/matplotlib/mpl-data/fonts/ttf/STIXGeneralBolIta.ttf', name='STIXGeneral', style='italic', variant='normal', weight=700, stretch='normal', size='scalable')) = 11.335
+DEBUG:matplotlib.font_manager:findfont: score(FontEntry(fname='/local2/fredxu/anaconda3/envs/pde/lib/python3.8/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSansMono.ttf', name='DejaVu Sans Mono', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+DEBUG:matplotlib.font_manager:findfont: score(FontEntry(fname='/local2/fredxu/anaconda3/envs/pde/lib/python3.8/site-packages/matplotlib/mpl-data/fonts/ttf/cmmi10.ttf', name='cmmi10', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+DEBUG:matplotlib.font_manager:findfont: score(FontEntry(fname='/local2/fredxu/anaconda3/envs/pde/lib/python3.8/site-packages/matplotlib/mpl-data/fonts/ttf/STIXGeneralBol.ttf', name='STIXGeneral', style='normal', variant='normal', weight=700, stretch='normal', size='scalable')) = 10.335
+DEBUG:matplotlib.font_manager:findfont: score(FontEntry(fname='/local2/fredxu/anaconda3/envs/pde/lib/python3.8/site-packages/matplotlib/mpl-data/fonts/ttf/STIXSizOneSymBol.ttf', name='STIXSizeOneSym', style='normal', variant='normal', weight=700, stretch='normal', size='scalable')) = 10.335
+DEBUG:matplotlib.font_manager:findfont: score(FontEntry(fname='/local2/fredxu/anaconda3/envs/pde/lib/python3.8/site-packages/matplotlib/mpl-data/fonts/ttf/STIXNonUni.ttf', name='STIXNonUnicode', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+DEBUG:matplotlib.font_manager:findfont: score(FontEntry(fname='/local2/fredxu/anaconda3/envs/pde/lib/python3.8/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans-Bold.ttf', name='DejaVu Sans', style='normal', variant='normal', weight=700, stretch='normal', size='scalable')) = 0.33499999999999996
+DEBUG:matplotlib.font_manager:findfont: score(FontEntry(fname='/local2/fredxu/anaconda3/envs/pde/lib/python3.8/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf', name='DejaVu Sans', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 0.05
+DEBUG:matplotlib.font_manager:findfont: score(FontEntry(fname='/local2/fredxu/anaconda3/envs/pde/lib/python3.8/site-packages/matplotlib/mpl-data/fonts/ttf/STIXSizFourSymBol.ttf', name='STIXSizeFourSym', style='normal', variant='normal', weight=700, stretch='normal', size='scalable')) = 10.335
+DEBUG:matplotlib.font_manager:findfont: score(FontEntry(fname='/local2/fredxu/anaconda3/envs/pde/lib/python3.8/site-packages/matplotlib/mpl-data/fonts/ttf/STIXSizTwoSymReg.ttf', name='STIXSizeTwoSym', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+DEBUG:matplotlib.font_manager:findfont: score(FontEntry(fname='/local2/fredxu/anaconda3/envs/pde/lib/python3.8/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSerif.ttf', name='DejaVu Serif', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+DEBUG:matplotlib.font_manager:findfont: score(FontEntry(fname='/local2/fredxu/anaconda3/envs/pde/lib/python3.8/site-packages/matplotlib/mpl-data/fonts/ttf/STIXGeneralItalic.ttf', name='STIXGeneral', style='italic', variant='normal', weight=400, stretch='normal', size='scalable')) = 11.05
+DEBUG:matplotlib.font_manager:findfont: score(FontEntry(fname='/local2/fredxu/anaconda3/envs/pde/lib/python3.8/site-packages/matplotlib/mpl-data/fonts/ttf/STIXSizThreeSymReg.ttf', name='STIXSizeThreeSym', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+DEBUG:matplotlib.font_manager:findfont: score(FontEntry(fname='/local2/fredxu/anaconda3/envs/pde/lib/python3.8/site-packages/matplotlib/mpl-data/fonts/ttf/cmtt10.ttf', name='cmtt10', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+DEBUG:matplotlib.font_manager:findfont: score(FontEntry(fname='/local2/fredxu/anaconda3/envs/pde/lib/python3.8/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSerif-Bold.ttf', name='DejaVu Serif', style='normal', variant='normal', weight=700, stretch='normal', size='scalable')) = 10.335
+DEBUG:matplotlib.font_manager:findfont: score(FontEntry(fname='/local2/fredxu/anaconda3/envs/pde/lib/python3.8/site-packages/matplotlib/mpl-data/fonts/ttf/STIXSizThreeSymBol.ttf', name='STIXSizeThreeSym', style='normal', variant='normal', weight=700, stretch='normal', size='scalable')) = 10.335
+DEBUG:matplotlib.font_manager:findfont: score(FontEntry(fname='/local2/fredxu/anaconda3/envs/pde/lib/python3.8/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSansDisplay.ttf', name='DejaVu Sans Display', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+DEBUG:matplotlib.font_manager:findfont: score(FontEntry(fname='/local2/fredxu/anaconda3/envs/pde/lib/python3.8/site-packages/matplotlib/mpl-data/fonts/ttf/STIXSizTwoSymBol.ttf', name='STIXSizeTwoSym', style='normal', variant='normal', weight=700, stretch='normal', size='scalable')) = 10.335
+DEBUG:matplotlib.font_manager:findfont: score(FontEntry(fname='/local2/fredxu/anaconda3/envs/pde/lib/python3.8/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans-BoldOblique.ttf', name='DejaVu Sans', style='oblique', variant='normal', weight=700, stretch='normal', size='scalable')) = 1.335
+DEBUG:matplotlib.font_manager:findfont: score(FontEntry(fname='/local2/fredxu/anaconda3/envs/pde/lib/python3.8/site-packages/matplotlib/mpl-data/fonts/ttf/cmex10.ttf', name='cmex10', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+DEBUG:matplotlib.font_manager:findfont: score(FontEntry(fname='/local2/fredxu/anaconda3/envs/pde/lib/python3.8/site-packages/matplotlib/mpl-data/fonts/ttf/STIXSizFiveSymReg.ttf', name='STIXSizeFiveSym', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+DEBUG:matplotlib.font_manager:findfont: score(FontEntry(fname='/local2/fredxu/anaconda3/envs/pde/lib/python3.8/site-packages/matplotlib/mpl-data/fonts/ttf/STIXNonUniBol.ttf', name='STIXNonUnicode', style='normal', variant='normal', weight=700, stretch='normal', size='scalable')) = 10.335
+DEBUG:matplotlib.font_manager:findfont: score(FontEntry(fname='/local2/fredxu/anaconda3/envs/pde/lib/python3.8/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSansMono-BoldOblique.ttf', name='DejaVu Sans Mono', style='oblique', variant='normal', weight=700, stretch='normal', size='scalable')) = 11.335
+DEBUG:matplotlib.font_manager:findfont: score(FontEntry(fname='/local2/fredxu/anaconda3/envs/pde/lib/python3.8/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSerif-Italic.ttf', name='DejaVu Serif', style='italic', variant='normal', weight=400, stretch='normal', size='scalable')) = 11.05
+DEBUG:matplotlib.font_manager:findfont: score(FontEntry(fname='/local2/fredxu/anaconda3/envs/pde/lib/python3.8/site-packages/matplotlib/mpl-data/fonts/ttf/STIXNonUniIta.ttf', name='STIXNonUnicode', style='italic', variant='normal', weight=400, stretch='normal', size='scalable')) = 11.05
+DEBUG:matplotlib.font_manager:findfont: score(FontEntry(fname='/local2/fredxu/anaconda3/envs/pde/lib/python3.8/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSerif-BoldItalic.ttf', name='DejaVu Serif', style='italic', variant='normal', weight=700, stretch='normal', size='scalable')) = 11.335
+DEBUG:matplotlib.font_manager:findfont: score(FontEntry(fname='/local2/fredxu/anaconda3/envs/pde/lib/python3.8/site-packages/matplotlib/mpl-data/fonts/ttf/cmb10.ttf', name='cmb10', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+DEBUG:matplotlib.font_manager:findfont: score(FontEntry(fname='/local2/fredxu/anaconda3/envs/pde/lib/python3.8/site-packages/matplotlib/mpl-data/fonts/ttf/cmsy10.ttf', name='cmsy10', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+DEBUG:matplotlib.font_manager:findfont: score(FontEntry(fname='/local2/fredxu/anaconda3/envs/pde/lib/python3.8/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSansMono-Bold.ttf', name='DejaVu Sans Mono', style='normal', variant='normal', weight=700, stretch='normal', size='scalable')) = 10.335
+DEBUG:matplotlib.font_manager:findfont: score(FontEntry(fname='/local2/fredxu/anaconda3/envs/pde/lib/python3.8/site-packages/matplotlib/mpl-data/fonts/ttf/STIXGeneral.ttf', name='STIXGeneral', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+DEBUG:matplotlib.font_manager:findfont: score(FontEntry(fname='/local2/fredxu/anaconda3/envs/pde/lib/python3.8/site-packages/matplotlib/mpl-data/fonts/ttf/cmss10.ttf', name='cmss10', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+DEBUG:matplotlib.font_manager:findfont: score(FontEntry(fname='/local2/fredxu/anaconda3/envs/pde/lib/python3.8/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSerifDisplay.ttf', name='DejaVu Serif Display', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+DEBUG:matplotlib.font_manager:findfont: score(FontEntry(fname='/local2/fredxu/anaconda3/envs/pde/lib/python3.8/site-packages/matplotlib/mpl-data/fonts/ttf/STIXNonUniBolIta.ttf', name='STIXNonUnicode', style='italic', variant='normal', weight=700, stretch='normal', size='scalable')) = 11.335
+DEBUG:matplotlib.font_manager:findfont: score(FontEntry(fname='/local2/fredxu/anaconda3/envs/pde/lib/python3.8/site-packages/matplotlib/mpl-data/fonts/ttf/STIXSizOneSymReg.ttf', name='STIXSizeOneSym', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+DEBUG:matplotlib.font_manager:findfont: score(FontEntry(fname='/local2/fredxu/anaconda3/envs/pde/lib/python3.8/site-packages/matplotlib/mpl-data/fonts/ttf/cmr10.ttf', name='cmr10', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+DEBUG:matplotlib.font_manager:findfont: score(FontEntry(fname='/usr/share/fonts/truetype/dejavu/DejaVuSans.ttf', name='DejaVu Sans', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 0.05
+DEBUG:matplotlib.font_manager:findfont: score(FontEntry(fname='/usr/share/fonts/truetype/dejavu/DejaVuSansMono-BoldOblique.ttf', name='DejaVu Sans Mono', style='oblique', variant='normal', weight=700, stretch='normal', size='scalable')) = 11.335
+DEBUG:matplotlib.font_manager:findfont: score(FontEntry(fname='/usr/share/fonts/truetype/dejavu/DejaVuSansCondensed-BoldOblique.ttf', name='DejaVu Sans', style='oblique', variant='normal', weight=700, stretch='condensed', size='scalable')) = 1.535
+DEBUG:matplotlib.font_manager:findfont: score(FontEntry(fname='/usr/share/fonts/truetype/dejavu/DejaVuSansMono.ttf', name='DejaVu Sans Mono', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+DEBUG:matplotlib.font_manager:findfont: score(FontEntry(fname='/usr/share/fonts/truetype/dejavu/DejaVuSansMono-Oblique.ttf', name='DejaVu Sans Mono', style='oblique', variant='normal', weight=400, stretch='normal', size='scalable')) = 11.05
+DEBUG:matplotlib.font_manager:findfont: score(FontEntry(fname='/usr/share/fonts/truetype/ttf-bitstream-vera/VeraSeBd.ttf', name='Bitstream Vera Serif', style='normal', variant='normal', weight=700, stretch='normal', size='scalable')) = 10.335
+DEBUG:matplotlib.font_manager:findfont: score(FontEntry(fname='/usr/share/fonts/truetype/ttf-bitstream-vera/VeraBI.ttf', name='Bitstream Vera Sans', style='oblique', variant='normal', weight=700, stretch='normal', size='scalable')) = 2.244090909090909
+DEBUG:matplotlib.font_manager:findfont: score(FontEntry(fname='/usr/share/fonts/truetype/dejavu/DejaVuSerifCondensed-Italic.ttf', name='DejaVu Serif', style='italic', variant='normal', weight=400, stretch='condensed', size='scalable')) = 11.25
+DEBUG:matplotlib.font_manager:findfont: score(FontEntry(fname='/usr/share/fonts/truetype/ttf-bitstream-vera/Vera.ttf', name='Bitstream Vera Sans', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 0.9590909090909092
+DEBUG:matplotlib.font_manager:findfont: score(FontEntry(fname='/usr/share/fonts/truetype/dejavu/DejaVuSerifCondensed.ttf', name='DejaVu Serif', style='normal', variant='normal', weight=400, stretch='condensed', size='scalable')) = 10.25
+DEBUG:matplotlib.font_manager:findfont: score(FontEntry(fname='/usr/share/fonts/truetype/dejavu/DejaVuSansCondensed-Oblique.ttf', name='DejaVu Sans', style='oblique', variant='normal', weight=400, stretch='condensed', size='scalable')) = 1.25
+DEBUG:matplotlib.font_manager:findfont: score(FontEntry(fname='/usr/share/fonts/truetype/ttf-bitstream-vera/VeraMoBI.ttf', name='Bitstream Vera Sans Mono', style='oblique', variant='normal', weight=700, stretch='normal', size='scalable')) = 11.335
+DEBUG:matplotlib.font_manager:findfont: score(FontEntry(fname='/usr/share/fonts/truetype/ttf-bitstream-vera/VeraIt.ttf', name='Bitstream Vera Sans', style='oblique', variant='normal', weight=400, stretch='normal', size='scalable')) = 1.9590909090909092
+DEBUG:matplotlib.font_manager:findfont: score(FontEntry(fname='/usr/share/fonts/truetype/dejavu/DejaVuSans-BoldOblique.ttf', name='DejaVu Sans', style='oblique', variant='normal', weight=700, stretch='normal', size='scalable')) = 1.335
+DEBUG:matplotlib.font_manager:findfont: score(FontEntry(fname='/usr/share/fonts/truetype/dejavu/DejaVuSerif-Bold.ttf', name='DejaVu Serif', style='normal', variant='normal', weight=700, stretch='normal', size='scalable')) = 10.335
+DEBUG:matplotlib.font_manager:findfont: score(FontEntry(fname='/usr/share/fonts/truetype/dejavu/DejaVuSansMono-Bold.ttf', name='DejaVu Sans Mono', style='normal', variant='normal', weight=700, stretch='normal', size='scalable')) = 10.335
+DEBUG:matplotlib.font_manager:findfont: score(FontEntry(fname='/usr/share/fonts/truetype/dejavu/DejaVuSansCondensed-Bold.ttf', name='DejaVu Sans', style='normal', variant='normal', weight=700, stretch='condensed', size='scalable')) = 0.5349999999999999
+DEBUG:matplotlib.font_manager:findfont: score(FontEntry(fname='/usr/share/fonts/truetype/dejavu/DejaVuSans-Bold.ttf', name='DejaVu Sans', style='normal', variant='normal', weight=700, stretch='normal', size='scalable')) = 0.33499999999999996
+DEBUG:matplotlib.font_manager:findfont: score(FontEntry(fname='/usr/share/fonts/truetype/dejavu/DejaVuSerifCondensed-BoldItalic.ttf', name='DejaVu Serif', style='italic', variant='normal', weight=700, stretch='condensed', size='scalable')) = 11.535
+DEBUG:matplotlib.font_manager:findfont: score(FontEntry(fname='/usr/share/fonts/truetype/dejavu/DejaVuSerifCondensed-Bold.ttf', name='DejaVu Serif', style='normal', variant='normal', weight=700, stretch='condensed', size='scalable')) = 10.535
+DEBUG:matplotlib.font_manager:findfont: score(FontEntry(fname='/usr/share/fonts/truetype/dejavu/DejaVuSerif-Italic.ttf', name='DejaVu Serif', style='italic', variant='normal', weight=400, stretch='normal', size='scalable')) = 11.05
+DEBUG:matplotlib.font_manager:findfont: score(FontEntry(fname='/usr/share/fonts/truetype/ttf-bitstream-vera/VeraMoIt.ttf', name='Bitstream Vera Sans Mono', style='oblique', variant='normal', weight=400, stretch='normal', size='scalable')) = 11.05
+DEBUG:matplotlib.font_manager:findfont: score(FontEntry(fname='/usr/share/fonts/truetype/dejavu/DejaVuMathTeXGyre.ttf', name='DejaVu Math TeX Gyre', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+DEBUG:matplotlib.font_manager:findfont: score(FontEntry(fname='/usr/share/fonts/truetype/ttf-bitstream-vera/VeraMoBd.ttf', name='Bitstream Vera Sans Mono', style='normal', variant='normal', weight=700, stretch='normal', size='scalable')) = 10.335
+DEBUG:matplotlib.font_manager:findfont: score(FontEntry(fname='/usr/share/fonts/truetype/dejavu/DejaVuSans-Oblique.ttf', name='DejaVu Sans', style='oblique', variant='normal', weight=400, stretch='normal', size='scalable')) = 1.05
+DEBUG:matplotlib.font_manager:findfont: score(FontEntry(fname='/usr/share/fonts/truetype/dejavu/DejaVuSerif-BoldItalic.ttf', name='DejaVu Serif', style='italic', variant='normal', weight=700, stretch='normal', size='scalable')) = 11.335
+DEBUG:matplotlib.font_manager:findfont: score(FontEntry(fname='/usr/share/fonts/truetype/ttf-bitstream-vera/VeraMono.ttf', name='Bitstream Vera Sans Mono', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+DEBUG:matplotlib.font_manager:findfont: score(FontEntry(fname='/usr/share/fonts/truetype/dejavu/DejaVuSerif.ttf', name='DejaVu Serif', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+DEBUG:matplotlib.font_manager:findfont: score(FontEntry(fname='/usr/share/fonts/truetype/ttf-bitstream-vera/VeraBd.ttf', name='Bitstream Vera Sans', style='normal', variant='normal', weight=700, stretch='normal', size='scalable')) = 1.2440909090909091
+DEBUG:matplotlib.font_manager:findfont: score(FontEntry(fname='/usr/share/fonts/truetype/dejavu/DejaVuSans-ExtraLight.ttf', name='DejaVu Sans', style='normal', variant='normal', weight=200, stretch='normal', size='scalable')) = 0.24
+DEBUG:matplotlib.font_manager:findfont: score(FontEntry(fname='/usr/share/fonts/truetype/ttf-bitstream-vera/VeraSe.ttf', name='Bitstream Vera Serif', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+DEBUG:matplotlib.font_manager:findfont: score(FontEntry(fname='/usr/share/fonts/truetype/dejavu/DejaVuSansCondensed.ttf', name='DejaVu Sans', style='normal', variant='normal', weight=400, stretch='condensed', size='scalable')) = 0.25
+DEBUG:matplotlib.font_manager:findfont: Matching sans\-serif:style=normal:variant=normal:weight=normal:stretch=normal:size=10.0 to DejaVu Sans ('/local2/fredxu/anaconda3/envs/pde/lib/python3.8/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf') with score of 0.050000.
+DEBUG:matplotlib.font_manager:findfont: Matching sans\-serif:style=normal:variant=normal:weight=normal:stretch=normal:size=12.0.
+DEBUG:matplotlib.font_manager:findfont: score(FontEntry(fname='/local2/fredxu/anaconda3/envs/pde/lib/python3.8/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans-Oblique.ttf', name='DejaVu Sans', style='oblique', variant='normal', weight=400, stretch='normal', size='scalable')) = 1.05
+DEBUG:matplotlib.font_manager:findfont: score(FontEntry(fname='/local2/fredxu/anaconda3/envs/pde/lib/python3.8/site-packages/matplotlib/mpl-data/fonts/ttf/STIXSizFourSymReg.ttf', name='STIXSizeFourSym', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+DEBUG:matplotlib.font_manager:findfont: score(FontEntry(fname='/local2/fredxu/anaconda3/envs/pde/lib/python3.8/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSansMono-Oblique.ttf', name='DejaVu Sans Mono', style='oblique', variant='normal', weight=400, stretch='normal', size='scalable')) = 11.05
+DEBUG:matplotlib.font_manager:findfont: score(FontEntry(fname='/local2/fredxu/anaconda3/envs/pde/lib/python3.8/site-packages/matplotlib/mpl-data/fonts/ttf/STIXGeneralBolIta.ttf', name='STIXGeneral', style='italic', variant='normal', weight=700, stretch='normal', size='scalable')) = 11.335
+DEBUG:matplotlib.font_manager:findfont: score(FontEntry(fname='/local2/fredxu/anaconda3/envs/pde/lib/python3.8/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSansMono.ttf', name='DejaVu Sans Mono', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+DEBUG:matplotlib.font_manager:findfont: score(FontEntry(fname='/local2/fredxu/anaconda3/envs/pde/lib/python3.8/site-packages/matplotlib/mpl-data/fonts/ttf/cmmi10.ttf', name='cmmi10', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+DEBUG:matplotlib.font_manager:findfont: score(FontEntry(fname='/local2/fredxu/anaconda3/envs/pde/lib/python3.8/site-packages/matplotlib/mpl-data/fonts/ttf/STIXGeneralBol.ttf', name='STIXGeneral', style='normal', variant='normal', weight=700, stretch='normal', size='scalable')) = 10.335
+DEBUG:matplotlib.font_manager:findfont: score(FontEntry(fname='/local2/fredxu/anaconda3/envs/pde/lib/python3.8/site-packages/matplotlib/mpl-data/fonts/ttf/STIXSizOneSymBol.ttf', name='STIXSizeOneSym', style='normal', variant='normal', weight=700, stretch='normal', size='scalable')) = 10.335
+DEBUG:matplotlib.font_manager:findfont: score(FontEntry(fname='/local2/fredxu/anaconda3/envs/pde/lib/python3.8/site-packages/matplotlib/mpl-data/fonts/ttf/STIXNonUni.ttf', name='STIXNonUnicode', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+DEBUG:matplotlib.font_manager:findfont: score(FontEntry(fname='/local2/fredxu/anaconda3/envs/pde/lib/python3.8/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans-Bold.ttf', name='DejaVu Sans', style='normal', variant='normal', weight=700, stretch='normal', size='scalable')) = 0.33499999999999996
+DEBUG:matplotlib.font_manager:findfont: score(FontEntry(fname='/local2/fredxu/anaconda3/envs/pde/lib/python3.8/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf', name='DejaVu Sans', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 0.05
+DEBUG:matplotlib.font_manager:findfont: score(FontEntry(fname='/local2/fredxu/anaconda3/envs/pde/lib/python3.8/site-packages/matplotlib/mpl-data/fonts/ttf/STIXSizFourSymBol.ttf', name='STIXSizeFourSym', style='normal', variant='normal', weight=700, stretch='normal', size='scalable')) = 10.335
+DEBUG:matplotlib.font_manager:findfont: score(FontEntry(fname='/local2/fredxu/anaconda3/envs/pde/lib/python3.8/site-packages/matplotlib/mpl-data/fonts/ttf/STIXSizTwoSymReg.ttf', name='STIXSizeTwoSym', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+DEBUG:matplotlib.font_manager:findfont: score(FontEntry(fname='/local2/fredxu/anaconda3/envs/pde/lib/python3.8/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSerif.ttf', name='DejaVu Serif', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+DEBUG:matplotlib.font_manager:findfont: score(FontEntry(fname='/local2/fredxu/anaconda3/envs/pde/lib/python3.8/site-packages/matplotlib/mpl-data/fonts/ttf/STIXGeneralItalic.ttf', name='STIXGeneral', style='italic', variant='normal', weight=400, stretch='normal', size='scalable')) = 11.05
+DEBUG:matplotlib.font_manager:findfont: score(FontEntry(fname='/local2/fredxu/anaconda3/envs/pde/lib/python3.8/site-packages/matplotlib/mpl-data/fonts/ttf/STIXSizThreeSymReg.ttf', name='STIXSizeThreeSym', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+DEBUG:matplotlib.font_manager:findfont: score(FontEntry(fname='/local2/fredxu/anaconda3/envs/pde/lib/python3.8/site-packages/matplotlib/mpl-data/fonts/ttf/cmtt10.ttf', name='cmtt10', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+DEBUG:matplotlib.font_manager:findfont: score(FontEntry(fname='/local2/fredxu/anaconda3/envs/pde/lib/python3.8/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSerif-Bold.ttf', name='DejaVu Serif', style='normal', variant='normal', weight=700, stretch='normal', size='scalable')) = 10.335
+DEBUG:matplotlib.font_manager:findfont: score(FontEntry(fname='/local2/fredxu/anaconda3/envs/pde/lib/python3.8/site-packages/matplotlib/mpl-data/fonts/ttf/STIXSizThreeSymBol.ttf', name='STIXSizeThreeSym', style='normal', variant='normal', weight=700, stretch='normal', size='scalable')) = 10.335
+DEBUG:matplotlib.font_manager:findfont: score(FontEntry(fname='/local2/fredxu/anaconda3/envs/pde/lib/python3.8/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSansDisplay.ttf', name='DejaVu Sans Display', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+DEBUG:matplotlib.font_manager:findfont: score(FontEntry(fname='/local2/fredxu/anaconda3/envs/pde/lib/python3.8/site-packages/matplotlib/mpl-data/fonts/ttf/STIXSizTwoSymBol.ttf', name='STIXSizeTwoSym', style='normal', variant='normal', weight=700, stretch='normal', size='scalable')) = 10.335
+DEBUG:matplotlib.font_manager:findfont: score(FontEntry(fname='/local2/fredxu/anaconda3/envs/pde/lib/python3.8/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans-BoldOblique.ttf', name='DejaVu Sans', style='oblique', variant='normal', weight=700, stretch='normal', size='scalable')) = 1.335
+DEBUG:matplotlib.font_manager:findfont: score(FontEntry(fname='/local2/fredxu/anaconda3/envs/pde/lib/python3.8/site-packages/matplotlib/mpl-data/fonts/ttf/cmex10.ttf', name='cmex10', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+DEBUG:matplotlib.font_manager:findfont: score(FontEntry(fname='/local2/fredxu/anaconda3/envs/pde/lib/python3.8/site-packages/matplotlib/mpl-data/fonts/ttf/STIXSizFiveSymReg.ttf', name='STIXSizeFiveSym', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+DEBUG:matplotlib.font_manager:findfont: score(FontEntry(fname='/local2/fredxu/anaconda3/envs/pde/lib/python3.8/site-packages/matplotlib/mpl-data/fonts/ttf/STIXNonUniBol.ttf', name='STIXNonUnicode', style='normal', variant='normal', weight=700, stretch='normal', size='scalable')) = 10.335
+DEBUG:matplotlib.font_manager:findfont: score(FontEntry(fname='/local2/fredxu/anaconda3/envs/pde/lib/python3.8/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSansMono-BoldOblique.ttf', name='DejaVu Sans Mono', style='oblique', variant='normal', weight=700, stretch='normal', size='scalable')) = 11.335
+DEBUG:matplotlib.font_manager:findfont: score(FontEntry(fname='/local2/fredxu/anaconda3/envs/pde/lib/python3.8/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSerif-Italic.ttf', name='DejaVu Serif', style='italic', variant='normal', weight=400, stretch='normal', size='scalable')) = 11.05
+DEBUG:matplotlib.font_manager:findfont: score(FontEntry(fname='/local2/fredxu/anaconda3/envs/pde/lib/python3.8/site-packages/matplotlib/mpl-data/fonts/ttf/STIXNonUniIta.ttf', name='STIXNonUnicode', style='italic', variant='normal', weight=400, stretch='normal', size='scalable')) = 11.05
+DEBUG:matplotlib.font_manager:findfont: score(FontEntry(fname='/local2/fredxu/anaconda3/envs/pde/lib/python3.8/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSerif-BoldItalic.ttf', name='DejaVu Serif', style='italic', variant='normal', weight=700, stretch='normal', size='scalable')) = 11.335
+DEBUG:matplotlib.font_manager:findfont: score(FontEntry(fname='/local2/fredxu/anaconda3/envs/pde/lib/python3.8/site-packages/matplotlib/mpl-data/fonts/ttf/cmb10.ttf', name='cmb10', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+DEBUG:matplotlib.font_manager:findfont: score(FontEntry(fname='/local2/fredxu/anaconda3/envs/pde/lib/python3.8/site-packages/matplotlib/mpl-data/fonts/ttf/cmsy10.ttf', name='cmsy10', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+DEBUG:matplotlib.font_manager:findfont: score(FontEntry(fname='/local2/fredxu/anaconda3/envs/pde/lib/python3.8/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSansMono-Bold.ttf', name='DejaVu Sans Mono', style='normal', variant='normal', weight=700, stretch='normal', size='scalable')) = 10.335
+DEBUG:matplotlib.font_manager:findfont: score(FontEntry(fname='/local2/fredxu/anaconda3/envs/pde/lib/python3.8/site-packages/matplotlib/mpl-data/fonts/ttf/STIXGeneral.ttf', name='STIXGeneral', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+DEBUG:matplotlib.font_manager:findfont: score(FontEntry(fname='/local2/fredxu/anaconda3/envs/pde/lib/python3.8/site-packages/matplotlib/mpl-data/fonts/ttf/cmss10.ttf', name='cmss10', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+DEBUG:matplotlib.font_manager:findfont: score(FontEntry(fname='/local2/fredxu/anaconda3/envs/pde/lib/python3.8/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSerifDisplay.ttf', name='DejaVu Serif Display', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+DEBUG:matplotlib.font_manager:findfont: score(FontEntry(fname='/local2/fredxu/anaconda3/envs/pde/lib/python3.8/site-packages/matplotlib/mpl-data/fonts/ttf/STIXNonUniBolIta.ttf', name='STIXNonUnicode', style='italic', variant='normal', weight=700, stretch='normal', size='scalable')) = 11.335
+DEBUG:matplotlib.font_manager:findfont: score(FontEntry(fname='/local2/fredxu/anaconda3/envs/pde/lib/python3.8/site-packages/matplotlib/mpl-data/fonts/ttf/STIXSizOneSymReg.ttf', name='STIXSizeOneSym', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+DEBUG:matplotlib.font_manager:findfont: score(FontEntry(fname='/local2/fredxu/anaconda3/envs/pde/lib/python3.8/site-packages/matplotlib/mpl-data/fonts/ttf/cmr10.ttf', name='cmr10', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+DEBUG:matplotlib.font_manager:findfont: score(FontEntry(fname='/usr/share/fonts/truetype/dejavu/DejaVuSans.ttf', name='DejaVu Sans', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 0.05
+DEBUG:matplotlib.font_manager:findfont: score(FontEntry(fname='/usr/share/fonts/truetype/dejavu/DejaVuSansMono-BoldOblique.ttf', name='DejaVu Sans Mono', style='oblique', variant='normal', weight=700, stretch='normal', size='scalable')) = 11.335
+DEBUG:matplotlib.font_manager:findfont: score(FontEntry(fname='/usr/share/fonts/truetype/dejavu/DejaVuSansCondensed-BoldOblique.ttf', name='DejaVu Sans', style='oblique', variant='normal', weight=700, stretch='condensed', size='scalable')) = 1.535
+DEBUG:matplotlib.font_manager:findfont: score(FontEntry(fname='/usr/share/fonts/truetype/dejavu/DejaVuSansMono.ttf', name='DejaVu Sans Mono', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+DEBUG:matplotlib.font_manager:findfont: score(FontEntry(fname='/usr/share/fonts/truetype/dejavu/DejaVuSansMono-Oblique.ttf', name='DejaVu Sans Mono', style='oblique', variant='normal', weight=400, stretch='normal', size='scalable')) = 11.05
+DEBUG:matplotlib.font_manager:findfont: score(FontEntry(fname='/usr/share/fonts/truetype/ttf-bitstream-vera/VeraSeBd.ttf', name='Bitstream Vera Serif', style='normal', variant='normal', weight=700, stretch='normal', size='scalable')) = 10.335
+DEBUG:matplotlib.font_manager:findfont: score(FontEntry(fname='/usr/share/fonts/truetype/ttf-bitstream-vera/VeraBI.ttf', name='Bitstream Vera Sans', style='oblique', variant='normal', weight=700, stretch='normal', size='scalable')) = 2.244090909090909
+DEBUG:matplotlib.font_manager:findfont: score(FontEntry(fname='/usr/share/fonts/truetype/dejavu/DejaVuSerifCondensed-Italic.ttf', name='DejaVu Serif', style='italic', variant='normal', weight=400, stretch='condensed', size='scalable')) = 11.25
+DEBUG:matplotlib.font_manager:findfont: score(FontEntry(fname='/usr/share/fonts/truetype/ttf-bitstream-vera/Vera.ttf', name='Bitstream Vera Sans', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 0.9590909090909092
+DEBUG:matplotlib.font_manager:findfont: score(FontEntry(fname='/usr/share/fonts/truetype/dejavu/DejaVuSerifCondensed.ttf', name='DejaVu Serif', style='normal', variant='normal', weight=400, stretch='condensed', size='scalable')) = 10.25
+DEBUG:matplotlib.font_manager:findfont: score(FontEntry(fname='/usr/share/fonts/truetype/dejavu/DejaVuSansCondensed-Oblique.ttf', name='DejaVu Sans', style='oblique', variant='normal', weight=400, stretch='condensed', size='scalable')) = 1.25
+DEBUG:matplotlib.font_manager:findfont: score(FontEntry(fname='/usr/share/fonts/truetype/ttf-bitstream-vera/VeraMoBI.ttf', name='Bitstream Vera Sans Mono', style='oblique', variant='normal', weight=700, stretch='normal', size='scalable')) = 11.335
+DEBUG:matplotlib.font_manager:findfont: score(FontEntry(fname='/usr/share/fonts/truetype/ttf-bitstream-vera/VeraIt.ttf', name='Bitstream Vera Sans', style='oblique', variant='normal', weight=400, stretch='normal', size='scalable')) = 1.9590909090909092
+DEBUG:matplotlib.font_manager:findfont: score(FontEntry(fname='/usr/share/fonts/truetype/dejavu/DejaVuSans-BoldOblique.ttf', name='DejaVu Sans', style='oblique', variant='normal', weight=700, stretch='normal', size='scalable')) = 1.335
+DEBUG:matplotlib.font_manager:findfont: score(FontEntry(fname='/usr/share/fonts/truetype/dejavu/DejaVuSerif-Bold.ttf', name='DejaVu Serif', style='normal', variant='normal', weight=700, stretch='normal', size='scalable')) = 10.335
+DEBUG:matplotlib.font_manager:findfont: score(FontEntry(fname='/usr/share/fonts/truetype/dejavu/DejaVuSansMono-Bold.ttf', name='DejaVu Sans Mono', style='normal', variant='normal', weight=700, stretch='normal', size='scalable')) = 10.335
+DEBUG:matplotlib.font_manager:findfont: score(FontEntry(fname='/usr/share/fonts/truetype/dejavu/DejaVuSansCondensed-Bold.ttf', name='DejaVu Sans', style='normal', variant='normal', weight=700, stretch='condensed', size='scalable')) = 0.5349999999999999
+DEBUG:matplotlib.font_manager:findfont: score(FontEntry(fname='/usr/share/fonts/truetype/dejavu/DejaVuSans-Bold.ttf', name='DejaVu Sans', style='normal', variant='normal', weight=700, stretch='normal', size='scalable')) = 0.33499999999999996
+DEBUG:matplotlib.font_manager:findfont: score(FontEntry(fname='/usr/share/fonts/truetype/dejavu/DejaVuSerifCondensed-BoldItalic.ttf', name='DejaVu Serif', style='italic', variant='normal', weight=700, stretch='condensed', size='scalable')) = 11.535
+DEBUG:matplotlib.font_manager:findfont: score(FontEntry(fname='/usr/share/fonts/truetype/dejavu/DejaVuSerifCondensed-Bold.ttf', name='DejaVu Serif', style='normal', variant='normal', weight=700, stretch='condensed', size='scalable')) = 10.535
+DEBUG:matplotlib.font_manager:findfont: score(FontEntry(fname='/usr/share/fonts/truetype/dejavu/DejaVuSerif-Italic.ttf', name='DejaVu Serif', style='italic', variant='normal', weight=400, stretch='normal', size='scalable')) = 11.05
+DEBUG:matplotlib.font_manager:findfont: score(FontEntry(fname='/usr/share/fonts/truetype/ttf-bitstream-vera/VeraMoIt.ttf', name='Bitstream Vera Sans Mono', style='oblique', variant='normal', weight=400, stretch='normal', size='scalable')) = 11.05
+DEBUG:matplotlib.font_manager:findfont: score(FontEntry(fname='/usr/share/fonts/truetype/dejavu/DejaVuMathTeXGyre.ttf', name='DejaVu Math TeX Gyre', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+DEBUG:matplotlib.font_manager:findfont: score(FontEntry(fname='/usr/share/fonts/truetype/ttf-bitstream-vera/VeraMoBd.ttf', name='Bitstream Vera Sans Mono', style='normal', variant='normal', weight=700, stretch='normal', size='scalable')) = 10.335
+DEBUG:matplotlib.font_manager:findfont: score(FontEntry(fname='/usr/share/fonts/truetype/dejavu/DejaVuSans-Oblique.ttf', name='DejaVu Sans', style='oblique', variant='normal', weight=400, stretch='normal', size='scalable')) = 1.05
+DEBUG:matplotlib.font_manager:findfont: score(FontEntry(fname='/usr/share/fonts/truetype/dejavu/DejaVuSerif-BoldItalic.ttf', name='DejaVu Serif', style='italic', variant='normal', weight=700, stretch='normal', size='scalable')) = 11.335
+DEBUG:matplotlib.font_manager:findfont: score(FontEntry(fname='/usr/share/fonts/truetype/ttf-bitstream-vera/VeraMono.ttf', name='Bitstream Vera Sans Mono', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+DEBUG:matplotlib.font_manager:findfont: score(FontEntry(fname='/usr/share/fonts/truetype/dejavu/DejaVuSerif.ttf', name='DejaVu Serif', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+DEBUG:matplotlib.font_manager:findfont: score(FontEntry(fname='/usr/share/fonts/truetype/ttf-bitstream-vera/VeraBd.ttf', name='Bitstream Vera Sans', style='normal', variant='normal', weight=700, stretch='normal', size='scalable')) = 1.2440909090909091
+DEBUG:matplotlib.font_manager:findfont: score(FontEntry(fname='/usr/share/fonts/truetype/dejavu/DejaVuSans-ExtraLight.ttf', name='DejaVu Sans', style='normal', variant='normal', weight=200, stretch='normal', size='scalable')) = 0.24
+DEBUG:matplotlib.font_manager:findfont: score(FontEntry(fname='/usr/share/fonts/truetype/ttf-bitstream-vera/VeraSe.ttf', name='Bitstream Vera Serif', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+DEBUG:matplotlib.font_manager:findfont: score(FontEntry(fname='/usr/share/fonts/truetype/dejavu/DejaVuSansCondensed.ttf', name='DejaVu Sans', style='normal', variant='normal', weight=400, stretch='condensed', size='scalable')) = 0.25
+DEBUG:matplotlib.font_manager:findfont: Matching sans\-serif:style=normal:variant=normal:weight=normal:stretch=normal:size=12.0 to DejaVu Sans ('/local2/fredxu/anaconda3/envs/pde/lib/python3.8/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf') with score of 0.050000.

@@ -31,8 +31,6 @@ from functools import partial
 
 from timeit import default_timer
 
-from Adam import Adam
-
 torch.manual_seed(0)
 np.random.seed(0)
 
@@ -68,8 +66,13 @@ class SpectralConv3d(nn.Module):
 
     def forward(self, x):
         batchsize = x.shape[0]
+        
+        # print(f"spectral conv, x shape = {x.shape}")
+        
         #Compute Fourier coeffcients up to factor of e^(- something constant)
         x_ft = torch.fft.rfftn(x, dim=[-3,-2,-1])
+        
+        # print(f"spectral convolution x_ft = {x_ft.shape}")
 
         # Multiply relevant Fourier modes
         out_ft = torch.zeros(batchsize, self.out_channels, x.size(-3), x.size(-2), x.size(-1)//2 + 1, dtype=torch.cfloat, device=x.device)
@@ -84,6 +87,7 @@ class SpectralConv3d(nn.Module):
 
         #Return to physical space
         x = torch.fft.irfftn(out_ft, s=(x.size(-3), x.size(-2), x.size(-1)))
+        # print(f"spectral convolution x_ifft = {x.shape}")
         return x
 
 class FNO3d(nn.Module):
@@ -108,8 +112,8 @@ class FNO3d(nn.Module):
         self.modes3 = modes3
         self.width = width
         self.padding = 6 # pad the domain if input is non-periodic
-        self.fc0 = nn.Linear(13, self.width)
-        # input channel is 12: the solution of the first 10 timesteps + 3 locations (u(1, x, y), ..., u(10, x, y),  x, y, t)
+        self.fc0 = nn.Linear(6, self.width)
+        # input channel is 6: the solution + 3 locations (u(x), u(y), u(z), x, y, z)
 
         self.conv0 = SpectralConv3d(self.width, self.width, self.modes1, self.modes2, self.modes3)
         self.conv1 = SpectralConv3d(self.width, self.width, self.modes1, self.modes2, self.modes3)
@@ -125,39 +129,58 @@ class FNO3d(nn.Module):
         self.bn3 = torch.nn.BatchNorm3d(self.width)
 
         self.fc1 = nn.Linear(self.width, 128)
-        self.fc2 = nn.Linear(128, 1)
+        self.fc2 = nn.Linear(128, 3)
 
     def forward(self, x):
+        
         grid = self.get_grid(x.shape, x.device)
+
         x = torch.cat((x, grid), dim=-1)
+
         x = self.fc0(x)
         x = x.permute(0, 4, 1, 2, 3)
+        
+        
         x = F.pad(x, [0,self.padding]) # pad the domain if input is non-periodic
+        # print(f"x pad = {x.shape}")
 
         x1 = self.conv0(x)
         x2 = self.w0(x)
         x = x1 + x2
         x = F.gelu(x)
+        
+        # print(f"x conv0 = {x.shape}")
 
         x1 = self.conv1(x)
         x2 = self.w1(x)
         x = x1 + x2
         x = F.gelu(x)
+        
+        # print(f"x conv1 = {x.shape}")
 
         x1 = self.conv2(x)
         x2 = self.w2(x)
         x = x1 + x2
         x = F.gelu(x)
+        
+        # print(f"x conv2 = {x.shape}")
 
         x1 = self.conv3(x)
         x2 = self.w3(x)
         x = x1 + x2
 
+        # print(f"x conv3 = {x.shape}") # (18, 32, 10, 10, 10)
+
         x = x[..., :-self.padding]
+        # (18, 10, 10, 10, 32)
         x = x.permute(0, 2, 3, 4, 1) # pad the domain if input is non-periodic
         x = self.fc1(x)
+        
+        # print(f"x fc 1 = {x.shape}")
+        
         x = F.gelu(x)
         x = self.fc2(x)
+        # print(f"x fc2 = {x.shape}")
         return x
 
     def get_grid(self, shape, device):

@@ -4,13 +4,14 @@ import torch.nn as nn
 from torch.optim import Adam
 import torch.nn.functional as F
 import matplotlib.pyplot as plt
-import operator
+from torch.utils.data import DataLoader, TensorDataset
 from functools import reduce
 from functools import partial
 from layers.Conv4d import Conv4d
 from layers.BatchNorm4d import BatchNorm4d
-
+from utils.utilities3 import UnitGaussianNormalizer, LpLoss
 from timeit import default_timer
+import yaml
 
 torch.manual_seed(0)
 np.random.seed(0)
@@ -195,6 +196,3 @@ class FNO4d(nn.Module):
         return x 
     
     
-# wait for the arrival of the dataset 
-if __name__ == "__main__":
-    pass

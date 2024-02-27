@@ -1,0 +1,1166 @@
+INFO:root:x_train shape = torch.Size([144, 10, 10, 10, 3]), y_train shape = torch.Size([144, 10, 10, 10, 3])
+INFO:root:x_test shape = torch.Size([36, 10, 10, 10, 3]), y_test shape = torch.Size([36, 10, 10, 10, 3])
+INFO:root:number of model parameters = 56629985
+INFO:root:x_train shape = torch.Size([144, 10, 10, 10, 3]), y_train shape = torch.Size([144, 10, 10, 10, 3])
+INFO:root:x_test shape = torch.Size([36, 10, 10, 10, 3]), y_test shape = torch.Size([36, 10, 10, 10, 3])
+INFO:root:number of model parameters = 56629985
+INFO:root:epoch = 0, avg_train_loss = 38.622368812561035
+INFO:root:epoch = 0, avg_test_loss = 36.81972885131836
+INFO:root:epoch = 1, avg_train_loss = 23.88663077354431
+INFO:root:epoch = 1, avg_test_loss = 18.66296100616455
+INFO:root:epoch = 2, avg_train_loss = 17.502969980239868
+INFO:root:epoch = 2, avg_test_loss = 18.06762933731079
+INFO:root:epoch = 3, avg_train_loss = 13.352263569831848
+INFO:root:epoch = 3, avg_test_loss = 19.077383995056152
+INFO:root:epoch = 4, avg_train_loss = 11.883314490318298
+INFO:root:epoch = 4, avg_test_loss = 16.345482349395752
+INFO:root:epoch = 5, avg_train_loss = 11.2239089012146
+INFO:root:epoch = 5, avg_test_loss = 16.820762157440186
+INFO:root:epoch = 6, avg_train_loss = 10.654428720474243
+INFO:root:epoch = 6, avg_test_loss = 15.462987899780273
+INFO:root:epoch = 7, avg_train_loss = 10.615862131118774
+INFO:root:epoch = 0, avg_train_loss = 38.622368812561035
+INFO:root:epoch = 0, avg_test_loss = 36.81972885131836
+INFO:root:epoch = 1, avg_train_loss = 23.88663077354431
+INFO:root:epoch = 1, avg_test_loss = 18.66296100616455
+INFO:root:epoch = 2, avg_train_loss = 17.502969980239868
+INFO:root:epoch = 2, avg_test_loss = 18.06762933731079
+INFO:root:epoch = 3, avg_train_loss = 13.352263569831848
+INFO:root:epoch = 3, avg_test_loss = 19.077383995056152
+INFO:root:epoch = 4, avg_train_loss = 11.883314490318298
+INFO:root:epoch = 4, avg_test_loss = 16.345482349395752
+INFO:root:epoch = 5, avg_train_loss = 11.2239089012146
+INFO:root:epoch = 5, avg_test_loss = 16.820762157440186
+INFO:root:epoch = 6, avg_train_loss = 10.654428720474243
+INFO:root:epoch = 6, avg_test_loss = 15.462987899780273
+INFO:root:epoch = 7, avg_train_loss = 10.615862131118774
+INFO:root:epoch = 7, avg_test_loss = 16.566532611846924
+INFO:root:epoch = 8, avg_train_loss = 10.449386477470398
+INFO:root:epoch = 8, avg_test_loss = 15.997148513793945
+INFO:root:epoch = 9, avg_train_loss = 10.440918147563934
+INFO:root:epoch = 9, avg_test_loss = 16.070049285888672
+INFO:root:epoch = 10, avg_train_loss = 10.38159304857254
+INFO:root:epoch = 10, avg_test_loss = 15.983981132507324
+INFO:root:epoch = 11, avg_train_loss = 10.406705796718597
+INFO:root:epoch = 11, avg_test_loss = 16.1427640914917
+INFO:root:epoch = 12, avg_train_loss = 10.475438296794891
+INFO:root:epoch = 12, avg_test_loss = 16.312460899353027
+INFO:root:epoch = 13, avg_train_loss = 10.539462387561798
+INFO:root:epoch = 13, avg_test_loss = 15.309968948364258
+INFO:root:epoch = 14, avg_train_loss = 10.392977774143219
+INFO:root:epoch = 14, avg_test_loss = 15.964648246765137
+INFO:root:epoch = 15, avg_train_loss = 10.443802535533905
+INFO:root:epoch = 15, avg_test_loss = 16.485029220581055
+INFO:root:epoch = 16, avg_train_loss = 10.396332144737244
+INFO:root:epoch = 16, avg_test_loss = 16.585440635681152
+INFO:root:epoch = 17, avg_train_loss = 10.467628359794617
+INFO:root:epoch = 17, avg_test_loss = 16.00357437133789
+INFO:root:epoch = 18, avg_train_loss = 10.51379942893982
+INFO:root:epoch = 18, avg_test_loss = 15.5659818649292
+INFO:root:epoch = 19, avg_train_loss = 10.359812259674072
+INFO:root:epoch = 19, avg_test_loss = 16.472727298736572
+INFO:root:epoch = 20, avg_train_loss = 10.522152960300446
+INFO:root:epoch = 20, avg_test_loss = 16.02002716064453
+INFO:root:epoch = 21, avg_train_loss = 10.496373057365417
+INFO:root:epoch = 21, avg_test_loss = 16.66531276702881
+INFO:root:epoch = 22, avg_train_loss = 10.976585268974304
+INFO:root:epoch = 22, avg_test_loss = 14.655285835266113
+INFO:root:epoch = 23, avg_train_loss = 10.410209655761719
+INFO:root:epoch = 23, avg_test_loss = 16.159661769866943
+INFO:root:epoch = 24, avg_train_loss = 10.623693823814392
+INFO:root:epoch = 24, avg_test_loss = 16.549285411834717
+INFO:root:epoch = 25, avg_train_loss = 10.635599374771118
+INFO:root:epoch = 25, avg_test_loss = 14.959251880645752
+INFO:root:epoch = 26, avg_train_loss = 10.502027988433838
+INFO:root:epoch = 26, avg_test_loss = 16.413276195526123
+INFO:root:epoch = 27, avg_train_loss = 10.4299978017807
+INFO:root:epoch = 27, avg_test_loss = 16.750652313232422
+INFO:root:epoch = 28, avg_train_loss = 10.441788911819458
+INFO:root:epoch = 28, avg_test_loss = 15.37500286102295
+INFO:root:epoch = 29, avg_train_loss = 10.438259959220886
+INFO:root:epoch = 29, avg_test_loss = 16.23376750946045
+INFO:root:epoch = 30, avg_train_loss = 10.3977010846138
+INFO:root:epoch = 30, avg_test_loss = 15.825210571289062
+INFO:root:epoch = 31, avg_train_loss = 10.425643563270569
+INFO:root:epoch = 31, avg_test_loss = 16.43808603286743
+INFO:root:epoch = 32, avg_train_loss = 10.423434436321259
+INFO:root:epoch = 32, avg_test_loss = 16.440398693084717
+INFO:root:epoch = 33, avg_train_loss = 10.659639477729797
+INFO:root:epoch = 33, avg_test_loss = 14.842452049255371
+INFO:root:epoch = 34, avg_train_loss = 10.511954545974731
+INFO:root:epoch = 34, avg_test_loss = 15.582376480102539
+INFO:root:epoch = 35, avg_train_loss = 10.38662052154541
+INFO:root:epoch = 35, avg_test_loss = 16.553489685058594
+INFO:root:epoch = 36, avg_train_loss = 10.417956173419952
+INFO:root:epoch = 36, avg_test_loss = 16.64176893234253
+INFO:root:epoch = 37, avg_train_loss = 10.423701167106628
+INFO:root:epoch = 37, avg_test_loss = 15.758939266204834
+INFO:root:epoch = 38, avg_train_loss = 10.428030014038086
+INFO:root:epoch = 38, avg_test_loss = 15.948467254638672
+INFO:root:epoch = 39, avg_train_loss = 10.406487107276917
+INFO:root:epoch = 39, avg_test_loss = 16.544426918029785
+INFO:root:epoch = 40, avg_train_loss = 10.416310131549835
+INFO:root:epoch = 40, avg_test_loss = 16.58616065979004
+INFO:root:epoch = 41, avg_train_loss = 10.354528903961182
+INFO:root:epoch = 41, avg_test_loss = 15.733654975891113
+INFO:root:epoch = 42, avg_train_loss = 10.425447344779968
+INFO:root:epoch = 42, avg_test_loss = 15.64585018157959
+INFO:root:epoch = 43, avg_train_loss = 10.360374927520752
+INFO:root:epoch = 43, avg_test_loss = 16.210611581802368
+INFO:root:epoch = 44, avg_train_loss = 10.49557101726532
+INFO:root:epoch = 44, avg_test_loss = 17.213149070739746
+INFO:root:epoch = 45, avg_train_loss = 10.458254635334015
+INFO:root:epoch = 45, avg_test_loss = 15.811647415161133
+INFO:root:epoch = 46, avg_train_loss = 11.23966896533966
+INFO:root:epoch = 46, avg_test_loss = 14.293117046356201
+INFO:root:epoch = 47, avg_train_loss = 10.712652206420898
+INFO:root:epoch = 47, avg_test_loss = 16.345332145690918
+INFO:root:epoch = 48, avg_train_loss = 10.457224905490875
+INFO:root:epoch = 48, avg_test_loss = 16.961023807525635
+INFO:root:epoch = 49, avg_train_loss = 10.529323399066925
+INFO:root:epoch = 49, avg_test_loss = 16.53799343109131
+INFO:root:epoch = 50, avg_train_loss = 10.46692943572998
+INFO:root:epoch = 50, avg_test_loss = 15.44984769821167
+INFO:root:epoch = 51, avg_train_loss = 10.428487360477448
+INFO:root:epoch = 51, avg_test_loss = 16.16960048675537
+INFO:root:epoch = 52, avg_train_loss = 10.49128657579422
+INFO:root:epoch = 52, avg_test_loss = 16.787628173828125
+INFO:root:epoch = 53, avg_train_loss = 10.492133796215057
+INFO:root:epoch = 53, avg_test_loss = 14.94216537475586
+INFO:root:epoch = 54, avg_train_loss = 10.54539942741394
+INFO:root:epoch = 54, avg_test_loss = 16.6521635055542
+INFO:root:epoch = 55, avg_train_loss = 10.572685599327087
+INFO:root:epoch = 55, avg_test_loss = 15.767817497253418
+INFO:root:epoch = 56, avg_train_loss = 10.463640093803406
+INFO:root:epoch = 56, avg_test_loss = 17.311397075653076
+INFO:root:epoch = 57, avg_train_loss = 10.430002868175507
+INFO:root:epoch = 57, avg_test_loss = 16.359221935272217
+INFO:root:epoch = 58, avg_train_loss = 10.465419292449951
+INFO:root:epoch = 58, avg_test_loss = 15.714652061462402
+INFO:root:epoch = 59, avg_train_loss = 10.523656249046326
+INFO:root:epoch = 59, avg_test_loss = 16.196941375732422
+INFO:root:epoch = 60, avg_train_loss = 10.797507405281067
+INFO:root:epoch = 60, avg_test_loss = 17.319393634796143
+INFO:root:epoch = 61, avg_train_loss = 10.521354734897614
+INFO:root:epoch = 61, avg_test_loss = 14.909210205078125
+INFO:root:epoch = 62, avg_train_loss = 10.571685910224915
+INFO:root:epoch = 62, avg_test_loss = 15.774453163146973
+INFO:root:epoch = 63, avg_train_loss = 10.428375840187073
+INFO:root:epoch = 63, avg_test_loss = 16.12464189529419
+INFO:root:epoch = 64, avg_train_loss = 10.422065377235413
+INFO:root:epoch = 64, avg_test_loss = 16.52590847015381
+INFO:root:epoch = 65, avg_train_loss = 10.505910396575928
+INFO:root:epoch = 65, avg_test_loss = 15.95263957977295
+INFO:root:epoch = 66, avg_train_loss = 10.378751873970032
+INFO:root:epoch = 66, avg_test_loss = 15.339597225189209
+INFO:root:epoch = 67, avg_train_loss = 10.475322544574738
+INFO:root:epoch = 67, avg_test_loss = 16.14444351196289
+INFO:root:epoch = 68, avg_train_loss = 10.705500721931458
+INFO:root:epoch = 68, avg_test_loss = 16.486287117004395
+INFO:root:epoch = 69, avg_train_loss = 10.498301029205322
+INFO:root:epoch = 69, avg_test_loss = 14.938919067382812
+INFO:root:epoch = 70, avg_train_loss = 10.518794298171997
+INFO:root:epoch = 70, avg_test_loss = 15.60248613357544
+INFO:root:epoch = 71, avg_train_loss = 10.739037871360779
+INFO:root:epoch = 71, avg_test_loss = 17.430638790130615
+INFO:root:epoch = 72, avg_train_loss = 10.798493027687073
+INFO:root:epoch = 72, avg_test_loss = 14.956700325012207
+INFO:root:epoch = 73, avg_train_loss = 10.466387689113617
+INFO:root:epoch = 73, avg_test_loss = 15.856040954589844
+INFO:root:epoch = 74, avg_train_loss = 10.584707856178284
+INFO:root:epoch = 74, avg_test_loss = 16.74989604949951
+INFO:root:epoch = 75, avg_train_loss = 10.429082036018372
+INFO:root:epoch = 75, avg_test_loss = 15.975802898406982
+INFO:root:epoch = 76, avg_train_loss = 10.550848603248596
+INFO:root:epoch = 76, avg_test_loss = 15.392264366149902
+INFO:root:epoch = 77, avg_train_loss = 10.442854642868042
+INFO:root:epoch = 77, avg_test_loss = 16.441705226898193
+INFO:root:epoch = 78, avg_train_loss = 10.5672105550766
+INFO:root:epoch = 78, avg_test_loss = 17.063047409057617
+INFO:root:epoch = 79, avg_train_loss = 10.626124918460846
+INFO:root:epoch = 79, avg_test_loss = 14.960044860839844
+INFO:root:epoch = 80, avg_train_loss = 10.439355492591858
+INFO:root:epoch = 80, avg_test_loss = 15.811304092407227
+INFO:root:epoch = 81, avg_train_loss = 10.653984069824219
+INFO:root:epoch = 81, avg_test_loss = 16.60008716583252
+INFO:root:epoch = 82, avg_train_loss = 10.695155501365662
+INFO:root:epoch = 82, avg_test_loss = 14.980240821838379
+INFO:root:epoch = 83, avg_train_loss = 10.617789089679718
+INFO:root:epoch = 83, avg_test_loss = 16.40640926361084
+INFO:root:epoch = 84, avg_train_loss = 10.641600251197815
+INFO:root:epoch = 84, avg_test_loss = 15.632050514221191
+INFO:root:epoch = 85, avg_train_loss = 10.428605914115906
+INFO:root:epoch = 85, avg_test_loss = 17.062630653381348
+INFO:root:epoch = 86, avg_train_loss = 10.407405138015747
+INFO:root:epoch = 86, avg_test_loss = 16.244563102722168
+INFO:root:epoch = 87, avg_train_loss = 10.370229721069336
+INFO:root:epoch = 87, avg_test_loss = 15.763669967651367
+INFO:root:epoch = 88, avg_train_loss = 10.387717962265015
+INFO:root:epoch = 88, avg_test_loss = 15.87651252746582
+INFO:root:epoch = 89, avg_train_loss = 10.507801294326782
+INFO:root:epoch = 89, avg_test_loss = 16.278794288635254
+INFO:root:epoch = 90, avg_train_loss = 10.418562531471252
+INFO:root:epoch = 90, avg_test_loss = 16.78377103805542
+INFO:root:epoch = 91, avg_train_loss = 10.433028042316437
+INFO:root:epoch = 91, avg_test_loss = 16.281710863113403
+INFO:root:epoch = 92, avg_train_loss = 10.501576662063599
+INFO:root:epoch = 92, avg_test_loss = 16.500511169433594
+INFO:root:epoch = 93, avg_train_loss = 10.36310076713562
+INFO:root:epoch = 93, avg_test_loss = 15.933429718017578
+INFO:root:epoch = 94, avg_train_loss = 10.443244338035583
+INFO:root:epoch = 94, avg_test_loss = 16.717097282409668
+INFO:root:epoch = 95, avg_train_loss = 10.468005180358887
+INFO:root:epoch = 95, avg_test_loss = 16.043574810028076
+INFO:root:epoch = 96, avg_train_loss = 10.384322762489319
+INFO:root:epoch = 96, avg_test_loss = 15.989038944244385
+INFO:root:epoch = 97, avg_train_loss = 10.50445294380188
+INFO:root:epoch = 97, avg_test_loss = 15.815040111541748
+INFO:root:epoch = 98, avg_train_loss = 10.560556054115295
+INFO:root:epoch = 98, avg_test_loss = 16.959683418273926
+INFO:root:epoch = 99, avg_train_loss = 10.551920413970947
+INFO:root:epoch = 99, avg_test_loss = 16.1308856010437
+INFO:root:epoch = 100, avg_train_loss = 10.587711870670319
+INFO:root:epoch = 100, avg_test_loss = 15.586436748504639
+INFO:root:epoch = 101, avg_train_loss = 10.410256147384644
+INFO:root:epoch = 101, avg_test_loss = 15.781367301940918
+INFO:root:epoch = 102, avg_train_loss = 10.35114336013794
+INFO:root:epoch = 102, avg_test_loss = 15.794829368591309
+INFO:root:epoch = 103, avg_train_loss = 10.33605182170868
+INFO:root:epoch = 103, avg_test_loss = 15.840240001678467
+INFO:root:epoch = 104, avg_train_loss = 10.321870505809784
+INFO:root:epoch = 104, avg_test_loss = 15.963319778442383
+INFO:root:epoch = 105, avg_train_loss = 10.309908032417297
+INFO:root:epoch = 105, avg_test_loss = 15.982966423034668
+INFO:root:epoch = 106, avg_train_loss = 10.313173174858093
+INFO:root:epoch = 106, avg_test_loss = 16.084996223449707
+INFO:root:epoch = 107, avg_train_loss = 10.317032754421234
+INFO:root:epoch = 107, avg_test_loss = 16.039478302001953
+INFO:root:epoch = 108, avg_train_loss = 10.300821900367737
+INFO:root:epoch = 108, avg_test_loss = 16.09223175048828
+INFO:root:epoch = 109, avg_train_loss = 10.300937294960022
+INFO:root:epoch = 109, avg_test_loss = 16.132012367248535
+INFO:root:epoch = 110, avg_train_loss = 10.306562840938568
+INFO:root:epoch = 110, avg_test_loss = 16.19424343109131
+INFO:root:epoch = 111, avg_train_loss = 10.305576622486115
+INFO:root:epoch = 111, avg_test_loss = 16.230557918548584
+INFO:root:epoch = 112, avg_train_loss = 10.299635529518127
+INFO:root:epoch = 112, avg_test_loss = 16.19313335418701
+INFO:root:epoch = 113, avg_train_loss = 10.300302982330322
+INFO:root:epoch = 113, avg_test_loss = 16.19429588317871
+INFO:root:epoch = 114, avg_train_loss = 10.30304729938507
+INFO:root:epoch = 114, avg_test_loss = 16.22960138320923
+INFO:root:epoch = 115, avg_train_loss = 10.304497420787811
+INFO:root:epoch = 115, avg_test_loss = 16.15888214111328
+INFO:root:epoch = 116, avg_train_loss = 10.303668677806854
+INFO:root:epoch = 116, avg_test_loss = 16.15514898300171
+INFO:root:epoch = 117, avg_train_loss = 10.305073618888855
+INFO:root:epoch = 117, avg_test_loss = 16.122039318084717
+INFO:root:epoch = 118, avg_train_loss = 10.302159368991852
+INFO:root:epoch = 118, avg_test_loss = 16.197847843170166
+INFO:root:epoch = 119, avg_train_loss = 10.300550103187561
+INFO:root:epoch = 119, avg_test_loss = 16.221270084381104
+INFO:root:epoch = 120, avg_train_loss = 10.30214935541153
+INFO:root:epoch = 120, avg_test_loss = 16.19832706451416
+INFO:root:epoch = 121, avg_train_loss = 10.304714918136597
+INFO:root:epoch = 121, avg_test_loss = 16.16871738433838
+INFO:root:epoch = 122, avg_train_loss = 10.300064325332642
+INFO:root:epoch = 122, avg_test_loss = 16.211365699768066
+INFO:root:epoch = 123, avg_train_loss = 10.301263570785522
+INFO:root:epoch = 123, avg_test_loss = 16.200390815734863
+INFO:root:epoch = 124, avg_train_loss = 10.309985041618347
+INFO:root:epoch = 124, avg_test_loss = 16.26844882965088
+INFO:root:epoch = 125, avg_train_loss = 10.308338165283203
+INFO:root:epoch = 125, avg_test_loss = 16.18583583831787
+INFO:root:epoch = 126, avg_train_loss = 10.305266857147217
+INFO:root:epoch = 126, avg_test_loss = 16.230701446533203
+INFO:root:epoch = 127, avg_train_loss = 10.300336718559265
+INFO:root:epoch = 127, avg_test_loss = 16.212980270385742
+INFO:root:epoch = 128, avg_train_loss = 10.301130414009094
+INFO:root:epoch = 128, avg_test_loss = 16.215493202209473
+INFO:root:epoch = 129, avg_train_loss = 10.301600158214569
+INFO:root:epoch = 129, avg_test_loss = 16.212761402130127
+INFO:root:epoch = 130, avg_train_loss = 10.30469161272049
+INFO:root:epoch = 130, avg_test_loss = 16.219979286193848
+INFO:root:epoch = 131, avg_train_loss = 10.3023002743721
+INFO:root:epoch = 131, avg_test_loss = 16.200065851211548
+INFO:root:epoch = 132, avg_train_loss = 10.31176906824112
+INFO:root:epoch = 132, avg_test_loss = 16.26507806777954
+INFO:root:epoch = 133, avg_train_loss = 10.314591348171234
+INFO:root:epoch = 133, avg_test_loss = 16.313572883605957
+INFO:root:epoch = 134, avg_train_loss = 10.301007986068726
+INFO:root:epoch = 134, avg_test_loss = 16.25969696044922
+INFO:root:epoch = 135, avg_train_loss = 10.301766753196716
+INFO:root:epoch = 135, avg_test_loss = 16.183898448944092
+INFO:root:epoch = 136, avg_train_loss = 10.300397515296936
+INFO:root:epoch = 136, avg_test_loss = 16.191622734069824
+INFO:root:epoch = 137, avg_train_loss = 10.300415992736816
+INFO:root:epoch = 137, avg_test_loss = 16.207059860229492
+INFO:root:epoch = 138, avg_train_loss = 10.305859684944153
+INFO:root:epoch = 138, avg_test_loss = 16.151373863220215
+INFO:root:epoch = 139, avg_train_loss = 10.307245373725891
+INFO:root:epoch = 139, avg_test_loss = 16.17233657836914
+INFO:root:epoch = 140, avg_train_loss = 10.301864981651306
+INFO:root:epoch = 140, avg_test_loss = 16.155624389648438
+INFO:root:epoch = 141, avg_train_loss = 10.302784085273743
+INFO:root:epoch = 141, avg_test_loss = 16.2012996673584
+INFO:root:epoch = 142, avg_train_loss = 10.300816476345062
+INFO:root:epoch = 142, avg_test_loss = 16.177584171295166
+INFO:root:epoch = 143, avg_train_loss = 10.304786086082458
+INFO:root:epoch = 143, avg_test_loss = 16.20894718170166
+INFO:root:epoch = 144, avg_train_loss = 10.299034357070923
+INFO:root:epoch = 144, avg_test_loss = 16.222973823547363
+INFO:root:epoch = 145, avg_train_loss = 10.302968204021454
+INFO:root:epoch = 145, avg_test_loss = 16.197818279266357
+INFO:root:epoch = 146, avg_train_loss = 10.302146077156067
+INFO:root:epoch = 146, avg_test_loss = 16.207427501678467
+INFO:root:epoch = 147, avg_train_loss = 10.307371318340302
+INFO:root:epoch = 147, avg_test_loss = 16.157679080963135
+INFO:root:epoch = 148, avg_train_loss = 10.304396867752075
+INFO:root:epoch = 148, avg_test_loss = 16.238335609436035
+INFO:root:epoch = 149, avg_train_loss = 10.300681114196777
+INFO:root:epoch = 149, avg_test_loss = 16.24726963043213
+INFO:root:epoch = 150, avg_train_loss = 10.30493539571762
+INFO:root:epoch = 150, avg_test_loss = 16.237117290496826
+INFO:root:epoch = 151, avg_train_loss = 10.30352932214737
+INFO:root:epoch = 151, avg_test_loss = 16.238402366638184
+INFO:root:epoch = 152, avg_train_loss = 10.299369096755981
+INFO:root:epoch = 152, avg_test_loss = 16.214372158050537
+INFO:root:epoch = 153, avg_train_loss = 10.302157700061798
+INFO:root:epoch = 153, avg_test_loss = 16.190319061279297
+INFO:root:epoch = 154, avg_train_loss = 10.304787874221802
+INFO:root:epoch = 154, avg_test_loss = 16.21421527862549
+INFO:root:epoch = 155, avg_train_loss = 10.313332438468933
+INFO:root:epoch = 155, avg_test_loss = 16.15204906463623
+INFO:root:epoch = 156, avg_train_loss = 10.310049772262573
+INFO:root:epoch = 156, avg_test_loss = 16.257302284240723
+INFO:root:epoch = 157, avg_train_loss = 10.302486658096313
+INFO:root:epoch = 157, avg_test_loss = 16.25407648086548
+INFO:root:epoch = 158, avg_train_loss = 10.305070638656616
+INFO:root:epoch = 158, avg_test_loss = 16.190239429473877
+INFO:root:epoch = 159, avg_train_loss = 10.304674804210663
+INFO:root:epoch = 159, avg_test_loss = 16.235565185546875
+INFO:root:epoch = 160, avg_train_loss = 10.300346434116364
+INFO:root:epoch = 160, avg_test_loss = 16.254680633544922
+INFO:root:epoch = 161, avg_train_loss = 10.301887035369873
+INFO:root:epoch = 161, avg_test_loss = 16.27655839920044
+INFO:root:epoch = 162, avg_train_loss = 10.30012321472168
+INFO:root:epoch = 162, avg_test_loss = 16.246448516845703
+INFO:root:epoch = 163, avg_train_loss = 10.301736116409302
+INFO:root:epoch = 163, avg_test_loss = 16.19264793395996
+INFO:root:epoch = 164, avg_train_loss = 10.309164464473724
+INFO:root:epoch = 164, avg_test_loss = 16.241555213928223
+INFO:root:epoch = 165, avg_train_loss = 10.300863921642303
+INFO:root:epoch = 165, avg_test_loss = 16.187084197998047
+INFO:root:epoch = 166, avg_train_loss = 10.30585366487503
+INFO:root:epoch = 166, avg_test_loss = 16.220768928527832
+INFO:root:epoch = 167, avg_train_loss = 10.301353991031647
+INFO:root:epoch = 167, avg_test_loss = 16.180991172790527
+INFO:root:epoch = 168, avg_train_loss = 10.300939321517944
+INFO:root:epoch = 168, avg_test_loss = 16.211541175842285
+INFO:root:epoch = 169, avg_train_loss = 10.30019199848175
+INFO:root:epoch = 169, avg_test_loss = 16.203349113464355
+INFO:root:epoch = 170, avg_train_loss = 10.308974981307983
+INFO:root:epoch = 170, avg_test_loss = 16.116860389709473
+INFO:root:epoch = 171, avg_train_loss = 10.302650451660156
+INFO:root:epoch = 171, avg_test_loss = 16.17252206802368
+INFO:root:epoch = 172, avg_train_loss = 10.302252531051636
+INFO:root:epoch = 172, avg_test_loss = 16.209158897399902
+INFO:root:epoch = 173, avg_train_loss = 10.29976773262024
+INFO:root:epoch = 173, avg_test_loss = 16.18507957458496
+INFO:root:epoch = 174, avg_train_loss = 10.29867935180664
+INFO:root:epoch = 174, avg_test_loss = 16.186667442321777
+INFO:root:epoch = 175, avg_train_loss = 10.304144144058228
+INFO:root:epoch = 175, avg_test_loss = 16.23409366607666
+INFO:root:epoch = 176, avg_train_loss = 10.31337022781372
+INFO:root:epoch = 176, avg_test_loss = 16.302852630615234
+INFO:root:epoch = 177, avg_train_loss = 10.314325094223022
+INFO:root:epoch = 177, avg_test_loss = 16.16986083984375
+INFO:root:epoch = 178, avg_train_loss = 10.305515170097351
+INFO:root:epoch = 178, avg_test_loss = 16.178173065185547
+INFO:root:epoch = 179, avg_train_loss = 10.30034327507019
+INFO:root:epoch = 179, avg_test_loss = 16.16622543334961
+INFO:root:epoch = 180, avg_train_loss = 10.29860532283783
+INFO:root:epoch = 180, avg_test_loss = 16.19361972808838
+INFO:root:epoch = 181, avg_train_loss = 10.301938533782959
+INFO:root:epoch = 181, avg_test_loss = 16.232566833496094
+INFO:root:epoch = 182, avg_train_loss = 10.311910152435303
+INFO:root:epoch = 182, avg_test_loss = 16.310848712921143
+INFO:root:epoch = 183, avg_train_loss = 10.337795436382294
+INFO:root:epoch = 183, avg_test_loss = 16.139877319335938
+INFO:root:epoch = 184, avg_train_loss = 10.308118879795074
+INFO:root:epoch = 184, avg_test_loss = 16.211881160736084
+INFO:root:epoch = 185, avg_train_loss = 10.301113605499268
+INFO:root:epoch = 185, avg_test_loss = 16.210850715637207
+INFO:root:epoch = 186, avg_train_loss = 10.302438914775848
+INFO:root:epoch = 186, avg_test_loss = 16.217220783233643
+INFO:root:epoch = 187, avg_train_loss = 10.299542665481567
+INFO:root:epoch = 187, avg_test_loss = 16.175533294677734
+INFO:root:epoch = 188, avg_train_loss = 10.30865603685379
+INFO:root:epoch = 188, avg_test_loss = 16.11168384552002
+INFO:root:epoch = 189, avg_train_loss = 10.299684166908264
+INFO:root:epoch = 189, avg_test_loss = 16.170262336730957
+INFO:root:epoch = 190, avg_train_loss = 10.304410755634308
+INFO:root:epoch = 190, avg_test_loss = 16.16627836227417
+INFO:root:epoch = 191, avg_train_loss = 10.302461624145508
+INFO:root:epoch = 191, avg_test_loss = 16.231840133666992
+INFO:root:epoch = 192, avg_train_loss = 10.305664598941803
+INFO:root:epoch = 192, avg_test_loss = 16.25760316848755
+INFO:root:epoch = 193, avg_train_loss = 10.305522203445435
+INFO:root:epoch = 193, avg_test_loss = 16.18663740158081
+INFO:root:epoch = 194, avg_train_loss = 10.303777158260345
+INFO:root:epoch = 194, avg_test_loss = 16.242802143096924
+INFO:root:epoch = 195, avg_train_loss = 10.30450439453125
+INFO:root:epoch = 195, avg_test_loss = 16.185852527618408
+INFO:root:epoch = 196, avg_train_loss = 10.30418872833252
+INFO:root:epoch = 196, avg_test_loss = 16.20461893081665
+INFO:root:epoch = 197, avg_train_loss = 10.303722858428955
+INFO:root:epoch = 197, avg_test_loss = 16.23317050933838
+INFO:root:epoch = 198, avg_train_loss = 10.30596113204956
+INFO:root:epoch = 198, avg_test_loss = 16.162509441375732
+INFO:root:epoch = 199, avg_train_loss = 10.299354374408722
+INFO:root:epoch = 199, avg_test_loss = 16.179162979125977
+INFO:root:epoch = 200, avg_train_loss = 10.299445271492004
+INFO:root:epoch = 200, avg_test_loss = 16.187336921691895
+INFO:root:epoch = 201, avg_train_loss = 10.29750257730484
+INFO:root:epoch = 201, avg_test_loss = 16.1865234375
+INFO:root:epoch = 202, avg_train_loss = 10.29787015914917
+INFO:root:epoch = 202, avg_test_loss = 16.185080528259277
+INFO:root:epoch = 203, avg_train_loss = 10.297820031642914
+INFO:root:epoch = 203, avg_test_loss = 16.187654495239258
+INFO:root:epoch = 204, avg_train_loss = 10.297565817832947
+INFO:root:epoch = 204, avg_test_loss = 16.188077926635742
+INFO:root:epoch = 205, avg_train_loss = 10.297834873199463
+INFO:root:epoch = 205, avg_test_loss = 16.186745166778564
+INFO:root:epoch = 206, avg_train_loss = 10.29772675037384
+INFO:root:epoch = 206, avg_test_loss = 16.182981729507446
+INFO:root:epoch = 207, avg_train_loss = 10.298235058784485
+INFO:root:epoch = 207, avg_test_loss = 16.188515186309814
+INFO:root:epoch = 208, avg_train_loss = 10.297633588314056
+INFO:root:epoch = 208, avg_test_loss = 16.186080932617188
+INFO:root:epoch = 209, avg_train_loss = 10.297981977462769
+INFO:root:epoch = 209, avg_test_loss = 16.189316272735596
+INFO:root:epoch = 210, avg_train_loss = 10.29778778553009
+INFO:root:epoch = 210, avg_test_loss = 16.185185432434082
+INFO:root:epoch = 211, avg_train_loss = 10.298499405384064
+INFO:root:epoch = 211, avg_test_loss = 16.188537120819092
+INFO:root:epoch = 212, avg_train_loss = 10.29780238866806
+INFO:root:epoch = 212, avg_test_loss = 16.188206672668457
+INFO:root:epoch = 213, avg_train_loss = 10.298012614250183
+INFO:root:epoch = 213, avg_test_loss = 16.189230918884277
+INFO:root:epoch = 214, avg_train_loss = 10.297560572624207
+INFO:root:epoch = 214, avg_test_loss = 16.186758995056152
+INFO:root:epoch = 215, avg_train_loss = 10.297692656517029
+INFO:root:epoch = 215, avg_test_loss = 16.18549919128418
+INFO:root:epoch = 216, avg_train_loss = 10.297727942466736
+INFO:root:epoch = 216, avg_test_loss = 16.18501329421997
+INFO:root:epoch = 217, avg_train_loss = 10.297622561454773
+INFO:root:epoch = 217, avg_test_loss = 16.1851806640625
+INFO:root:epoch = 218, avg_train_loss = 10.297737717628479
+INFO:root:epoch = 218, avg_test_loss = 16.188979625701904
+INFO:root:epoch = 219, avg_train_loss = 10.297543168067932
+INFO:root:epoch = 219, avg_test_loss = 16.189882278442383
+INFO:root:epoch = 220, avg_train_loss = 10.297490894794464
+INFO:root:epoch = 220, avg_test_loss = 16.190160751342773
+INFO:root:epoch = 221, avg_train_loss = 10.29772675037384
+INFO:root:epoch = 221, avg_test_loss = 16.190176010131836
+INFO:root:epoch = 222, avg_train_loss = 10.297499656677246
+INFO:root:epoch = 222, avg_test_loss = 16.191246032714844
+INFO:root:epoch = 223, avg_train_loss = 10.297829329967499
+INFO:root:epoch = 223, avg_test_loss = 16.187381744384766
+INFO:root:epoch = 224, avg_train_loss = 10.297473788261414
+INFO:root:epoch = 224, avg_test_loss = 16.189271926879883
+INFO:root:epoch = 225, avg_train_loss = 10.297605395317078
+INFO:root:epoch = 225, avg_test_loss = 16.188594818115234
+INFO:root:epoch = 226, avg_train_loss = 10.297942280769348
+INFO:root:epoch = 226, avg_test_loss = 16.192997932434082
+INFO:root:epoch = 227, avg_train_loss = 10.297747254371643
+INFO:root:epoch = 227, avg_test_loss = 16.19480800628662
+INFO:root:epoch = 228, avg_train_loss = 10.29753565788269
+INFO:root:epoch = 228, avg_test_loss = 16.19471836090088
+INFO:root:epoch = 229, avg_train_loss = 10.297549843788147
+INFO:root:epoch = 229, avg_test_loss = 16.191422939300537
+INFO:root:epoch = 230, avg_train_loss = 10.297518491744995
+INFO:root:epoch = 230, avg_test_loss = 16.192079544067383
+INFO:root:epoch = 231, avg_train_loss = 10.297528743743896
+INFO:root:epoch = 231, avg_test_loss = 16.192530155181885
+INFO:root:epoch = 232, avg_train_loss = 10.2980278134346
+INFO:root:epoch = 232, avg_test_loss = 16.195138931274414
+INFO:root:epoch = 233, avg_train_loss = 10.297429740428925
+INFO:root:epoch = 233, avg_test_loss = 16.194849014282227
+INFO:root:epoch = 234, avg_train_loss = 10.2977774143219
+INFO:root:epoch = 234, avg_test_loss = 16.19654130935669
+INFO:root:epoch = 235, avg_train_loss = 10.297897815704346
+INFO:root:epoch = 235, avg_test_loss = 16.19200897216797
+INFO:root:epoch = 236, avg_train_loss = 10.298011600971222
+INFO:root:epoch = 236, avg_test_loss = 16.19668197631836
+INFO:root:epoch = 237, avg_train_loss = 10.297635078430176
+INFO:root:epoch = 237, avg_test_loss = 16.197586059570312
+INFO:root:epoch = 238, avg_train_loss = 10.297830939292908
+INFO:root:epoch = 238, avg_test_loss = 16.199304580688477
+INFO:root:epoch = 239, avg_train_loss = 10.297806978225708
+INFO:root:epoch = 239, avg_test_loss = 16.19390344619751
+INFO:root:epoch = 240, avg_train_loss = 10.29819929599762
+INFO:root:epoch = 240, avg_test_loss = 16.190075874328613
+INFO:root:epoch = 241, avg_train_loss = 10.297489583492279
+INFO:root:epoch = 241, avg_test_loss = 16.192394733428955
+INFO:root:epoch = 242, avg_train_loss = 10.29761928319931
+INFO:root:epoch = 242, avg_test_loss = 16.19425106048584
+INFO:root:epoch = 243, avg_train_loss = 10.297495782375336
+INFO:root:epoch = 243, avg_test_loss = 16.195189952850342
+INFO:root:epoch = 244, avg_train_loss = 10.297492444515228
+INFO:root:epoch = 244, avg_test_loss = 16.19450807571411
+INFO:root:epoch = 245, avg_train_loss = 10.297485947608948
+INFO:root:epoch = 245, avg_test_loss = 16.193703651428223
+INFO:root:epoch = 246, avg_train_loss = 10.298244774341583
+INFO:root:epoch = 246, avg_test_loss = 16.199674129486084
+INFO:root:epoch = 247, avg_train_loss = 10.297438263893127
+INFO:root:epoch = 247, avg_test_loss = 16.198294639587402
+INFO:root:epoch = 248, avg_train_loss = 10.297604441642761
+INFO:root:epoch = 248, avg_test_loss = 16.194900512695312
+INFO:root:epoch = 249, avg_train_loss = 10.297584056854248
+INFO:root:epoch = 249, avg_test_loss = 16.194166660308838
+INFO:root:epoch = 250, avg_train_loss = 10.297607123851776
+INFO:root:epoch = 250, avg_test_loss = 16.192426204681396
+INFO:root:epoch = 251, avg_train_loss = 10.297613084316254
+INFO:root:epoch = 251, avg_test_loss = 16.194560527801514
+INFO:root:epoch = 252, avg_train_loss = 10.297570168972015
+INFO:root:epoch = 252, avg_test_loss = 16.194045066833496
+INFO:root:epoch = 253, avg_train_loss = 10.297438740730286
+INFO:root:epoch = 253, avg_test_loss = 16.195859909057617
+INFO:root:epoch = 254, avg_train_loss = 10.297698974609375
+INFO:root:epoch = 254, avg_test_loss = 16.19320774078369
+INFO:root:epoch = 255, avg_train_loss = 10.297617316246033
+INFO:root:epoch = 255, avg_test_loss = 16.19754409790039
+INFO:root:epoch = 256, avg_train_loss = 10.29754227399826
+INFO:root:epoch = 256, avg_test_loss = 16.195929527282715
+INFO:root:epoch = 257, avg_train_loss = 10.297724664211273
+INFO:root:epoch = 257, avg_test_loss = 16.193650245666504
+INFO:root:epoch = 258, avg_train_loss = 10.297479510307312
+INFO:root:epoch = 258, avg_test_loss = 16.196807861328125
+INFO:root:epoch = 259, avg_train_loss = 10.297500729560852
+INFO:root:epoch = 259, avg_test_loss = 16.196845531463623
+INFO:root:epoch = 260, avg_train_loss = 10.297533094882965
+INFO:root:epoch = 260, avg_test_loss = 16.198793411254883
+INFO:root:epoch = 261, avg_train_loss = 10.297548711299896
+INFO:root:epoch = 261, avg_test_loss = 16.1967134475708
+INFO:root:epoch = 262, avg_train_loss = 10.297633409500122
+INFO:root:epoch = 262, avg_test_loss = 16.200315952301025
+INFO:root:epoch = 263, avg_train_loss = 10.297419786453247
+INFO:root:epoch = 263, avg_test_loss = 16.199891090393066
+INFO:root:epoch = 264, avg_train_loss = 10.297536015510559
+INFO:root:epoch = 264, avg_test_loss = 16.198227882385254
+INFO:root:epoch = 265, avg_train_loss = 10.29769080877304
+INFO:root:epoch = 265, avg_test_loss = 16.195366859436035
+INFO:root:epoch = 266, avg_train_loss = 10.297468066215515
+INFO:root:epoch = 266, avg_test_loss = 16.198103427886963
+INFO:root:epoch = 267, avg_train_loss = 10.297382891178131
+INFO:root:epoch = 267, avg_test_loss = 16.197383880615234
+INFO:root:epoch = 268, avg_train_loss = 10.297641694545746
+INFO:root:epoch = 268, avg_test_loss = 16.19534683227539
+INFO:root:epoch = 269, avg_train_loss = 10.297489523887634
+INFO:root:epoch = 269, avg_test_loss = 16.19586706161499
+INFO:root:epoch = 270, avg_train_loss = 10.297485888004303
+INFO:root:epoch = 270, avg_test_loss = 16.199352741241455
+INFO:root:epoch = 271, avg_train_loss = 10.297797441482544
+INFO:root:epoch = 271, avg_test_loss = 16.196176528930664
+INFO:root:epoch = 272, avg_train_loss = 10.297651529312134
+INFO:root:epoch = 272, avg_test_loss = 16.198932647705078
+INFO:root:epoch = 273, avg_train_loss = 10.29746389389038
+INFO:root:epoch = 273, avg_test_loss = 16.199157238006592
+INFO:root:epoch = 274, avg_train_loss = 10.297418475151062
+INFO:root:epoch = 274, avg_test_loss = 16.19964599609375
+INFO:root:epoch = 275, avg_train_loss = 10.297760307788849
+INFO:root:epoch = 275, avg_test_loss = 16.202366828918457
+INFO:root:epoch = 276, avg_train_loss = 10.297432482242584
+INFO:root:epoch = 276, avg_test_loss = 16.20168113708496
+INFO:root:epoch = 277, avg_train_loss = 10.297431349754333
+INFO:root:epoch = 277, avg_test_loss = 16.201992988586426
+INFO:root:epoch = 278, avg_train_loss = 10.2974271774292
+INFO:root:epoch = 278, avg_test_loss = 16.201786994934082
+INFO:root:epoch = 279, avg_train_loss = 10.297491669654846
+INFO:root:epoch = 279, avg_test_loss = 16.20277976989746
+INFO:root:epoch = 280, avg_train_loss = 10.297630846500397
+INFO:root:epoch = 280, avg_test_loss = 16.199966430664062
+INFO:root:epoch = 281, avg_train_loss = 10.297574281692505
+INFO:root:epoch = 281, avg_test_loss = 16.198721170425415
+INFO:root:epoch = 282, avg_train_loss = 10.297881543636322
+INFO:root:epoch = 282, avg_test_loss = 16.197632789611816
+INFO:root:epoch = 283, avg_train_loss = 10.297455191612244
+INFO:root:epoch = 283, avg_test_loss = 16.199398040771484
+INFO:root:epoch = 284, avg_train_loss = 10.298500299453735
+INFO:root:epoch = 284, avg_test_loss = 16.206562995910645
+INFO:root:epoch = 285, avg_train_loss = 10.29778653383255
+INFO:root:epoch = 285, avg_test_loss = 16.2018084526062
+INFO:root:epoch = 286, avg_train_loss = 10.297818779945374
+INFO:root:epoch = 286, avg_test_loss = 16.20543622970581
+INFO:root:epoch = 287, avg_train_loss = 10.297845959663391
+INFO:root:epoch = 287, avg_test_loss = 16.200861930847168
+INFO:root:epoch = 288, avg_train_loss = 10.29750370979309
+INFO:root:epoch = 288, avg_test_loss = 16.204203605651855
+INFO:root:epoch = 289, avg_train_loss = 10.297367095947266
+INFO:root:epoch = 289, avg_test_loss = 16.20325756072998
+INFO:root:epoch = 290, avg_train_loss = 10.297494173049927
+INFO:root:epoch = 290, avg_test_loss = 16.204996585845947
+INFO:root:epoch = 291, avg_train_loss = 10.29805463552475
+INFO:root:epoch = 291, avg_test_loss = 16.200913906097412
+INFO:root:epoch = 292, avg_train_loss = 10.29763776063919
+INFO:root:epoch = 292, avg_test_loss = 16.203464031219482
+INFO:root:epoch = 293, avg_train_loss = 10.297312021255493
+INFO:root:epoch = 293, avg_test_loss = 16.203652381896973
+INFO:root:epoch = 294, avg_train_loss = 10.297483503818512
+INFO:root:epoch = 294, avg_test_loss = 16.20586061477661
+INFO:root:epoch = 295, avg_train_loss = 10.297514796257019
+INFO:root:epoch = 295, avg_test_loss = 16.2075457572937
+INFO:root:epoch = 296, avg_train_loss = 10.297728896141052
+INFO:root:epoch = 296, avg_test_loss = 16.209648609161377
+INFO:root:epoch = 297, avg_train_loss = 10.297601401805878
+INFO:root:epoch = 297, avg_test_loss = 16.20507574081421
+INFO:root:epoch = 298, avg_train_loss = 10.297573685646057
+INFO:root:epoch = 298, avg_test_loss = 16.20205330848694
+INFO:root:epoch = 299, avg_train_loss = 10.297685623168945
+INFO:root:epoch = 299, avg_test_loss = 16.205272674560547
+INFO:root:epoch = 300, avg_train_loss = 10.297273635864258
+INFO:root:epoch = 300, avg_test_loss = 16.205241203308105
+INFO:root:epoch = 301, avg_train_loss = 10.29727840423584
+INFO:root:epoch = 301, avg_test_loss = 16.205352783203125
+INFO:root:epoch = 302, avg_train_loss = 10.29727828502655
+INFO:root:epoch = 302, avg_test_loss = 16.205447673797607
+INFO:root:epoch = 303, avg_train_loss = 10.297296345233917
+INFO:root:epoch = 303, avg_test_loss = 16.205273628234863
+INFO:root:epoch = 304, avg_train_loss = 10.297285258769989
+INFO:root:epoch = 304, avg_test_loss = 16.205318450927734
+INFO:root:epoch = 305, avg_train_loss = 10.297278225421906
+INFO:root:epoch = 305, avg_test_loss = 16.205207347869873
+INFO:root:epoch = 306, avg_train_loss = 10.297277331352234
+INFO:root:epoch = 306, avg_test_loss = 16.205301761627197
+INFO:root:epoch = 307, avg_train_loss = 10.297272682189941
+INFO:root:epoch = 307, avg_test_loss = 16.20531702041626
+INFO:root:epoch = 308, avg_train_loss = 10.297294735908508
+INFO:root:epoch = 308, avg_test_loss = 16.205442428588867
+INFO:root:epoch = 309, avg_train_loss = 10.29727041721344
+INFO:root:epoch = 309, avg_test_loss = 16.2054443359375
+INFO:root:epoch = 310, avg_train_loss = 10.297265768051147
+INFO:root:epoch = 310, avg_test_loss = 16.20538902282715
+INFO:root:epoch = 311, avg_train_loss = 10.297280073165894
+INFO:root:epoch = 311, avg_test_loss = 16.20530652999878
+INFO:root:epoch = 312, avg_train_loss = 10.297275125980377
+INFO:root:epoch = 312, avg_test_loss = 16.205260276794434
+INFO:root:epoch = 313, avg_train_loss = 10.297275304794312
+INFO:root:epoch = 313, avg_test_loss = 16.205281257629395
+INFO:root:epoch = 314, avg_train_loss = 10.29726529121399
+INFO:root:epoch = 314, avg_test_loss = 16.20523977279663
+INFO:root:epoch = 315, avg_train_loss = 10.29726266860962
+INFO:root:epoch = 315, avg_test_loss = 16.205294609069824
+INFO:root:epoch = 316, avg_train_loss = 10.297298848628998
+INFO:root:epoch = 316, avg_test_loss = 16.20544147491455
+INFO:root:epoch = 317, avg_train_loss = 10.297282457351685
+INFO:root:epoch = 317, avg_test_loss = 16.205466747283936
+INFO:root:epoch = 318, avg_train_loss = 10.29727977514267
+INFO:root:epoch = 318, avg_test_loss = 16.20539093017578
+INFO:root:epoch = 319, avg_train_loss = 10.297282576560974
+INFO:root:epoch = 319, avg_test_loss = 16.205488204956055
+INFO:root:epoch = 320, avg_train_loss = 10.297274827957153
+INFO:root:epoch = 320, avg_test_loss = 16.20540714263916
+INFO:root:epoch = 321, avg_train_loss = 10.29726767539978
+INFO:root:epoch = 321, avg_test_loss = 16.205405235290527
+INFO:root:epoch = 322, avg_train_loss = 10.297275424003601
+INFO:root:epoch = 322, avg_test_loss = 16.205345153808594
+INFO:root:epoch = 323, avg_train_loss = 10.297267496585846
+INFO:root:epoch = 323, avg_test_loss = 16.205386638641357
+INFO:root:epoch = 324, avg_train_loss = 10.297276616096497
+INFO:root:epoch = 324, avg_test_loss = 16.205442905426025
+INFO:root:epoch = 325, avg_train_loss = 10.297294080257416
+INFO:root:epoch = 325, avg_test_loss = 16.20522117614746
+INFO:root:epoch = 326, avg_train_loss = 10.297275006771088
+INFO:root:epoch = 326, avg_test_loss = 16.20525074005127
+INFO:root:epoch = 327, avg_train_loss = 10.297272741794586
+INFO:root:epoch = 327, avg_test_loss = 16.205214023590088
+INFO:root:epoch = 328, avg_train_loss = 10.297277688980103
+INFO:root:epoch = 328, avg_test_loss = 16.20518732070923
+INFO:root:epoch = 329, avg_train_loss = 10.297258377075195
+INFO:root:epoch = 329, avg_test_loss = 16.20518970489502
+INFO:root:epoch = 330, avg_train_loss = 10.297340214252472
+INFO:root:epoch = 330, avg_test_loss = 16.20553159713745
+INFO:root:epoch = 331, avg_train_loss = 10.297277390956879
+INFO:root:epoch = 331, avg_test_loss = 16.205506324768066
+INFO:root:epoch = 332, avg_train_loss = 10.297275304794312
+INFO:root:epoch = 332, avg_test_loss = 16.20547389984131
+INFO:root:epoch = 333, avg_train_loss = 10.297283291816711
+INFO:root:epoch = 333, avg_test_loss = 16.20530128479004
+INFO:root:epoch = 334, avg_train_loss = 10.297275304794312
+INFO:root:epoch = 334, avg_test_loss = 16.205495834350586
+INFO:root:epoch = 335, avg_train_loss = 10.297317802906036
+INFO:root:epoch = 335, avg_test_loss = 16.205676078796387
+INFO:root:epoch = 336, avg_train_loss = 10.297293484210968
+INFO:root:epoch = 336, avg_test_loss = 16.205699920654297
+INFO:root:epoch = 337, avg_train_loss = 10.29727691411972
+INFO:root:epoch = 337, avg_test_loss = 16.20551872253418
+INFO:root:epoch = 338, avg_train_loss = 10.297273814678192
+INFO:root:epoch = 338, avg_test_loss = 16.20549964904785
+INFO:root:epoch = 339, avg_train_loss = 10.297276079654694
+INFO:root:epoch = 339, avg_test_loss = 16.205514430999756
+INFO:root:epoch = 340, avg_train_loss = 10.297268033027649
+INFO:root:epoch = 340, avg_test_loss = 16.20546054840088
+INFO:root:epoch = 341, avg_train_loss = 10.297279000282288
+INFO:root:epoch = 341, avg_test_loss = 16.205400466918945
+INFO:root:epoch = 342, avg_train_loss = 10.297284722328186
+INFO:root:epoch = 342, avg_test_loss = 16.2054500579834
+INFO:root:epoch = 343, avg_train_loss = 10.297275483608246
+INFO:root:epoch = 343, avg_test_loss = 16.20531463623047
+INFO:root:epoch = 344, avg_train_loss = 10.297269701957703
+INFO:root:epoch = 344, avg_test_loss = 16.205366611480713
+INFO:root:epoch = 345, avg_train_loss = 10.297267735004425
+INFO:root:epoch = 345, avg_test_loss = 16.20536518096924
+INFO:root:epoch = 346, avg_train_loss = 10.297306776046753
+INFO:root:epoch = 346, avg_test_loss = 16.20559072494507
+INFO:root:epoch = 347, avg_train_loss = 10.297282814979553
+INFO:root:epoch = 347, avg_test_loss = 16.20549964904785
+INFO:root:epoch = 348, avg_train_loss = 10.29728215932846
+INFO:root:epoch = 348, avg_test_loss = 16.205574989318848
+INFO:root:epoch = 349, avg_train_loss = 10.297303080558777
+INFO:root:epoch = 349, avg_test_loss = 16.205748081207275
+INFO:root:epoch = 350, avg_train_loss = 10.297280728816986
+INFO:root:epoch = 350, avg_test_loss = 16.205673217773438
+INFO:root:epoch = 351, avg_train_loss = 10.297274708747864
+INFO:root:epoch = 351, avg_test_loss = 16.205577850341797
+INFO:root:epoch = 352, avg_train_loss = 10.297271132469177
+INFO:root:epoch = 352, avg_test_loss = 16.205610752105713
+INFO:root:epoch = 353, avg_train_loss = 10.297292470932007
+INFO:root:epoch = 353, avg_test_loss = 16.205355644226074
+INFO:root:epoch = 354, avg_train_loss = 10.297272205352783
+INFO:root:epoch = 354, avg_test_loss = 16.205500602722168
+INFO:root:epoch = 355, avg_train_loss = 10.29727578163147
+INFO:root:epoch = 355, avg_test_loss = 16.20542049407959
+INFO:root:epoch = 356, avg_train_loss = 10.297337651252747
+INFO:root:epoch = 356, avg_test_loss = 16.20569133758545
+INFO:root:epoch = 357, avg_train_loss = 10.297285974025726
+INFO:root:epoch = 357, avg_test_loss = 16.20573329925537
+INFO:root:epoch = 358, avg_train_loss = 10.297284722328186
+INFO:root:epoch = 358, avg_test_loss = 16.20574712753296
+INFO:root:epoch = 359, avg_train_loss = 10.297271132469177
+INFO:root:epoch = 359, avg_test_loss = 16.20564842224121
+INFO:root:epoch = 360, avg_train_loss = 10.297286629676819
+INFO:root:epoch = 360, avg_test_loss = 16.20546531677246
+INFO:root:epoch = 361, avg_train_loss = 10.297289907932281
+INFO:root:epoch = 361, avg_test_loss = 16.205324172973633
+INFO:root:epoch = 362, avg_train_loss = 10.297275424003601
+INFO:root:epoch = 362, avg_test_loss = 16.20548725128174
+INFO:root:epoch = 363, avg_train_loss = 10.297270894050598
+INFO:root:epoch = 363, avg_test_loss = 16.20567035675049
+INFO:root:epoch = 364, avg_train_loss = 10.297305226325989
+INFO:root:epoch = 364, avg_test_loss = 16.205347537994385
+INFO:root:epoch = 365, avg_train_loss = 10.297272682189941
+INFO:root:epoch = 365, avg_test_loss = 16.20554256439209
+INFO:root:epoch = 366, avg_train_loss = 10.297268629074097
+INFO:root:epoch = 366, avg_test_loss = 16.205588340759277
+INFO:root:epoch = 367, avg_train_loss = 10.297281980514526
+INFO:root:epoch = 367, avg_test_loss = 16.20550537109375
+INFO:root:epoch = 368, avg_train_loss = 10.297280371189117
+INFO:root:epoch = 368, avg_test_loss = 16.20548152923584
+INFO:root:epoch = 369, avg_train_loss = 10.297279238700867
+INFO:root:epoch = 369, avg_test_loss = 16.20555019378662
+INFO:root:epoch = 370, avg_train_loss = 10.297302007675171
+INFO:root:epoch = 370, avg_test_loss = 16.205771446228027
+INFO:root:epoch = 371, avg_train_loss = 10.297295093536377
+INFO:root:epoch = 371, avg_test_loss = 16.205533981323242
+INFO:root:epoch = 372, avg_train_loss = 10.297263145446777
+INFO:root:epoch = 372, avg_test_loss = 16.2055344581604
+INFO:root:epoch = 373, avg_train_loss = 10.297284126281738
+INFO:root:epoch = 373, avg_test_loss = 16.205615997314453
+INFO:root:epoch = 374, avg_train_loss = 10.297295570373535
+INFO:root:epoch = 374, avg_test_loss = 16.20551061630249
+INFO:root:epoch = 375, avg_train_loss = 10.29726094007492
+INFO:root:epoch = 375, avg_test_loss = 16.20552921295166
+INFO:root:epoch = 376, avg_train_loss = 10.297266602516174
+INFO:root:epoch = 376, avg_test_loss = 16.205583572387695
+INFO:root:epoch = 377, avg_train_loss = 10.297294557094574
+INFO:root:epoch = 377, avg_test_loss = 16.2054443359375
+INFO:root:epoch = 378, avg_train_loss = 10.297290563583374
+INFO:root:epoch = 378, avg_test_loss = 16.205693244934082
+INFO:root:epoch = 379, avg_train_loss = 10.29727429151535
+INFO:root:epoch = 379, avg_test_loss = 16.205638885498047
+INFO:root:epoch = 380, avg_train_loss = 10.297277927398682
+INFO:root:epoch = 380, avg_test_loss = 16.205714225769043
+INFO:root:epoch = 381, avg_train_loss = 10.297272026538849
+INFO:root:epoch = 381, avg_test_loss = 16.205694675445557
+INFO:root:epoch = 382, avg_train_loss = 10.297276139259338
+INFO:root:epoch = 382, avg_test_loss = 16.205688953399658
+INFO:root:epoch = 383, avg_train_loss = 10.2972811460495
+INFO:root:epoch = 383, avg_test_loss = 16.205729961395264
+INFO:root:epoch = 384, avg_train_loss = 10.297284483909607
+INFO:root:epoch = 384, avg_test_loss = 16.205745697021484
+INFO:root:epoch = 385, avg_train_loss = 10.297309637069702
+INFO:root:epoch = 385, avg_test_loss = 16.20573663711548
+INFO:root:epoch = 386, avg_train_loss = 10.297289073467255
+INFO:root:epoch = 386, avg_test_loss = 16.20553731918335
+INFO:root:epoch = 387, avg_train_loss = 10.297282874584198
+INFO:root:epoch = 387, avg_test_loss = 16.205744743347168
+INFO:root:epoch = 388, avg_train_loss = 10.297279000282288
+INFO:root:epoch = 388, avg_test_loss = 16.205817222595215
+INFO:root:epoch = 389, avg_train_loss = 10.297297239303589
+INFO:root:epoch = 389, avg_test_loss = 16.205781936645508
+INFO:root:epoch = 390, avg_train_loss = 10.297285497188568
+INFO:root:epoch = 390, avg_test_loss = 16.205692768096924
+INFO:root:epoch = 391, avg_train_loss = 10.297272682189941
+INFO:root:epoch = 391, avg_test_loss = 16.205705642700195
+INFO:root:epoch = 392, avg_train_loss = 10.297287940979004
+INFO:root:epoch = 392, avg_test_loss = 16.205703735351562
+INFO:root:epoch = 393, avg_train_loss = 10.297288417816162
+INFO:root:epoch = 393, avg_test_loss = 16.205812454223633
+INFO:root:epoch = 394, avg_train_loss = 10.297309637069702
+INFO:root:epoch = 394, avg_test_loss = 16.205632209777832
+INFO:root:epoch = 395, avg_train_loss = 10.29726392030716
+INFO:root:epoch = 395, avg_test_loss = 16.205549716949463
+INFO:root:epoch = 396, avg_train_loss = 10.297266364097595
+INFO:root:epoch = 396, avg_test_loss = 16.205684185028076
+INFO:root:epoch = 397, avg_train_loss = 10.297263383865356
+INFO:root:epoch = 397, avg_test_loss = 16.205642223358154
+INFO:root:epoch = 398, avg_train_loss = 10.297284066677094
+INFO:root:epoch = 398, avg_test_loss = 16.205679893493652
+INFO:root:epoch = 399, avg_train_loss = 10.297263622283936
+INFO:root:epoch = 399, avg_test_loss = 16.20569133758545
+INFO:root:epoch = 400, avg_train_loss = 10.297257721424103
+INFO:root:epoch = 400, avg_test_loss = 16.205673217773438
+INFO:root:epoch = 401, avg_train_loss = 10.297255635261536
+INFO:root:epoch = 401, avg_test_loss = 16.205681800842285
+INFO:root:epoch = 402, avg_train_loss = 10.297256708145142
+INFO:root:epoch = 402, avg_test_loss = 16.205679893493652
+INFO:root:epoch = 403, avg_train_loss = 10.297256052494049
+INFO:root:epoch = 403, avg_test_loss = 16.205674171447754
+INFO:root:epoch = 404, avg_train_loss = 10.297259330749512
+INFO:root:epoch = 404, avg_test_loss = 16.205676078796387
+INFO:root:epoch = 405, avg_train_loss = 10.297254741191864
+INFO:root:epoch = 405, avg_test_loss = 16.205670833587646
+INFO:root:epoch = 406, avg_train_loss = 10.29725992679596
+INFO:root:epoch = 406, avg_test_loss = 16.205673217773438
+INFO:root:epoch = 407, avg_train_loss = 10.29725956916809
+INFO:root:epoch = 407, avg_test_loss = 16.20566749572754
+INFO:root:epoch = 408, avg_train_loss = 10.297255635261536
+INFO:root:epoch = 408, avg_test_loss = 16.20567560195923
+INFO:root:epoch = 409, avg_train_loss = 10.297259747982025
+INFO:root:epoch = 409, avg_test_loss = 16.20566463470459
+INFO:root:epoch = 410, avg_train_loss = 10.297256708145142
+INFO:root:epoch = 410, avg_test_loss = 16.205671787261963
+INFO:root:epoch = 411, avg_train_loss = 10.29725831747055
+INFO:root:epoch = 411, avg_test_loss = 16.20567798614502
+INFO:root:epoch = 412, avg_train_loss = 10.297261536121368
+INFO:root:epoch = 412, avg_test_loss = 16.205673694610596
+INFO:root:epoch = 413, avg_train_loss = 10.297258734703064
+INFO:root:epoch = 413, avg_test_loss = 16.205674171447754
+INFO:root:epoch = 414, avg_train_loss = 10.297257542610168
+INFO:root:epoch = 414, avg_test_loss = 16.205671310424805
+INFO:root:epoch = 415, avg_train_loss = 10.29725694656372
+INFO:root:epoch = 415, avg_test_loss = 16.20567226409912
+INFO:root:epoch = 416, avg_train_loss = 10.297257006168365
+INFO:root:epoch = 416, avg_test_loss = 16.205673217773438
+INFO:root:epoch = 417, avg_train_loss = 10.297258496284485
+INFO:root:epoch = 417, avg_test_loss = 16.20566701889038
+INFO:root:epoch = 418, avg_train_loss = 10.297258615493774
+INFO:root:epoch = 418, avg_test_loss = 16.205663681030273
+INFO:root:epoch = 419, avg_train_loss = 10.297255873680115
+INFO:root:epoch = 419, avg_test_loss = 16.205677032470703
+INFO:root:epoch = 420, avg_train_loss = 10.297258913516998
+INFO:root:epoch = 420, avg_test_loss = 16.205673694610596
+INFO:root:epoch = 421, avg_train_loss = 10.297256886959076
+INFO:root:epoch = 421, avg_test_loss = 16.20565891265869
+INFO:root:epoch = 422, avg_train_loss = 10.297256588935852
+INFO:root:epoch = 422, avg_test_loss = 16.205669403076172
+INFO:root:epoch = 423, avg_train_loss = 10.297259390354156
+INFO:root:epoch = 423, avg_test_loss = 16.205663681030273
+INFO:root:epoch = 424, avg_train_loss = 10.297258615493774
+INFO:root:epoch = 424, avg_test_loss = 16.205666065216064
+INFO:root:epoch = 425, avg_train_loss = 10.297258377075195
+INFO:root:epoch = 425, avg_test_loss = 16.20567560195923
+INFO:root:epoch = 426, avg_train_loss = 10.297257006168365
+INFO:root:epoch = 426, avg_test_loss = 16.20567798614502
+INFO:root:epoch = 427, avg_train_loss = 10.29726094007492
+INFO:root:epoch = 427, avg_test_loss = 16.20566749572754
+INFO:root:epoch = 428, avg_train_loss = 10.297258257865906
+INFO:root:epoch = 428, avg_test_loss = 16.20566987991333
+INFO:root:epoch = 429, avg_train_loss = 10.297262012958527
+INFO:root:epoch = 429, avg_test_loss = 16.20567750930786
+INFO:root:epoch = 430, avg_train_loss = 10.297259747982025
+INFO:root:epoch = 430, avg_test_loss = 16.205668449401855
+INFO:root:epoch = 431, avg_train_loss = 10.297257781028748
+INFO:root:epoch = 431, avg_test_loss = 16.205659866333008
+INFO:root:epoch = 432, avg_train_loss = 10.297256648540497
+INFO:root:epoch = 432, avg_test_loss = 16.205660820007324
+INFO:root:epoch = 433, avg_train_loss = 10.29726105928421
+INFO:root:epoch = 433, avg_test_loss = 16.20568037033081
+INFO:root:epoch = 434, avg_train_loss = 10.297255873680115
+INFO:root:epoch = 434, avg_test_loss = 16.205684661865234
+INFO:root:epoch = 435, avg_train_loss = 10.297256350517273
+INFO:root:epoch = 435, avg_test_loss = 16.20568323135376
+INFO:root:epoch = 436, avg_train_loss = 10.297260999679565
+INFO:root:epoch = 436, avg_test_loss = 16.205687046051025
+INFO:root:epoch = 437, avg_train_loss = 10.297263979911804
+INFO:root:epoch = 437, avg_test_loss = 16.2056884765625
+INFO:root:epoch = 438, avg_train_loss = 10.297262907028198
+INFO:root:epoch = 438, avg_test_loss = 16.205681800842285
+INFO:root:epoch = 439, avg_train_loss = 10.297261834144592
+INFO:root:epoch = 439, avg_test_loss = 16.20568585395813
+INFO:root:epoch = 440, avg_train_loss = 10.297264397144318
+INFO:root:epoch = 440, avg_test_loss = 16.205684185028076
+INFO:root:epoch = 441, avg_train_loss = 10.297264337539673
+INFO:root:epoch = 441, avg_test_loss = 16.20567560195923
+INFO:root:epoch = 442, avg_train_loss = 10.297262966632843
+INFO:root:epoch = 442, avg_test_loss = 16.20567226409912
+INFO:root:epoch = 443, avg_train_loss = 10.297260403633118
+INFO:root:epoch = 443, avg_test_loss = 16.20567512512207
+INFO:root:epoch = 444, avg_train_loss = 10.297260344028473
+INFO:root:epoch = 444, avg_test_loss = 16.205678939819336
+INFO:root:epoch = 445, avg_train_loss = 10.297261595726013
+INFO:root:epoch = 445, avg_test_loss = 16.205681800842285
+INFO:root:epoch = 446, avg_train_loss = 10.297260642051697
+INFO:root:epoch = 446, avg_test_loss = 16.20567798614502
+INFO:root:epoch = 447, avg_train_loss = 10.297258734703064
+INFO:root:epoch = 447, avg_test_loss = 16.205674648284912
+INFO:root:epoch = 448, avg_train_loss = 10.297260999679565
+INFO:root:epoch = 448, avg_test_loss = 16.20567798614502
+INFO:root:epoch = 449, avg_train_loss = 10.297257900238037
+INFO:root:epoch = 449, avg_test_loss = 16.205685138702393
+INFO:root:epoch = 450, avg_train_loss = 10.29725855588913
+INFO:root:epoch = 450, avg_test_loss = 16.205687999725342
+INFO:root:epoch = 451, avg_train_loss = 10.297256588935852
+INFO:root:epoch = 451, avg_test_loss = 16.205684661865234
+INFO:root:epoch = 452, avg_train_loss = 10.297259032726288
+INFO:root:epoch = 452, avg_test_loss = 16.205682277679443
+INFO:root:epoch = 453, avg_train_loss = 10.29725956916809
+INFO:root:epoch = 453, avg_test_loss = 16.20568084716797
+INFO:root:epoch = 454, avg_train_loss = 10.297260761260986
+INFO:root:epoch = 454, avg_test_loss = 16.205681800842285
+INFO:root:epoch = 455, avg_train_loss = 10.297262251377106
+INFO:root:epoch = 455, avg_test_loss = 16.20568561553955
+INFO:root:epoch = 456, avg_train_loss = 10.297262072563171
+INFO:root:epoch = 456, avg_test_loss = 16.205679416656494
+INFO:root:epoch = 457, avg_train_loss = 10.29726231098175
+INFO:root:epoch = 457, avg_test_loss = 16.20567560195923
+INFO:root:epoch = 458, avg_train_loss = 10.297260403633118
+INFO:root:epoch = 458, avg_test_loss = 16.205674648284912
+INFO:root:epoch = 459, avg_train_loss = 10.297263979911804
+INFO:root:epoch = 459, avg_test_loss = 16.2056827545166
+INFO:root:epoch = 460, avg_train_loss = 10.297263264656067
+INFO:root:epoch = 460, avg_test_loss = 16.20567750930786
+INFO:root:epoch = 461, avg_train_loss = 10.29726231098175
+INFO:root:epoch = 461, avg_test_loss = 16.205689430236816
+INFO:root:epoch = 462, avg_train_loss = 10.297261536121368
+INFO:root:epoch = 462, avg_test_loss = 16.205684661865234
+INFO:root:epoch = 463, avg_train_loss = 10.297261714935303
+INFO:root:epoch = 463, avg_test_loss = 16.2056827545166
+INFO:root:epoch = 464, avg_train_loss = 10.297262132167816
+INFO:root:epoch = 464, avg_test_loss = 16.20568084716797
+INFO:root:epoch = 465, avg_train_loss = 10.297260880470276
+INFO:root:epoch = 465, avg_test_loss = 16.205687046051025
+INFO:root:epoch = 466, avg_train_loss = 10.29726266860962
+INFO:root:epoch = 466, avg_test_loss = 16.20568084716797
+INFO:root:epoch = 467, avg_train_loss = 10.297263443470001
+INFO:root:epoch = 467, avg_test_loss = 16.205682277679443
+INFO:root:epoch = 468, avg_train_loss = 10.297261238098145
+INFO:root:epoch = 468, avg_test_loss = 16.20568084716797
+INFO:root:epoch = 469, avg_train_loss = 10.297263622283936
+INFO:root:epoch = 469, avg_test_loss = 16.205678939819336
+INFO:root:epoch = 470, avg_train_loss = 10.297265350818634
+INFO:root:epoch = 470, avg_test_loss = 16.205689907073975
+INFO:root:epoch = 471, avg_train_loss = 10.297258257865906
+INFO:root:epoch = 471, avg_test_loss = 16.205686569213867
+INFO:root:epoch = 472, avg_train_loss = 10.297258377075195
+INFO:root:epoch = 472, avg_test_loss = 16.205676078796387
+INFO:root:epoch = 473, avg_train_loss = 10.297264099121094
+INFO:root:epoch = 473, avg_test_loss = 16.20567560195923
+INFO:root:epoch = 474, avg_train_loss = 10.297261834144592
+INFO:root:epoch = 474, avg_test_loss = 16.205687999725342
+INFO:root:epoch = 475, avg_train_loss = 10.297263979911804
+INFO:root:epoch = 475, avg_test_loss = 16.20568037033081
+INFO:root:epoch = 476, avg_train_loss = 10.29726356267929
+INFO:root:epoch = 476, avg_test_loss = 16.205691814422607
+INFO:root:epoch = 477, avg_train_loss = 10.297259509563446
+INFO:root:epoch = 477, avg_test_loss = 16.20568084716797
+INFO:root:epoch = 478, avg_train_loss = 10.297261416912079
+INFO:root:epoch = 478, avg_test_loss = 16.205690383911133
+INFO:root:epoch = 479, avg_train_loss = 10.29726392030716
+INFO:root:epoch = 479, avg_test_loss = 16.205690383911133
+INFO:root:epoch = 480, avg_train_loss = 10.297258794307709
+INFO:root:epoch = 480, avg_test_loss = 16.205690383911133
+INFO:root:epoch = 481, avg_train_loss = 10.297260880470276
+INFO:root:epoch = 481, avg_test_loss = 16.205692291259766
+INFO:root:epoch = 482, avg_train_loss = 10.297261118888855
+INFO:root:epoch = 482, avg_test_loss = 16.20567798614502
+INFO:root:epoch = 483, avg_train_loss = 10.29725444316864
+INFO:root:epoch = 483, avg_test_loss = 16.205692768096924
+INFO:root:epoch = 484, avg_train_loss = 10.297263026237488
+INFO:root:epoch = 484, avg_test_loss = 16.205685138702393
+INFO:root:epoch = 485, avg_train_loss = 10.29726254940033
+INFO:root:epoch = 485, avg_test_loss = 16.205692291259766
+INFO:root:epoch = 486, avg_train_loss = 10.297262132167816
+INFO:root:epoch = 486, avg_test_loss = 16.2056827545166
+INFO:root:epoch = 487, avg_train_loss = 10.297263383865356
+INFO:root:epoch = 487, avg_test_loss = 16.205679893493652
+INFO:root:epoch = 488, avg_train_loss = 10.297259449958801
+INFO:root:epoch = 488, avg_test_loss = 16.20567035675049
+INFO:root:epoch = 489, avg_train_loss = 10.297260165214539
+INFO:root:epoch = 489, avg_test_loss = 16.205679416656494
+INFO:root:epoch = 490, avg_train_loss = 10.297261953353882
+INFO:root:epoch = 490, avg_test_loss = 16.20568084716797
+INFO:root:epoch = 491, avg_train_loss = 10.297261238098145
+INFO:root:epoch = 491, avg_test_loss = 16.20567798614502
+INFO:root:epoch = 492, avg_train_loss = 10.297260761260986
+INFO:root:epoch = 492, avg_test_loss = 16.205684661865234
+INFO:root:epoch = 493, avg_train_loss = 10.297262191772461
+INFO:root:epoch = 493, avg_test_loss = 16.205687522888184
+INFO:root:epoch = 494, avg_train_loss = 10.29726105928421
+INFO:root:epoch = 494, avg_test_loss = 16.205679416656494
+INFO:root:epoch = 495, avg_train_loss = 10.29725730419159
+INFO:root:epoch = 495, avg_test_loss = 16.205681324005127
+INFO:root:epoch = 496, avg_train_loss = 10.29725980758667
+INFO:root:epoch = 496, avg_test_loss = 16.2056884765625
+INFO:root:epoch = 497, avg_train_loss = 10.297261953353882
+INFO:root:epoch = 497, avg_test_loss = 16.20569658279419
+INFO:root:epoch = 498, avg_train_loss = 10.297259509563446
+INFO:root:epoch = 498, avg_test_loss = 16.205688953399658
+INFO:root:epoch = 499, avg_train_loss = 10.297263026237488
+INFO:root:epoch = 499, avg_test_loss = 16.205681800842285
+DEBUG:matplotlib.pyplot:Loaded backend agg version v2.2.
+DEBUG:matplotlib.font_manager:findfont: Matching sans\-serif:style=normal:variant=normal:weight=normal:stretch=normal:size=10.0.
+DEBUG:matplotlib.font_manager:findfont: score(FontEntry(fname='/local2/fredxu/anaconda3/envs/pde/lib/python3.8/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans-Oblique.ttf', name='DejaVu Sans', style='oblique', variant='normal', weight=400, stretch='normal', size='scalable')) = 1.05
+DEBUG:matplotlib.font_manager:findfont: score(FontEntry(fname='/local2/fredxu/anaconda3/envs/pde/lib/python3.8/site-packages/matplotlib/mpl-data/fonts/ttf/STIXSizFourSymReg.ttf', name='STIXSizeFourSym', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+DEBUG:matplotlib.font_manager:findfont: score(FontEntry(fname='/local2/fredxu/anaconda3/envs/pde/lib/python3.8/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSansMono-Oblique.ttf', name='DejaVu Sans Mono', style='oblique', variant='normal', weight=400, stretch='normal', size='scalable')) = 11.05
+DEBUG:matplotlib.font_manager:findfont: score(FontEntry(fname='/local2/fredxu/anaconda3/envs/pde/lib/python3.8/site-packages/matplotlib/mpl-data/fonts/ttf/STIXGeneralBolIta.ttf', name='STIXGeneral', style='italic', variant='normal', weight=700, stretch='normal', size='scalable')) = 11.335
+DEBUG:matplotlib.font_manager:findfont: score(FontEntry(fname='/local2/fredxu/anaconda3/envs/pde/lib/python3.8/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSansMono.ttf', name='DejaVu Sans Mono', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+DEBUG:matplotlib.font_manager:findfont: score(FontEntry(fname='/local2/fredxu/anaconda3/envs/pde/lib/python3.8/site-packages/matplotlib/mpl-data/fonts/ttf/cmmi10.ttf', name='cmmi10', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+DEBUG:matplotlib.font_manager:findfont: score(FontEntry(fname='/local2/fredxu/anaconda3/envs/pde/lib/python3.8/site-packages/matplotlib/mpl-data/fonts/ttf/STIXGeneralBol.ttf', name='STIXGeneral', style='normal', variant='normal', weight=700, stretch='normal', size='scalable')) = 10.335
+DEBUG:matplotlib.font_manager:findfont: score(FontEntry(fname='/local2/fredxu/anaconda3/envs/pde/lib/python3.8/site-packages/matplotlib/mpl-data/fonts/ttf/STIXSizOneSymBol.ttf', name='STIXSizeOneSym', style='normal', variant='normal', weight=700, stretch='normal', size='scalable')) = 10.335
+DEBUG:matplotlib.font_manager:findfont: score(FontEntry(fname='/local2/fredxu/anaconda3/envs/pde/lib/python3.8/site-packages/matplotlib/mpl-data/fonts/ttf/STIXNonUni.ttf', name='STIXNonUnicode', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+DEBUG:matplotlib.font_manager:findfont: score(FontEntry(fname='/local2/fredxu/anaconda3/envs/pde/lib/python3.8/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans-Bold.ttf', name='DejaVu Sans', style='normal', variant='normal', weight=700, stretch='normal', size='scalable')) = 0.33499999999999996
+DEBUG:matplotlib.font_manager:findfont: score(FontEntry(fname='/local2/fredxu/anaconda3/envs/pde/lib/python3.8/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf', name='DejaVu Sans', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 0.05
+DEBUG:matplotlib.font_manager:findfont: score(FontEntry(fname='/local2/fredxu/anaconda3/envs/pde/lib/python3.8/site-packages/matplotlib/mpl-data/fonts/ttf/STIXSizFourSymBol.ttf', name='STIXSizeFourSym', style='normal', variant='normal', weight=700, stretch='normal', size='scalable')) = 10.335
+DEBUG:matplotlib.font_manager:findfont: score(FontEntry(fname='/local2/fredxu/anaconda3/envs/pde/lib/python3.8/site-packages/matplotlib/mpl-data/fonts/ttf/STIXSizTwoSymReg.ttf', name='STIXSizeTwoSym', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+DEBUG:matplotlib.font_manager:findfont: score(FontEntry(fname='/local2/fredxu/anaconda3/envs/pde/lib/python3.8/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSerif.ttf', name='DejaVu Serif', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+DEBUG:matplotlib.font_manager:findfont: score(FontEntry(fname='/local2/fredxu/anaconda3/envs/pde/lib/python3.8/site-packages/matplotlib/mpl-data/fonts/ttf/STIXGeneralItalic.ttf', name='STIXGeneral', style='italic', variant='normal', weight=400, stretch='normal', size='scalable')) = 11.05
+DEBUG:matplotlib.font_manager:findfont: score(FontEntry(fname='/local2/fredxu/anaconda3/envs/pde/lib/python3.8/site-packages/matplotlib/mpl-data/fonts/ttf/STIXSizThreeSymReg.ttf', name='STIXSizeThreeSym', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+DEBUG:matplotlib.font_manager:findfont: score(FontEntry(fname='/local2/fredxu/anaconda3/envs/pde/lib/python3.8/site-packages/matplotlib/mpl-data/fonts/ttf/cmtt10.ttf', name='cmtt10', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+DEBUG:matplotlib.font_manager:findfont: score(FontEntry(fname='/local2/fredxu/anaconda3/envs/pde/lib/python3.8/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSerif-Bold.ttf', name='DejaVu Serif', style='normal', variant='normal', weight=700, stretch='normal', size='scalable')) = 10.335
+DEBUG:matplotlib.font_manager:findfont: score(FontEntry(fname='/local2/fredxu/anaconda3/envs/pde/lib/python3.8/site-packages/matplotlib/mpl-data/fonts/ttf/STIXSizThreeSymBol.ttf', name='STIXSizeThreeSym', style='normal', variant='normal', weight=700, stretch='normal', size='scalable')) = 10.335
+DEBUG:matplotlib.font_manager:findfont: score(FontEntry(fname='/local2/fredxu/anaconda3/envs/pde/lib/python3.8/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSansDisplay.ttf', name='DejaVu Sans Display', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+DEBUG:matplotlib.font_manager:findfont: score(FontEntry(fname='/local2/fredxu/anaconda3/envs/pde/lib/python3.8/site-packages/matplotlib/mpl-data/fonts/ttf/STIXSizTwoSymBol.ttf', name='STIXSizeTwoSym', style='normal', variant='normal', weight=700, stretch='normal', size='scalable')) = 10.335
+DEBUG:matplotlib.font_manager:findfont: score(FontEntry(fname='/local2/fredxu/anaconda3/envs/pde/lib/python3.8/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans-BoldOblique.ttf', name='DejaVu Sans', style='oblique', variant='normal', weight=700, stretch='normal', size='scalable')) = 1.335
+DEBUG:matplotlib.font_manager:findfont: score(FontEntry(fname='/local2/fredxu/anaconda3/envs/pde/lib/python3.8/site-packages/matplotlib/mpl-data/fonts/ttf/cmex10.ttf', name='cmex10', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+DEBUG:matplotlib.font_manager:findfont: score(FontEntry(fname='/local2/fredxu/anaconda3/envs/pde/lib/python3.8/site-packages/matplotlib/mpl-data/fonts/ttf/STIXSizFiveSymReg.ttf', name='STIXSizeFiveSym', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+DEBUG:matplotlib.font_manager:findfont: score(FontEntry(fname='/local2/fredxu/anaconda3/envs/pde/lib/python3.8/site-packages/matplotlib/mpl-data/fonts/ttf/STIXNonUniBol.ttf', name='STIXNonUnicode', style='normal', variant='normal', weight=700, stretch='normal', size='scalable')) = 10.335
+DEBUG:matplotlib.font_manager:findfont: score(FontEntry(fname='/local2/fredxu/anaconda3/envs/pde/lib/python3.8/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSansMono-BoldOblique.ttf', name='DejaVu Sans Mono', style='oblique', variant='normal', weight=700, stretch='normal', size='scalable')) = 11.335
+DEBUG:matplotlib.font_manager:findfont: score(FontEntry(fname='/local2/fredxu/anaconda3/envs/pde/lib/python3.8/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSerif-Italic.ttf', name='DejaVu Serif', style='italic', variant='normal', weight=400, stretch='normal', size='scalable')) = 11.05
+DEBUG:matplotlib.font_manager:findfont: score(FontEntry(fname='/local2/fredxu/anaconda3/envs/pde/lib/python3.8/site-packages/matplotlib/mpl-data/fonts/ttf/STIXNonUniIta.ttf', name='STIXNonUnicode', style='italic', variant='normal', weight=400, stretch='normal', size='scalable')) = 11.05
+DEBUG:matplotlib.font_manager:findfont: score(FontEntry(fname='/local2/fredxu/anaconda3/envs/pde/lib/python3.8/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSerif-BoldItalic.ttf', name='DejaVu Serif', style='italic', variant='normal', weight=700, stretch='normal', size='scalable')) = 11.335
+DEBUG:matplotlib.font_manager:findfont: score(FontEntry(fname='/local2/fredxu/anaconda3/envs/pde/lib/python3.8/site-packages/matplotlib/mpl-data/fonts/ttf/cmb10.ttf', name='cmb10', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+DEBUG:matplotlib.font_manager:findfont: score(FontEntry(fname='/local2/fredxu/anaconda3/envs/pde/lib/python3.8/site-packages/matplotlib/mpl-data/fonts/ttf/cmsy10.ttf', name='cmsy10', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+DEBUG:matplotlib.font_manager:findfont: score(FontEntry(fname='/local2/fredxu/anaconda3/envs/pde/lib/python3.8/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSansMono-Bold.ttf', name='DejaVu Sans Mono', style='normal', variant='normal', weight=700, stretch='normal', size='scalable')) = 10.335
+DEBUG:matplotlib.font_manager:findfont: score(FontEntry(fname='/local2/fredxu/anaconda3/envs/pde/lib/python3.8/site-packages/matplotlib/mpl-data/fonts/ttf/STIXGeneral.ttf', name='STIXGeneral', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+DEBUG:matplotlib.font_manager:findfont: score(FontEntry(fname='/local2/fredxu/anaconda3/envs/pde/lib/python3.8/site-packages/matplotlib/mpl-data/fonts/ttf/cmss10.ttf', name='cmss10', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+DEBUG:matplotlib.font_manager:findfont: score(FontEntry(fname='/local2/fredxu/anaconda3/envs/pde/lib/python3.8/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSerifDisplay.ttf', name='DejaVu Serif Display', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+DEBUG:matplotlib.font_manager:findfont: score(FontEntry(fname='/local2/fredxu/anaconda3/envs/pde/lib/python3.8/site-packages/matplotlib/mpl-data/fonts/ttf/STIXNonUniBolIta.ttf', name='STIXNonUnicode', style='italic', variant='normal', weight=700, stretch='normal', size='scalable')) = 11.335
+DEBUG:matplotlib.font_manager:findfont: score(FontEntry(fname='/local2/fredxu/anaconda3/envs/pde/lib/python3.8/site-packages/matplotlib/mpl-data/fonts/ttf/STIXSizOneSymReg.ttf', name='STIXSizeOneSym', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+DEBUG:matplotlib.font_manager:findfont: score(FontEntry(fname='/local2/fredxu/anaconda3/envs/pde/lib/python3.8/site-packages/matplotlib/mpl-data/fonts/ttf/cmr10.ttf', name='cmr10', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+DEBUG:matplotlib.font_manager:findfont: score(FontEntry(fname='/usr/share/fonts/truetype/dejavu/DejaVuSans.ttf', name='DejaVu Sans', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 0.05
+DEBUG:matplotlib.font_manager:findfont: score(FontEntry(fname='/usr/share/fonts/truetype/dejavu/DejaVuSansMono-BoldOblique.ttf', name='DejaVu Sans Mono', style='oblique', variant='normal', weight=700, stretch='normal', size='scalable')) = 11.335
+DEBUG:matplotlib.font_manager:findfont: score(FontEntry(fname='/usr/share/fonts/truetype/dejavu/DejaVuSansCondensed-BoldOblique.ttf', name='DejaVu Sans', style='oblique', variant='normal', weight=700, stretch='condensed', size='scalable')) = 1.535
+DEBUG:matplotlib.font_manager:findfont: score(FontEntry(fname='/usr/share/fonts/truetype/dejavu/DejaVuSansMono.ttf', name='DejaVu Sans Mono', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+DEBUG:matplotlib.font_manager:findfont: score(FontEntry(fname='/usr/share/fonts/truetype/dejavu/DejaVuSansMono-Oblique.ttf', name='DejaVu Sans Mono', style='oblique', variant='normal', weight=400, stretch='normal', size='scalable')) = 11.05
+DEBUG:matplotlib.font_manager:findfont: score(FontEntry(fname='/usr/share/fonts/truetype/ttf-bitstream-vera/VeraSeBd.ttf', name='Bitstream Vera Serif', style='normal', variant='normal', weight=700, stretch='normal', size='scalable')) = 10.335
+DEBUG:matplotlib.font_manager:findfont: score(FontEntry(fname='/usr/share/fonts/truetype/ttf-bitstream-vera/VeraBI.ttf', name='Bitstream Vera Sans', style='oblique', variant='normal', weight=700, stretch='normal', size='scalable')) = 2.244090909090909
+DEBUG:matplotlib.font_manager:findfont: score(FontEntry(fname='/usr/share/fonts/truetype/dejavu/DejaVuSerifCondensed-Italic.ttf', name='DejaVu Serif', style='italic', variant='normal', weight=400, stretch='condensed', size='scalable')) = 11.25
+DEBUG:matplotlib.font_manager:findfont: score(FontEntry(fname='/usr/share/fonts/truetype/ttf-bitstream-vera/Vera.ttf', name='Bitstream Vera Sans', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 0.9590909090909092
+DEBUG:matplotlib.font_manager:findfont: score(FontEntry(fname='/usr/share/fonts/truetype/dejavu/DejaVuSerifCondensed.ttf', name='DejaVu Serif', style='normal', variant='normal', weight=400, stretch='condensed', size='scalable')) = 10.25
+DEBUG:matplotlib.font_manager:findfont: score(FontEntry(fname='/usr/share/fonts/truetype/dejavu/DejaVuSansCondensed-Oblique.ttf', name='DejaVu Sans', style='oblique', variant='normal', weight=400, stretch='condensed', size='scalable')) = 1.25
+DEBUG:matplotlib.font_manager:findfont: score(FontEntry(fname='/usr/share/fonts/truetype/ttf-bitstream-vera/VeraMoBI.ttf', name='Bitstream Vera Sans Mono', style='oblique', variant='normal', weight=700, stretch='normal', size='scalable')) = 11.335
+DEBUG:matplotlib.font_manager:findfont: score(FontEntry(fname='/usr/share/fonts/truetype/ttf-bitstream-vera/VeraIt.ttf', name='Bitstream Vera Sans', style='oblique', variant='normal', weight=400, stretch='normal', size='scalable')) = 1.9590909090909092
+DEBUG:matplotlib.font_manager:findfont: score(FontEntry(fname='/usr/share/fonts/truetype/dejavu/DejaVuSans-BoldOblique.ttf', name='DejaVu Sans', style='oblique', variant='normal', weight=700, stretch='normal', size='scalable')) = 1.335
+DEBUG:matplotlib.font_manager:findfont: score(FontEntry(fname='/usr/share/fonts/truetype/dejavu/DejaVuSerif-Bold.ttf', name='DejaVu Serif', style='normal', variant='normal', weight=700, stretch='normal', size='scalable')) = 10.335
+DEBUG:matplotlib.font_manager:findfont: score(FontEntry(fname='/usr/share/fonts/truetype/dejavu/DejaVuSansMono-Bold.ttf', name='DejaVu Sans Mono', style='normal', variant='normal', weight=700, stretch='normal', size='scalable')) = 10.335
+DEBUG:matplotlib.font_manager:findfont: score(FontEntry(fname='/usr/share/fonts/truetype/dejavu/DejaVuSansCondensed-Bold.ttf', name='DejaVu Sans', style='normal', variant='normal', weight=700, stretch='condensed', size='scalable')) = 0.5349999999999999
+DEBUG:matplotlib.font_manager:findfont: score(FontEntry(fname='/usr/share/fonts/truetype/dejavu/DejaVuSans-Bold.ttf', name='DejaVu Sans', style='normal', variant='normal', weight=700, stretch='normal', size='scalable')) = 0.33499999999999996
+DEBUG:matplotlib.font_manager:findfont: score(FontEntry(fname='/usr/share/fonts/truetype/dejavu/DejaVuSerifCondensed-BoldItalic.ttf', name='DejaVu Serif', style='italic', variant='normal', weight=700, stretch='condensed', size='scalable')) = 11.535
+DEBUG:matplotlib.font_manager:findfont: score(FontEntry(fname='/usr/share/fonts/truetype/dejavu/DejaVuSerifCondensed-Bold.ttf', name='DejaVu Serif', style='normal', variant='normal', weight=700, stretch='condensed', size='scalable')) = 10.535
+DEBUG:matplotlib.font_manager:findfont: score(FontEntry(fname='/usr/share/fonts/truetype/dejavu/DejaVuSerif-Italic.ttf', name='DejaVu Serif', style='italic', variant='normal', weight=400, stretch='normal', size='scalable')) = 11.05
+DEBUG:matplotlib.font_manager:findfont: score(FontEntry(fname='/usr/share/fonts/truetype/ttf-bitstream-vera/VeraMoIt.ttf', name='Bitstream Vera Sans Mono', style='oblique', variant='normal', weight=400, stretch='normal', size='scalable')) = 11.05
+DEBUG:matplotlib.font_manager:findfont: score(FontEntry(fname='/usr/share/fonts/truetype/dejavu/DejaVuMathTeXGyre.ttf', name='DejaVu Math TeX Gyre', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+DEBUG:matplotlib.font_manager:findfont: score(FontEntry(fname='/usr/share/fonts/truetype/ttf-bitstream-vera/VeraMoBd.ttf', name='Bitstream Vera Sans Mono', style='normal', variant='normal', weight=700, stretch='normal', size='scalable')) = 10.335
+DEBUG:matplotlib.font_manager:findfont: score(FontEntry(fname='/usr/share/fonts/truetype/dejavu/DejaVuSans-Oblique.ttf', name='DejaVu Sans', style='oblique', variant='normal', weight=400, stretch='normal', size='scalable')) = 1.05
+DEBUG:matplotlib.font_manager:findfont: score(FontEntry(fname='/usr/share/fonts/truetype/dejavu/DejaVuSerif-BoldItalic.ttf', name='DejaVu Serif', style='italic', variant='normal', weight=700, stretch='normal', size='scalable')) = 11.335
+DEBUG:matplotlib.font_manager:findfont: score(FontEntry(fname='/usr/share/fonts/truetype/ttf-bitstream-vera/VeraMono.ttf', name='Bitstream Vera Sans Mono', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+DEBUG:matplotlib.font_manager:findfont: score(FontEntry(fname='/usr/share/fonts/truetype/dejavu/DejaVuSerif.ttf', name='DejaVu Serif', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+DEBUG:matplotlib.font_manager:findfont: score(FontEntry(fname='/usr/share/fonts/truetype/ttf-bitstream-vera/VeraBd.ttf', name='Bitstream Vera Sans', style='normal', variant='normal', weight=700, stretch='normal', size='scalable')) = 1.2440909090909091
+DEBUG:matplotlib.font_manager:findfont: score(FontEntry(fname='/usr/share/fonts/truetype/dejavu/DejaVuSans-ExtraLight.ttf', name='DejaVu Sans', style='normal', variant='normal', weight=200, stretch='normal', size='scalable')) = 0.24
+DEBUG:matplotlib.font_manager:findfont: score(FontEntry(fname='/usr/share/fonts/truetype/ttf-bitstream-vera/VeraSe.ttf', name='Bitstream Vera Serif', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+DEBUG:matplotlib.font_manager:findfont: score(FontEntry(fname='/usr/share/fonts/truetype/dejavu/DejaVuSansCondensed.ttf', name='DejaVu Sans', style='normal', variant='normal', weight=400, stretch='condensed', size='scalable')) = 0.25
+DEBUG:matplotlib.font_manager:findfont: Matching sans\-serif:style=normal:variant=normal:weight=normal:stretch=normal:size=10.0 to DejaVu Sans ('/local2/fredxu/anaconda3/envs/pde/lib/python3.8/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf') with score of 0.050000.
+DEBUG:matplotlib.font_manager:findfont: Matching sans\-serif:style=normal:variant=normal:weight=normal:stretch=normal:size=12.0.
+DEBUG:matplotlib.font_manager:findfont: score(FontEntry(fname='/local2/fredxu/anaconda3/envs/pde/lib/python3.8/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans-Oblique.ttf', name='DejaVu Sans', style='oblique', variant='normal', weight=400, stretch='normal', size='scalable')) = 1.05
+DEBUG:matplotlib.font_manager:findfont: score(FontEntry(fname='/local2/fredxu/anaconda3/envs/pde/lib/python3.8/site-packages/matplotlib/mpl-data/fonts/ttf/STIXSizFourSymReg.ttf', name='STIXSizeFourSym', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+DEBUG:matplotlib.font_manager:findfont: score(FontEntry(fname='/local2/fredxu/anaconda3/envs/pde/lib/python3.8/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSansMono-Oblique.ttf', name='DejaVu Sans Mono', style='oblique', variant='normal', weight=400, stretch='normal', size='scalable')) = 11.05
+DEBUG:matplotlib.font_manager:findfont: score(FontEntry(fname='/local2/fredxu/anaconda3/envs/pde/lib/python3.8/site-packages/matplotlib/mpl-data/fonts/ttf/STIXGeneralBolIta.ttf', name='STIXGeneral', style='italic', variant='normal', weight=700, stretch='normal', size='scalable')) = 11.335
+DEBUG:matplotlib.font_manager:findfont: score(FontEntry(fname='/local2/fredxu/anaconda3/envs/pde/lib/python3.8/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSansMono.ttf', name='DejaVu Sans Mono', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+DEBUG:matplotlib.font_manager:findfont: score(FontEntry(fname='/local2/fredxu/anaconda3/envs/pde/lib/python3.8/site-packages/matplotlib/mpl-data/fonts/ttf/cmmi10.ttf', name='cmmi10', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+DEBUG:matplotlib.font_manager:findfont: score(FontEntry(fname='/local2/fredxu/anaconda3/envs/pde/lib/python3.8/site-packages/matplotlib/mpl-data/fonts/ttf/STIXGeneralBol.ttf', name='STIXGeneral', style='normal', variant='normal', weight=700, stretch='normal', size='scalable')) = 10.335
+DEBUG:matplotlib.font_manager:findfont: score(FontEntry(fname='/local2/fredxu/anaconda3/envs/pde/lib/python3.8/site-packages/matplotlib/mpl-data/fonts/ttf/STIXSizOneSymBol.ttf', name='STIXSizeOneSym', style='normal', variant='normal', weight=700, stretch='normal', size='scalable')) = 10.335
+DEBUG:matplotlib.font_manager:findfont: score(FontEntry(fname='/local2/fredxu/anaconda3/envs/pde/lib/python3.8/site-packages/matplotlib/mpl-data/fonts/ttf/STIXNonUni.ttf', name='STIXNonUnicode', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+DEBUG:matplotlib.font_manager:findfont: score(FontEntry(fname='/local2/fredxu/anaconda3/envs/pde/lib/python3.8/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans-Bold.ttf', name='DejaVu Sans', style='normal', variant='normal', weight=700, stretch='normal', size='scalable')) = 0.33499999999999996
+DEBUG:matplotlib.font_manager:findfont: score(FontEntry(fname='/local2/fredxu/anaconda3/envs/pde/lib/python3.8/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf', name='DejaVu Sans', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 0.05
+DEBUG:matplotlib.font_manager:findfont: score(FontEntry(fname='/local2/fredxu/anaconda3/envs/pde/lib/python3.8/site-packages/matplotlib/mpl-data/fonts/ttf/STIXSizFourSymBol.ttf', name='STIXSizeFourSym', style='normal', variant='normal', weight=700, stretch='normal', size='scalable')) = 10.335
+DEBUG:matplotlib.font_manager:findfont: score(FontEntry(fname='/local2/fredxu/anaconda3/envs/pde/lib/python3.8/site-packages/matplotlib/mpl-data/fonts/ttf/STIXSizTwoSymReg.ttf', name='STIXSizeTwoSym', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+DEBUG:matplotlib.font_manager:findfont: score(FontEntry(fname='/local2/fredxu/anaconda3/envs/pde/lib/python3.8/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSerif.ttf', name='DejaVu Serif', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+DEBUG:matplotlib.font_manager:findfont: score(FontEntry(fname='/local2/fredxu/anaconda3/envs/pde/lib/python3.8/site-packages/matplotlib/mpl-data/fonts/ttf/STIXGeneralItalic.ttf', name='STIXGeneral', style='italic', variant='normal', weight=400, stretch='normal', size='scalable')) = 11.05
+DEBUG:matplotlib.font_manager:findfont: score(FontEntry(fname='/local2/fredxu/anaconda3/envs/pde/lib/python3.8/site-packages/matplotlib/mpl-data/fonts/ttf/STIXSizThreeSymReg.ttf', name='STIXSizeThreeSym', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+DEBUG:matplotlib.font_manager:findfont: score(FontEntry(fname='/local2/fredxu/anaconda3/envs/pde/lib/python3.8/site-packages/matplotlib/mpl-data/fonts/ttf/cmtt10.ttf', name='cmtt10', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+DEBUG:matplotlib.font_manager:findfont: score(FontEntry(fname='/local2/fredxu/anaconda3/envs/pde/lib/python3.8/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSerif-Bold.ttf', name='DejaVu Serif', style='normal', variant='normal', weight=700, stretch='normal', size='scalable')) = 10.335
+DEBUG:matplotlib.font_manager:findfont: score(FontEntry(fname='/local2/fredxu/anaconda3/envs/pde/lib/python3.8/site-packages/matplotlib/mpl-data/fonts/ttf/STIXSizThreeSymBol.ttf', name='STIXSizeThreeSym', style='normal', variant='normal', weight=700, stretch='normal', size='scalable')) = 10.335
+DEBUG:matplotlib.font_manager:findfont: score(FontEntry(fname='/local2/fredxu/anaconda3/envs/pde/lib/python3.8/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSansDisplay.ttf', name='DejaVu Sans Display', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+DEBUG:matplotlib.font_manager:findfont: score(FontEntry(fname='/local2/fredxu/anaconda3/envs/pde/lib/python3.8/site-packages/matplotlib/mpl-data/fonts/ttf/STIXSizTwoSymBol.ttf', name='STIXSizeTwoSym', style='normal', variant='normal', weight=700, stretch='normal', size='scalable')) = 10.335
+DEBUG:matplotlib.font_manager:findfont: score(FontEntry(fname='/local2/fredxu/anaconda3/envs/pde/lib/python3.8/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans-BoldOblique.ttf', name='DejaVu Sans', style='oblique', variant='normal', weight=700, stretch='normal', size='scalable')) = 1.335
+DEBUG:matplotlib.font_manager:findfont: score(FontEntry(fname='/local2/fredxu/anaconda3/envs/pde/lib/python3.8/site-packages/matplotlib/mpl-data/fonts/ttf/cmex10.ttf', name='cmex10', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+DEBUG:matplotlib.font_manager:findfont: score(FontEntry(fname='/local2/fredxu/anaconda3/envs/pde/lib/python3.8/site-packages/matplotlib/mpl-data/fonts/ttf/STIXSizFiveSymReg.ttf', name='STIXSizeFiveSym', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+DEBUG:matplotlib.font_manager:findfont: score(FontEntry(fname='/local2/fredxu/anaconda3/envs/pde/lib/python3.8/site-packages/matplotlib/mpl-data/fonts/ttf/STIXNonUniBol.ttf', name='STIXNonUnicode', style='normal', variant='normal', weight=700, stretch='normal', size='scalable')) = 10.335
+DEBUG:matplotlib.font_manager:findfont: score(FontEntry(fname='/local2/fredxu/anaconda3/envs/pde/lib/python3.8/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSansMono-BoldOblique.ttf', name='DejaVu Sans Mono', style='oblique', variant='normal', weight=700, stretch='normal', size='scalable')) = 11.335
+DEBUG:matplotlib.font_manager:findfont: score(FontEntry(fname='/local2/fredxu/anaconda3/envs/pde/lib/python3.8/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSerif-Italic.ttf', name='DejaVu Serif', style='italic', variant='normal', weight=400, stretch='normal', size='scalable')) = 11.05
+DEBUG:matplotlib.font_manager:findfont: score(FontEntry(fname='/local2/fredxu/anaconda3/envs/pde/lib/python3.8/site-packages/matplotlib/mpl-data/fonts/ttf/STIXNonUniIta.ttf', name='STIXNonUnicode', style='italic', variant='normal', weight=400, stretch='normal', size='scalable')) = 11.05
+DEBUG:matplotlib.font_manager:findfont: score(FontEntry(fname='/local2/fredxu/anaconda3/envs/pde/lib/python3.8/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSerif-BoldItalic.ttf', name='DejaVu Serif', style='italic', variant='normal', weight=700, stretch='normal', size='scalable')) = 11.335
+DEBUG:matplotlib.font_manager:findfont: score(FontEntry(fname='/local2/fredxu/anaconda3/envs/pde/lib/python3.8/site-packages/matplotlib/mpl-data/fonts/ttf/cmb10.ttf', name='cmb10', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+DEBUG:matplotlib.font_manager:findfont: score(FontEntry(fname='/local2/fredxu/anaconda3/envs/pde/lib/python3.8/site-packages/matplotlib/mpl-data/fonts/ttf/cmsy10.ttf', name='cmsy10', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+DEBUG:matplotlib.font_manager:findfont: score(FontEntry(fname='/local2/fredxu/anaconda3/envs/pde/lib/python3.8/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSansMono-Bold.ttf', name='DejaVu Sans Mono', style='normal', variant='normal', weight=700, stretch='normal', size='scalable')) = 10.335
+DEBUG:matplotlib.font_manager:findfont: score(FontEntry(fname='/local2/fredxu/anaconda3/envs/pde/lib/python3.8/site-packages/matplotlib/mpl-data/fonts/ttf/STIXGeneral.ttf', name='STIXGeneral', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+DEBUG:matplotlib.font_manager:findfont: score(FontEntry(fname='/local2/fredxu/anaconda3/envs/pde/lib/python3.8/site-packages/matplotlib/mpl-data/fonts/ttf/cmss10.ttf', name='cmss10', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+DEBUG:matplotlib.font_manager:findfont: score(FontEntry(fname='/local2/fredxu/anaconda3/envs/pde/lib/python3.8/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSerifDisplay.ttf', name='DejaVu Serif Display', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+DEBUG:matplotlib.font_manager:findfont: score(FontEntry(fname='/local2/fredxu/anaconda3/envs/pde/lib/python3.8/site-packages/matplotlib/mpl-data/fonts/ttf/STIXNonUniBolIta.ttf', name='STIXNonUnicode', style='italic', variant='normal', weight=700, stretch='normal', size='scalable')) = 11.335
+DEBUG:matplotlib.font_manager:findfont: score(FontEntry(fname='/local2/fredxu/anaconda3/envs/pde/lib/python3.8/site-packages/matplotlib/mpl-data/fonts/ttf/STIXSizOneSymReg.ttf', name='STIXSizeOneSym', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+DEBUG:matplotlib.font_manager:findfont: score(FontEntry(fname='/local2/fredxu/anaconda3/envs/pde/lib/python3.8/site-packages/matplotlib/mpl-data/fonts/ttf/cmr10.ttf', name='cmr10', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+DEBUG:matplotlib.font_manager:findfont: score(FontEntry(fname='/usr/share/fonts/truetype/dejavu/DejaVuSans.ttf', name='DejaVu Sans', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 0.05
+DEBUG:matplotlib.font_manager:findfont: score(FontEntry(fname='/usr/share/fonts/truetype/dejavu/DejaVuSansMono-BoldOblique.ttf', name='DejaVu Sans Mono', style='oblique', variant='normal', weight=700, stretch='normal', size='scalable')) = 11.335
+DEBUG:matplotlib.font_manager:findfont: score(FontEntry(fname='/usr/share/fonts/truetype/dejavu/DejaVuSansCondensed-BoldOblique.ttf', name='DejaVu Sans', style='oblique', variant='normal', weight=700, stretch='condensed', size='scalable')) = 1.535
+DEBUG:matplotlib.font_manager:findfont: score(FontEntry(fname='/usr/share/fonts/truetype/dejavu/DejaVuSansMono.ttf', name='DejaVu Sans Mono', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+DEBUG:matplotlib.font_manager:findfont: score(FontEntry(fname='/usr/share/fonts/truetype/dejavu/DejaVuSansMono-Oblique.ttf', name='DejaVu Sans Mono', style='oblique', variant='normal', weight=400, stretch='normal', size='scalable')) = 11.05
+DEBUG:matplotlib.font_manager:findfont: score(FontEntry(fname='/usr/share/fonts/truetype/ttf-bitstream-vera/VeraSeBd.ttf', name='Bitstream Vera Serif', style='normal', variant='normal', weight=700, stretch='normal', size='scalable')) = 10.335
+DEBUG:matplotlib.font_manager:findfont: score(FontEntry(fname='/usr/share/fonts/truetype/ttf-bitstream-vera/VeraBI.ttf', name='Bitstream Vera Sans', style='oblique', variant='normal', weight=700, stretch='normal', size='scalable')) = 2.244090909090909
+DEBUG:matplotlib.font_manager:findfont: score(FontEntry(fname='/usr/share/fonts/truetype/dejavu/DejaVuSerifCondensed-Italic.ttf', name='DejaVu Serif', style='italic', variant='normal', weight=400, stretch='condensed', size='scalable')) = 11.25
+DEBUG:matplotlib.font_manager:findfont: score(FontEntry(fname='/usr/share/fonts/truetype/ttf-bitstream-vera/Vera.ttf', name='Bitstream Vera Sans', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 0.9590909090909092
+DEBUG:matplotlib.font_manager:findfont: score(FontEntry(fname='/usr/share/fonts/truetype/dejavu/DejaVuSerifCondensed.ttf', name='DejaVu Serif', style='normal', variant='normal', weight=400, stretch='condensed', size='scalable')) = 10.25
+DEBUG:matplotlib.font_manager:findfont: score(FontEntry(fname='/usr/share/fonts/truetype/dejavu/DejaVuSansCondensed-Oblique.ttf', name='DejaVu Sans', style='oblique', variant='normal', weight=400, stretch='condensed', size='scalable')) = 1.25
+DEBUG:matplotlib.font_manager:findfont: score(FontEntry(fname='/usr/share/fonts/truetype/ttf-bitstream-vera/VeraMoBI.ttf', name='Bitstream Vera Sans Mono', style='oblique', variant='normal', weight=700, stretch='normal', size='scalable')) = 11.335
+DEBUG:matplotlib.font_manager:findfont: score(FontEntry(fname='/usr/share/fonts/truetype/ttf-bitstream-vera/VeraIt.ttf', name='Bitstream Vera Sans', style='oblique', variant='normal', weight=400, stretch='normal', size='scalable')) = 1.9590909090909092
+DEBUG:matplotlib.font_manager:findfont: score(FontEntry(fname='/usr/share/fonts/truetype/dejavu/DejaVuSans-BoldOblique.ttf', name='DejaVu Sans', style='oblique', variant='normal', weight=700, stretch='normal', size='scalable')) = 1.335
+DEBUG:matplotlib.font_manager:findfont: score(FontEntry(fname='/usr/share/fonts/truetype/dejavu/DejaVuSerif-Bold.ttf', name='DejaVu Serif', style='normal', variant='normal', weight=700, stretch='normal', size='scalable')) = 10.335
+DEBUG:matplotlib.font_manager:findfont: score(FontEntry(fname='/usr/share/fonts/truetype/dejavu/DejaVuSansMono-Bold.ttf', name='DejaVu Sans Mono', style='normal', variant='normal', weight=700, stretch='normal', size='scalable')) = 10.335
+DEBUG:matplotlib.font_manager:findfont: score(FontEntry(fname='/usr/share/fonts/truetype/dejavu/DejaVuSansCondensed-Bold.ttf', name='DejaVu Sans', style='normal', variant='normal', weight=700, stretch='condensed', size='scalable')) = 0.5349999999999999
+DEBUG:matplotlib.font_manager:findfont: score(FontEntry(fname='/usr/share/fonts/truetype/dejavu/DejaVuSans-Bold.ttf', name='DejaVu Sans', style='normal', variant='normal', weight=700, stretch='normal', size='scalable')) = 0.33499999999999996
+DEBUG:matplotlib.font_manager:findfont: score(FontEntry(fname='/usr/share/fonts/truetype/dejavu/DejaVuSerifCondensed-BoldItalic.ttf', name='DejaVu Serif', style='italic', variant='normal', weight=700, stretch='condensed', size='scalable')) = 11.535
+DEBUG:matplotlib.font_manager:findfont: score(FontEntry(fname='/usr/share/fonts/truetype/dejavu/DejaVuSerifCondensed-Bold.ttf', name='DejaVu Serif', style='normal', variant='normal', weight=700, stretch='condensed', size='scalable')) = 10.535
+DEBUG:matplotlib.font_manager:findfont: score(FontEntry(fname='/usr/share/fonts/truetype/dejavu/DejaVuSerif-Italic.ttf', name='DejaVu Serif', style='italic', variant='normal', weight=400, stretch='normal', size='scalable')) = 11.05
+DEBUG:matplotlib.font_manager:findfont: score(FontEntry(fname='/usr/share/fonts/truetype/ttf-bitstream-vera/VeraMoIt.ttf', name='Bitstream Vera Sans Mono', style='oblique', variant='normal', weight=400, stretch='normal', size='scalable')) = 11.05
+DEBUG:matplotlib.font_manager:findfont: score(FontEntry(fname='/usr/share/fonts/truetype/dejavu/DejaVuMathTeXGyre.ttf', name='DejaVu Math TeX Gyre', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+DEBUG:matplotlib.font_manager:findfont: score(FontEntry(fname='/usr/share/fonts/truetype/ttf-bitstream-vera/VeraMoBd.ttf', name='Bitstream Vera Sans Mono', style='normal', variant='normal', weight=700, stretch='normal', size='scalable')) = 10.335
+DEBUG:matplotlib.font_manager:findfont: score(FontEntry(fname='/usr/share/fonts/truetype/dejavu/DejaVuSans-Oblique.ttf', name='DejaVu Sans', style='oblique', variant='normal', weight=400, stretch='normal', size='scalable')) = 1.05
+DEBUG:matplotlib.font_manager:findfont: score(FontEntry(fname='/usr/share/fonts/truetype/dejavu/DejaVuSerif-BoldItalic.ttf', name='DejaVu Serif', style='italic', variant='normal', weight=700, stretch='normal', size='scalable')) = 11.335
+DEBUG:matplotlib.font_manager:findfont: score(FontEntry(fname='/usr/share/fonts/truetype/ttf-bitstream-vera/VeraMono.ttf', name='Bitstream Vera Sans Mono', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+DEBUG:matplotlib.font_manager:findfont: score(FontEntry(fname='/usr/share/fonts/truetype/dejavu/DejaVuSerif.ttf', name='DejaVu Serif', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+DEBUG:matplotlib.font_manager:findfont: score(FontEntry(fname='/usr/share/fonts/truetype/ttf-bitstream-vera/VeraBd.ttf', name='Bitstream Vera Sans', style='normal', variant='normal', weight=700, stretch='normal', size='scalable')) = 1.2440909090909091
+DEBUG:matplotlib.font_manager:findfont: score(FontEntry(fname='/usr/share/fonts/truetype/dejavu/DejaVuSans-ExtraLight.ttf', name='DejaVu Sans', style='normal', variant='normal', weight=200, stretch='normal', size='scalable')) = 0.24
+DEBUG:matplotlib.font_manager:findfont: score(FontEntry(fname='/usr/share/fonts/truetype/ttf-bitstream-vera/VeraSe.ttf', name='Bitstream Vera Serif', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+DEBUG:matplotlib.font_manager:findfont: score(FontEntry(fname='/usr/share/fonts/truetype/dejavu/DejaVuSansCondensed.ttf', name='DejaVu Sans', style='normal', variant='normal', weight=400, stretch='condensed', size='scalable')) = 0.25
+DEBUG:matplotlib.font_manager:findfont: Matching sans\-serif:style=normal:variant=normal:weight=normal:stretch=normal:size=12.0 to DejaVu Sans ('/local2/fredxu/anaconda3/envs/pde/lib/python3.8/site-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf') with score of 0.050000.
