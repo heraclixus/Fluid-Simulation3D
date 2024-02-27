@@ -16,9 +16,14 @@ In our case, the data is generated in 3D. Hence giving rise to the 4-D FNO as a 
 
 The original FNO paper for the 2D Navier-Stokes equation is generated with periodic boundary condition. In our case, all 180 samples are generated with different boundary condition on the top wall and no-slip boundary condition on the rest 8 walls. 
 
-### Special Concern 3: Turbulence 
+### Special Concern 3: Low Resolution 
 
-FNO has seem reasonable performance on the 2D Navier-Stokes equation; 3-D situation is even more turbulent due to the additional degree of freedom. This is because the Reynold number scales with the scale. 
+The data is collected at low resolution; it is possible that the validation/test dataset is at a higher resolution, making the original FNO not able to do well. 
+
+
+### Special Concern 4: Turbulence 
+
+FNO has seem reasonable performance on the 2D Navier-Stokes equation; 3-D situation is even more turbulent due to the additional degree of freedom. This is because the Reynold number scales with the scale. This challenge is related to the special conern 3, since its root cause the is the multiscale dynamics in the 3D Navier Stokes equation. 
 
 
 ## Models 
@@ -34,6 +39,10 @@ First attempt: a FNO that:
 ### Physics-Informed Neural Operator 
 
 Now that a baseline model is up and running for the 3-D problem, now we try to make it better by explicitly accounting for the boundary condition. This results in the Physics-Informed Neural Operator model (PINO). The key is to add physics-informed loss based on Boundary condition and the 3D Navier-Stokes equation. 
+
+From the PINO paper: neural operators cannot perfectly approximate the ground-truth operator when only coarse-resolution training data is provided. 
+
+
 
 ### Turbulence 
 TODO 
