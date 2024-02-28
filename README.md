@@ -14,6 +14,17 @@
     - `src/utils`: utility scripts. 
     - `main.py`, `train.py`: main entry points to the codebase. 
 
+
+## Entry Point
+
+The configurations can be modified by modifying the `config/FNO.yaml` at this moment. 
+
+The entry point is simply: 
+```
+python main.py 
+```
+
+
 ## Data 
 
 The dataset is generated from 3-D Navier-Stokes equation in the domain $[0,1]^3 \subset \mathbb{R}^3$, with boundary conditions. The grid is coarse-grained but uniform, with $10\times 10\times10$ points in the 3D space. 
@@ -60,3 +71,4 @@ From the PINO paper: neural operators cannot perfectly approximate the ground-tr
 
 ### Turbulence 
 TODO 
+
