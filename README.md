@@ -72,10 +72,17 @@ The main reference paper, [Learned Coarse Models for Efficient Turbulence Simula
 $$
 \tilde{X}_{t+\Delta t} - \tilde{X}_t = \tilde{X}_t + NN(\tilde{X}_t; \theta)
 $$
-e.g., predicting the residual, with some generic convolution-based architecture. The __encode-process-decode__ architecture can have encoder and decoder be:
-- 3D ConvNets
-- Graph Neural Networks 
-- UNets 
-- Transformers 
-
-Here I first attempt 3D ConvNets and GNNs. 
+e.g., predicting the residual, with some generic convolution-based architecture. The __encode-process-decode__ architecture can have encoder and decoder with processing as described in their paper: 
+- The encoder and decoder each consist of single linear convolutional layer.
+- The processor consists of N = 4 dilated CNN blocks (dCNNn) connected in series with residual connections. 
+- Each block consists of 7 dilated CNN layers with dilation rates of (1, 2, 4, 8, 4, 2, 1). 
+- A dilation rate of N, indicates each pixel is convolved with pixels that are multiples of N pixels away 
+    (N=1 reduces to regular convolution). 
+- This model is not specialized for turbulence modeling per se, and its components are general-purpose tools for
+    improving performance in CNNs. 
+- Residual connections help avoid vanishing gradients, and dilations allow long-range communication 
+    while preserving local structure. 
+- All individual CNNs use a kernel size of 3 and have 48 output channels 
+    (except the decoder, which has an output channel for each feature).
+- Each individual CNN layer in the processor is immediately followed by a rectified linear unit (ReLU) activation function. 
+    The Encoder CNN and the Decoder CNNs do not use activations.

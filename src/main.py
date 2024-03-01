@@ -12,7 +12,7 @@ import argparse
 if __name__ == "__main__":
 
     parser = argparse.ArgumentParser()
-    parser.add_argument("model", type=str, help="choice of models from [FNO, DeepGreen, PINO]", default="FNO")
+    parser.add_argument("model", type=str, help="choice of models from [FNO, drResNet]", default="FNO")
     parser.add_argument("device",  type=str, help="device cpu or cuda", default="cuda")    
     args = parser.parse_args()
     
