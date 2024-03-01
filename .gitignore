@@ -1,4 +1,3 @@
-models/
 outputs/
 __pycache__/
-*.py[cod]
+output_models/
