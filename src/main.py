@@ -6,12 +6,20 @@ from utils.utils import visualize_predictions
 from train import train_model
 from models.FNO_3d_time import FNO3d
 import torch
+import argparse
+
 
 if __name__ == "__main__":
+
+    parser = argparse.ArgumentParser()
+    parser.add_argument("model", type=str, help="choice of models from [FNO, DeepGreen, PINO]", default="FNO")
+    parser.add_argument("device",  type=str, help="device cpu or cuda", default="cuda")    
+    args = parser.parse_args()
     
-    device = torch.device("cuda:7") 
+    device = args.device
+    model = args.model
     
-    with open("../configs/FNO.yaml") as f:
+    with open(f"../configs/{model}.yaml") as f:
         yaml_data = yaml.safe_load(f)
     
     mode = yaml_data["main"]["mode"]

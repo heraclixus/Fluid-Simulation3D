@@ -51,6 +51,11 @@ The data is collected at low resolution; it is possible that the validation/test
 
 FNO has seem reasonable performance on the 2D Navier-Stokes equation; 3-D situation is even more turbulent due to the additional degree of freedom. This is because the Reynold number scales with the scale. This challenge is related to the special conern 3, since its root cause the is the multiscale dynamics in the 3D Navier Stokes equation. 
 
+### Special Concern 5: Static 
+
+The kind of approach I am more familiar with is the dynamical system based approach, which relies on time series of moderate to long length, which makes it suitable to use ODE or transformer based models. However in this case we only have two static snapshots. 
+
+
 ## Models 
 
 Upon first glance, a model to use is the neural operator family of models, since we don't know the underlying parametric PDE, and the operator learning framework is resolution-invariant, theoretically. The Fourier Neural Operator (FNO) is therefore the first attempt, used as a baseline model.
@@ -61,14 +66,16 @@ First attempt: a FNO that:
 - Performs spectral convolution in 4D: $(x,y,z,t)$. `models.FNO_4d.py` (_this was implemented before I saw the actual data_)
 - Performs 3D spectral convolution then update temporal dimension autoregressively. `models.FNO_3d_time.py` 
 
-### Physics-Informed Neural Operator 
+### Learned Coarse Models for Efficient Turbulence Simulation
 
-Now that a baseline model is up and running for the 3-D problem, now we try to make it better by explicitly accounting for the boundary condition. This results in the Physics-Informed Neural Operator model (PINO). The key is to add physics-informed loss based on Boundary condition and the 3D Navier-Stokes equation. 
+The main reference paper, [Learned Coarse Models for Efficient Turbulence Simulation](https://arxiv.org/abs/2112.15275), is a paper with scenario very similar to ours; it targets turbulence in 3D (Navier-Stokes) and can perform on coarse spatial and temporal scenarios. They use a Dilated ResNet Encode-Process-Decode architecture (__Dil-ResNet__) to perform the one-step prediction task, by predicting:
+$$
+\tilde{X}_{t+\Delta t} - \tilde{X}_t = \tilde{X}_t + NN(\tilde{X}_t; \theta)
+$$
+e.g., predicting the residual, with some generic convolution-based architecture. The __encode-process-decode__ architecture can have encoder and decoder be:
+- 3D ConvNets
+- Graph Neural Networks 
+- UNets 
+- Transformers 
 
-From the PINO paper: neural operators cannot perfectly approximate the ground-truth operator when only coarse-resolution training data is provided. 
-
-
-
-### Turbulence 
-TODO 
-
+Here I first attempt 3D ConvNets and GNNs. 
