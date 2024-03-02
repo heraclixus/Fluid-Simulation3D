@@ -38,7 +38,7 @@ def train_model(yaml_data, args):
         out_channels_lst = yaml_data[model_name]["out_channels_lst"]
         kernel_size = yaml_data[model_name]["kernel_size"]
         model = DRN(in_channels=in_channels, out_channels_lst=out_channels_lst, kernel_size=kernel_size).to(device)
-        model_file_name = f"drResNet_in={in_channels}_out={out_channels_lst}_ker={kernel_size}.pt"
+        model_file_name = f"dlResNet_in={in_channels}_out={out_channels_lst}_ker={kernel_size}.pt"
     
     optimizer = Adam(model.parameters(), lr=learning_rate, weight_decay=1e-4)
     scheduler = torch.optim.lr_scheduler.StepLR(optimizer, step_size=scheduler_step, gamma=scheduler_gamma)

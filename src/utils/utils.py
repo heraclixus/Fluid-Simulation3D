@@ -97,7 +97,8 @@ def plot_slices(data, model_name, type, var=0, axis=2, interpolation='bilinear')
         'spline36', 'hanning', 'hamming', 'hermite', 'kaiser', 'quadric', 'catrom', 'gaussian', 
         'bessel', 'mitchell', 'sinc', 'lanczos', 'blackman'.
     """
-    
+    now = datetime.now()
+
     fig, ax = plt.subplots(2, 5, figsize=(7, 3.5), sharex="all")
 
     # Nice major title
@@ -126,4 +127,4 @@ def plot_slices(data, model_name, type, var=0, axis=2, interpolation='bilinear')
         # No axis labels
         ax.ravel()[i].get_xaxis().set_visible(False)
         ax.ravel()[i].get_yaxis().set_visible(False)
-    plt.savefig(f"figs/{model_name}_scalar_field_type={type}_var={var}_axis={axis}.png")
+    plt.savefig(f"figs/{model_name}_scalar_field_type={type}_var={var}_axis={axis}_time={now}.png")

@@ -12,17 +12,19 @@ FNO:
   width: 32
   path: "../output_models/"
 
-drResNet:
+dlResNet:
   in_channels: 3
-  out_channels_lst: [16, 16]
+  out_channels_lst: [16, 32]
+  dilations: [1,2,4,2,1]
   kernel_size: 1
+  down_sample: False
   path: "../output_models/"
 
 training: 
   batch_size: 18
   learning_rate: 0.001 
-  epochs: 100
-  step_size: 100
+  epochs: 200
+  step_size: 50
   gamma: 0.05 
   r: 8
 

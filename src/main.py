@@ -12,7 +12,7 @@ import argparse
 if __name__ == "__main__":
 
     parser = argparse.ArgumentParser()
-    parser.add_argument("--model", type=str, help="choice of models from [FNO, drResNet]", default="FNO")
+    parser.add_argument("--model", type=str, help="choice of models from [FNO, dlResNet]", default="FNO")
     parser.add_argument("--device",  type=str, help="device cpu or cuda", default="cuda")    
     args = parser.parse_args()
     
@@ -40,7 +40,7 @@ if __name__ == "__main__":
             out_channels_lst = yaml_data[args.model]["out_channels_lst"]
             kernel_size = yaml_data[args.model]["kernel_size"]
             model = DRN(in_channels=in_channels, out_channels_lst=out_channels_lst, kernel_size=kernel_size).to(device)
-            model_file_name = f"drResNet_in={in_channels}_out={out_channels_lst}_ker={kernel_size}.pt"
+            model_file_name = f"dlResNet_in={in_channels}_out={out_channels_lst}_ker={kernel_size}.pt"
             model_path = os.path.join(yaml_data[args.model]["path"], model_file_name)
             save_path = os.path.join(yaml_data["outputs"]["path"], model_file_name)
 

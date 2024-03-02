@@ -21,9 +21,9 @@ The configurations can be modified by modifying the `config/FNO.yaml` at this mo
 
 The entry point is simply: 
 ```
-python main.py 
+python main.py --model FNO --device cuda
+python main.py --model dlResNet --device cuda
 ```
-
 
 ## Data 
 
@@ -84,3 +84,16 @@ e.g., predicting the residual, with some generic convolution-based architecture.
     (except the decoder, which has an output channel for each feature).
 - Each individual CNN layer in the processor is immediately followed by a rectified linear unit (ReLU) activation function. 
     The Encoder CNN and the Decoder CNNs do not use activations.
+
+
+## Hyperparameter Tuning
+
+The two models (FNO, dlResNet) has the following hyperparameters: 
+- FNO:
+    - `modes`: the number of Fourier modes for fft
+    - `width`: the channel size in the spectral convolution layers. 
+- dlResNet
+    - `out_channels_lst`: the intermediate channel sizes for the conv3D layers. 
+    - `kernel size`: the kernel size of the conv3d layers. 
+    - `down_sample`: whether the spatial kernel and strides are used to reduce the spatial dimensions. 
+In this case, we perform hyperparameter tuning using the RayTune package with PyTorch. 
