@@ -83,3 +83,8 @@ def train_model(yaml_data, args):
     torch.save(model.state_dict(), os.path.join(model_path, model_file_name))
     visualize_training_curves(tr_losses=train_losses, te_losses=test_losses, model_name=model_name)
     visualize_training_curves_40(tr_losses=train_losses, te_losses=test_losses, model_name=model_name)
+
+
+"""
+hyperparameter search
+"""
