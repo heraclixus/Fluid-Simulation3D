@@ -101,10 +101,9 @@ class FNO3d(nn.Module):
             W defined by self.w; K defined by self.conv .
         3. Project from the channel space to the output space by self.fc1 and self.fc2 .
         
-        input: the solution of the first 10 timesteps + 3 locations (u(1, x, y), ..., u(10, x, y),  x, y, t). It's a constant function in time, except for the last index.
-        input shape: (batchsize, x=64, y=64, t=40, c=13)
+        input shape: (batchsize, x=10, y=10, z=10, c=3)
         output: the solution of the next 40 timesteps
-        output shape: (batchsize, x=64, y=64, t=40, c=1)
+        output shape: (batchsize, x=10, y=10, t=10, c=3)
         """
 
         self.modes1 = modes1

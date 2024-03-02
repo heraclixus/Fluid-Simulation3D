@@ -69,9 +69,7 @@ First attempt: a FNO that:
 ### Learned Coarse Models for Efficient Turbulence Simulation
 
 The main reference paper, [Learned Coarse Models for Efficient Turbulence Simulation](https://arxiv.org/abs/2112.15275), is a paper with scenario very similar to ours; it targets turbulence in 3D (Navier-Stokes) and can perform on coarse spatial and temporal scenarios. They use a Dilated ResNet Encode-Process-Decode architecture (__Dil-ResNet__) to perform the one-step prediction task, by predicting:
-$$
-\tilde{X}_{t+\Delta t} - \tilde{X}_t = \tilde{X}_t + NN(\tilde{X}_t; \theta)
-$$
+$\tilde{X}_{t+\Delta t} - \tilde{X}_t = \tilde{X}_t + NN(\tilde{X}_t; \theta)$
 e.g., predicting the residual, with some generic convolution-based architecture. The __encode-process-decode__ architecture can have encoder and decoder with processing as described in their paper: 
 - The encoder and decoder each consist of single linear convolutional layer.
 - The processor consists of N = 4 dilated CNN blocks (dCNNn) connected in series with residual connections. 

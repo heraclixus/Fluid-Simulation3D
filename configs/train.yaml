@@ -7,10 +7,16 @@ dataset:
   output: "outputs"
   mesh: "grids"
 
-model:
+FNO:
   modes: 6
   width: 32
-  path: "../models/"
+  path: "../output_models/"
+
+drResNet:
+  in_channels: 3
+  out_channels_lst: [16, 16]
+  kernel_size: 1
+  path: "../output_models/"
 
 training: 
   batch_size: 18

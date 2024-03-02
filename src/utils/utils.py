@@ -6,17 +6,34 @@ import numpy as np
 from torch.utils.data import DataLoader, TensorDataset
 
 
-def visualize_training_curves(tr_losses, te_losses):
+def visualize_training_curves(tr_losses, te_losses, model_name):
+    fig = plt.figure(figsize=(15,10))
     now = datetime.now()
     epochs = range(1, len(tr_losses) + 1) 
     plt.plot(epochs, tr_losses, label="Training loss")
     plt.plot(epochs, te_losses, label="Test loss")
-    plt.title("Training vs. Test loss")
+    plt.title(f"Training vs. Test loss for {model_name}")
     plt.xlabel("Epochs")
-    plt.ylabel("Loss")
+    plt.ylabel(r"$L^p$ Loss")
     plt.xticks(arange(1, len(tr_losses)+1, 10))
     plt.legend(loc="best")
-    plt.savefig(f"figs/training_vis_{now}.png")    
+    plt.savefig(f"figs/training_vis_{model_name}_{now}.png")
+
+
+def visualize_training_curves_40(tr_losses, te_losses, model_name):
+    fig = plt.figure(figsize=(15,10))
+    now = datetime.now()
+    # this only plots evolution of training losses after 40 epochs
+    epochs = range(41, len(tr_losses)+1)
+    plt.plot(epochs, tr_losses[40:], label="Training loss")
+    plt.plot(epochs, te_losses[40:], label="Test loss")
+    plt.title(f"Training vs. Test loss for {model_name}")
+    plt.xlabel("Epochs")
+    plt.ylabel(r"$L^p$ Loss")
+    plt.xticks(arange(41, len(tr_losses)+1, 5))
+    plt.legend(loc="best")
+    plt.savefig(f"figs/training_vis_{model_name}_{now}_40.png")
+
 
 
 """
@@ -51,15 +68,15 @@ def get_train_test_loaders(yaml_data):
 """
 visualize the ground truth output scalar field against the predicted one
 """
-def visualize_predictions(pred, index, output, var=0, axis=2, interpolation="bilinear"):
-    plot_slices(pred[index], type="prediction", var=var, axis=axis, interpolation=interpolation)
-    plot_slices(output[index], type="output", var=var, axis=axis, interpolation=interpolation)    
+def visualize_predictions(pred, index, output, model_name, var=0, axis=2, interpolation="bilinear"):
+    plot_slices(pred[index], model_name, type="prediction", var=var, axis=axis, interpolation=interpolation)
+    plot_slices(output[index], model_name, type="output", var=var, axis=axis, interpolation=interpolation)    
 
 
 """
 helper function provided
 """
-def plot_slices(data, type, var=0, axis=2, interpolation='bilinear'):
+def plot_slices(data, model_name, type, var=0, axis=2, interpolation='bilinear'):
     """Visualize a stack of images for Assignment 1.
     
     Parameters
@@ -109,4 +126,4 @@ def plot_slices(data, type, var=0, axis=2, interpolation='bilinear'):
         # No axis labels
         ax.ravel()[i].get_xaxis().set_visible(False)
         ax.ravel()[i].get_yaxis().set_visible(False)
-    plt.savefig(f"figs/scalar_field_type={type}_var={var}_axis={axis}.png")
+    plt.savefig(f"figs/{model_name}_scalar_field_type={type}_var={var}_axis={axis}.png")
