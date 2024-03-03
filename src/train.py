@@ -24,20 +24,21 @@ def train_model(yaml_data, args):
     scheduler_gamma = yaml_data["training"]["gamma"]
     epochs = yaml_data["training"]["epochs"]
     batch_size = yaml_data["training"]["batch_size"]
+    use_bn = yaml_data[args.model]["use_batch_norm"]
 
     model_name = args.model
 
     if model_name == "FNO":
         modes = yaml_data[model_name]["modes"]
         width = yaml_data[model_name]["width"]
-        model = FNO3d(modes, modes, modes, width).to(device)
+        model = FNO3d(modes, modes, modes, width, use_bn).to(device)
         model_file_name = f"FNO3d_modes={modes}_width={width}.pt"
 
     else:
         in_channels = yaml_data[model_name]["in_channels"]
         out_channels_lst = yaml_data[model_name]["out_channels_lst"]
         kernel_size = yaml_data[model_name]["kernel_size"]
-        model = DRN(in_channels=in_channels, out_channels_lst=out_channels_lst, kernel_size=kernel_size).to(device)
+        model = DRN(in_channels=in_channels, out_channels_lst=out_channels_lst, kernel_size=kernel_size, use_bn=use_bn).to(device)
         model_file_name = f"dlResNet_in={in_channels}_out={out_channels_lst}_ker={kernel_size}.pt"
     
     optimizer = Adam(model.parameters(), lr=learning_rate, weight_decay=1e-4)

@@ -42,6 +42,9 @@ In our case, the data is generated in 3D:
 
 The original FNO paper for the 2D Navier-Stokes equation is generated with periodic boundary condition. In our case, all 180 samples are generated with different boundary condition on the top wall and no-slip boundary condition on the rest 8 walls. 
 
+- The 11th dimension of $x$ corresponds to the boundary conditions. This means in the deep learning task, this dimension should be considered. It can be regarded as a different spatial dimension.
+
+
 ### Special Concern 3: Low Resolution 
 
 The data is collected at low resolution; it is possible that the validation/test dataset is at a higher resolution, making the original FNO not able to do well. 
@@ -49,7 +52,7 @@ The data is collected at low resolution; it is possible that the validation/test
 
 ### Special Concern 4: Turbulence 
 
-FNO has seem reasonable performance on the 2D Navier-Stokes equation; 3-D situation is even more turbulent due to the additional degree of freedom. This is because the Reynold number scales with the scale. This challenge is related to the special conern 3, since its root cause the is the multiscale dynamics in the 3D Navier Stokes equation. 
+FNO has seem reasonable performance on the 2D Navier-Stokes equation; 3-D situation is even more turbulent due to the additional degree of freedom. This is because the Reynold number scales with the scale. This challenge is related to the special conern 3, since its root cause the is the multiscale dynamics in the 3D Navier Stokes equation. In this dataset, in particular, the Reynold number can go as high as 5000.
 
 ### Special Concern 5: Static 
 
@@ -66,7 +69,7 @@ First attempt: a FNO that:
 - Performs spectral convolution in 4D: $(x,y,z,t)$. `models.FNO_4d.py` (_this was implemented before I saw the actual data_)
 - Performs 3D spectral convolution then update temporal dimension autoregressively. `models.FNO_3d_time.py` 
 
-### Learned Coarse Models for Efficient Turbulence Simulation
+### DlResNet
 
 The main reference paper, [Learned Coarse Models for Efficient Turbulence Simulation](https://arxiv.org/abs/2112.15275), is a paper with scenario very similar to ours; it targets turbulence in 3D (Navier-Stokes) and can perform on coarse spatial and temporal scenarios. They use a Dilated ResNet Encode-Process-Decode architecture (__Dil-ResNet__) to perform the one-step prediction task, by predicting:
 $\tilde{X}_{t+\Delta t} - \tilde{X}_t = \tilde{X}_t + NN(\tilde{X}_t; \theta)$
@@ -84,6 +87,10 @@ e.g., predicting the residual, with some generic convolution-based architecture.
     (except the decoder, which has an output channel for each feature).
 - Each individual CNN layer in the processor is immediately followed by a rectified linear unit (ReLU) activation function. 
     The Encoder CNN and the Decoder CNNs do not use activations.
+
+### Factorized FNO
+
+In the paper [Factorized Fourier Neural Operator](https://arxiv.org/abs/2111.13802), they claim to have a further improved version of FNO that achieves 83% improvement on the 2D Navier-Stokes equation. 
 
 
 ## Hyperparameter Tuning

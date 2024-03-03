@@ -8,8 +8,9 @@ dataset:
   mesh: "grids"
 
 FNO:
-  modes: 6
-  width: 32
+  modes: 8
+  width: 50
+  use_batch_norm: True
   path: "../output_models/"
 
 dlResNet:
@@ -18,6 +19,7 @@ dlResNet:
   dilations: [1,2,4,2,1]
   kernel_size: 1
   down_sample: False
+  use_batch_norm: True
   path: "../output_models/"
 
 training: 

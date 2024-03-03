@@ -74,12 +74,13 @@ Dilated Residual ConvNet
 - key point is that downsample means we are doing dimension reduction when autoencoding 
 """
 class DRN(nn.Module):
-    def __init__(self, in_channels, out_channels_lst=[16,16], kernel_size=1, down_sample=False):
+    def __init__(self, in_channels, out_channels_lst=[16,16], kernel_size=1, down_sample=False, use_bn=False):
         super(DRN, self).__init__() 
         self.in_channels = in_channels
         self.out_channels_lst = out_channels_lst
         self.down_sample = down_sample
         self.kernel_size = kernel_size
+        self.use_bn = use_bn 
 
         self.encoder_channel_dim = out_channels_lst[0]
         self.block1_dim = out_channels_lst[0] if not down_sample else out_channels_lst[0] // 2
@@ -92,32 +93,32 @@ class DRN(nn.Module):
         
         self.block1 = BasicBlock(in_channels=self.block1_dim, out_channels=self.out_channels_lst[1])
         
-        self.decoder = nn.Conv3d(in_channels=self.decoder_channel_dim, out_channels=3, kernel_size=kernel_size, stride=1)
+        self.decoder = nn.Conv3d(in_channels=self.decoder_channel_dim, out_channels=3, kernel_size=(kernel_size, kernel_size+1, kernel_size), stride=1)
         self.bn_dec = nn.BatchNorm3d(in_channels)
-        self.decoder2 = nn.ConvTranspose3d(in_channels=self.decoder_channel_dim, out_channels=3, kernel_size=kernel_size, stride=2)
+        self.decoder2 = nn.ConvTranspose3d(in_channels=self.decoder_channel_dim, out_channels=3, kernel_size=(kernel_size, kernel_size+1, kernel_size), stride=2)
 
         self.relu = nn.ReLU()
 
     """
     expect input of shape (batch_size, C_in, D,H,W)
-    in our case: (18, 3, 10, 10, 10)
+    in our case: (18, 6, 10, 11, 10)
     """
     def forward(self, x):
         x = x.permute(0, 4, 1, 2, 3)
         out = self.encoder(x)
-        out = self.bn_enc(out)
-
+        if self.use_bn:
+            out = self.bn_enc(out)
         if self.down_sample:
             out = self.avg_pool(out)
             print(f"DRN downsample = {out.shape}")        
         out = self.relu(out) 
-
         out = self.block1(out)        
         if self.down_sample: 
             out = self.decoder2(out)
             print(f"DRN decoder ds = {out.shape}")
         else:
             out = self.decoder(out)
-        out = self.bn_dec(out)
+        if self.use_bn:
+            out = self.bn_dec(out)
         out = self.relu(out)
         return out 

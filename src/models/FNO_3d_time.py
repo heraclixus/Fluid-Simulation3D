@@ -91,7 +91,7 @@ class SpectralConv3d(nn.Module):
         return x
 
 class FNO3d(nn.Module):
-    def __init__(self, modes1, modes2, modes3, width):
+    def __init__(self, modes1, modes2, modes3, width, use_bn=False):
         super(FNO3d, self).__init__()
 
         """
@@ -101,15 +101,15 @@ class FNO3d(nn.Module):
             W defined by self.w; K defined by self.conv .
         3. Project from the channel space to the output space by self.fc1 and self.fc2 .
         
-        input shape: (batchsize, x=10, y=10, z=10, c=3)
-        output: the solution of the next 40 timesteps
-        output shape: (batchsize, x=10, y=10, t=10, c=3)
+        input shape: (batchsize, x=10, y=11, z=10, c=3)
+        output shape: (batchsize, x=10, y=11, t=10, c=3)
         """
 
         self.modes1 = modes1
         self.modes2 = modes2
         self.modes3 = modes3
         self.width = width
+        self.use_bn = use_bn
         self.padding = 6 # pad the domain if input is non-periodic
         self.fc0 = nn.Linear(6, self.width)
         # input channel is 6: the solution + 3 locations (u(x), u(y), u(z), x, y, z)
@@ -127,9 +127,17 @@ class FNO3d(nn.Module):
         self.bn2 = torch.nn.BatchNorm3d(self.width)
         self.bn3 = torch.nn.BatchNorm3d(self.width)
 
+        # handles the dimension of y
+        self.w4 = torch.nn.Conv3d(self.width, self.width, kernel_size=(1,2,1))
+        self.bn4 = torch.nn.BatchNorm3d(self.width)
+
         self.fc1 = nn.Linear(self.width, 128)
         self.fc2 = nn.Linear(128, 3)
 
+
+    """
+    interestingly, in their implementation, even though batchnorms are implemented, they were never used
+    """
     def forward(self, x):
         
         grid = self.get_grid(x.shape, x.device)
@@ -145,6 +153,8 @@ class FNO3d(nn.Module):
 
         x1 = self.conv0(x)
         x2 = self.w0(x)
+        if self.use_bn:
+            x2 = self.bn0(x2)
         x = x1 + x2
         x = F.gelu(x)
         
@@ -152,6 +162,8 @@ class FNO3d(nn.Module):
 
         x1 = self.conv1(x)
         x2 = self.w1(x)
+        if self.use_bn: 
+            x2 = self.bn1(x2)
         x = x1 + x2
         x = F.gelu(x)
         
@@ -159,6 +171,8 @@ class FNO3d(nn.Module):
 
         x1 = self.conv2(x)
         x2 = self.w2(x)
+        if self.use_bn:
+            x2 = self.bn2(x)
         x = x1 + x2
         x = F.gelu(x)
         
@@ -166,9 +180,16 @@ class FNO3d(nn.Module):
 
         x1 = self.conv3(x)
         x2 = self.w3(x)
+        if self.use_bn:
+            x2 = self.bn2(x) 
         x = x1 + x2
 
-        # print(f"x conv3 = {x.shape}") # (18, 32, 10, 10, 10)
+        # print(f"x conv3 = {x.shape}") # (18, 32, 10, 11, 10)
+
+        # only spatial convolution to get the correct dimension
+        x = self.w4(x)
+        if self.use_bn: 
+            x = self.bn4(x)
 
         x = x[..., :-self.padding]
         # (18, 10, 10, 10, 32)

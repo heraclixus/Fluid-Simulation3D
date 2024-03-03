@@ -41,7 +41,7 @@ read from npz file and return data loaders
 """
 def get_train_test_loaders(yaml_data):
     data = np.load(yaml_data["dataset"]["path"])
-    data_inputs, data_outputs = data["inputs"][:,:,:,:-1,:], data["outputs"]
+    data_inputs, data_outputs = data["inputs"], data["outputs"]
     n_samples = len(data_inputs)
     idx = torch.randperm(n_samples)
     train_size = int(n_samples * 0.8)    
