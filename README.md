@@ -52,7 +52,7 @@ The data is collected at low resolution; it is possible that the validation/test
 
 ### Special Concern 4: Turbulence 
 
-FNO has seem reasonable performance on the 2D Navier-Stokes equation; 3-D situation is even more turbulent due to the additional degree of freedom. This is because the Reynold number scales with the scale. This challenge is related to the special conern 3, since its root cause the is the multiscale dynamics in the 3D Navier Stokes equation. In this dataset, in particular, the Reynold number can go as high as 5000.
+FNO has seem reasonable performance on the 2D Navier-Stokes equation; 3-D situation is even more turbulent due to the additional degree of freedom. This is because the Reynold number scales with the scale. This challenge is related to the special conern 3, since its root cause the is the multiscale dynamics in the 3D Navier Stokes equation. 
 
 ### Special Concern 5: Static 
 
